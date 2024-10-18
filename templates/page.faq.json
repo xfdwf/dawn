@@ -1,0 +1,577 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "25dbd963-093c-4cc9-9cd4-7bde32b883ac": {
+      "type": "section-banner-image",
+      "blocks": {
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to<\/p>",
+            "size": 100
+          }
+        },
+        "heading_nCb48K": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>FAQs<\/h1>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff"
+          }
+        },
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>FAQs<\/p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "rgba(0,0,0,0)",
+            "highlight_text_color": "#ffffff"
+          }
+        },
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a question? See below for answers to common questions from customers<\/p>",
+            "size": 100
+          }
+        },
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-0",
+        "heading_nCb48K",
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-1",
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-2",
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-3"
+      ],
+      "custom_css": [
+        ".text__heading .text-highlight__break {color: #fff;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/2000x900_288d49e8-fe54-4d8f-ab19-5ff381e1c10f.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1200x1590_0ac0996a-42b3-44d0-98b0-527e22458135.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_VDHwQf": {
+          "type": "text",
+          "settings": {
+            "title": "How long does my order take to arrive?",
+            "text": "<p>We offer free standard shipping on all orders $80+ in the Contiguous United States. <br\/><br\/>For US shipping: Standard delivery takes 2-5 business days. <br\/>For international shipping: Standard delivery takes 10-15 business days. <br\/>Please note that shipping time does not include weekends or the standard processing time of 1-2 business days required for order fulfillment.<br\/><br\/>Please be advised: Due to the high volume of orders during Black Friday, logistics may experience delays, leading to potential shipment delays. We are working diligently to ensure the timely delivery of your orders.<\/p>"
+          }
+        },
+        "accordion_block_2_0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Most orders placed on business days will be processed and shipped with in 1-3 days.<br\/><br\/>We are unable to deliver on weekends or public holidays, any orders placed during this period will be dispatched the following business day<br\/><br\/>SHIPPING TIMES<br\/><br\/>· Express Delivery: 1-4 business days<br\/><br\/>· Standard Delivery: 4-10 business days<br\/><br\/>Please note, that shipping times do not include the standard 1-3 business day processing time it takes for the order to ship out.<br\/><\/p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods are utilized?",
+            "text": "<p>We utilize external delivery services (Postal Service, FedEx, DHL, and USPS), but we cannot guarantee their delivery times.<\/p>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>We offer free standard shipping on all orders $80+ in the Contiguous United States. <\/p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Does Popilush ship internationally?",
+            "text": "<p>Yes, we offer standard shipping to most countries.<\/p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship to my area?",
+            "text": "<p>Yes. We ship to most countries in the world. You can check on our Shipping page. If you can't select your country on the shipping page, contact us at service@popilushsupport.com.<\/p>"
+          }
+        },
+        "text_8ViYHF": {
+          "type": "text",
+          "settings": {
+            "title": "About shipment tracking",
+            "text": "<p>Tracking number are assigned to the packages when they shiped. You will receive an email with your tracking number and a link to check the status.<\/p><p>Please check your email inbox and spam folder.<\/p>"
+          }
+        },
+        "text_rYqynP": {
+          "type": "text",
+          "settings": {
+            "title": "When will my order ship?",
+            "text": "<p>Orders are processed depending on item availability and payment approval. During high volume periods, product availability may be subject to change while your order is being processed.<br\/>Most orders placed on business days will be processed and shipped within 1-2 business days.<br\/>We are unable to deliver on weekends or public holidays. Any orders placed during this period will be dispatched the following business day.<\/p>"
+          }
+        },
+        "text_yGpXan": {
+          "type": "text",
+          "settings": {
+            "title": "Is shipping insurance available on the website?",
+            "text": "<p>We've teamed up with Route, a package protection and tracking solution, to enhance our customers' delivery experience.  Route offers affordable shipping protection to safeguard your package in case of loss, theft, or damage during transit.<br\/>Additionally, Route provides a convenient mobile app that lets you track all your online orders visually in one place, eliminating the need to search through your emails for tracking numbers. With dynamic maps and real-time shipping updates, Route keeps you informed at every stage of your delivery.<br\/>To ensure your package is protected, simply toggle the Route button On during checkout to opt-in and add Route to your order.  This helps protect your package from theft, damage, or any delivery issues.<br\/>If you encounter any problems with your order, you can file a claim with Route's team<em><strong> <\/strong><\/em><a href=\"https:\/\/route.com\/\" target=\"_blank\" title=\"https:\/\/route.com\/\"><em><strong>here<\/strong><\/em><\/a>.<\/p>"
+          }
+        },
+        "text_pm4MFH": {
+          "type": "text",
+          "settings": {
+            "title": "Where does Popilush ship from?",
+            "text": "<p>Typically, the majority of Popilush's available products are shipped from the US, arriving within 1-5 business days. However, some items are shipped directly from our other factories, which may take 10-15 business days for delivery. Through partnerships with leading manufacturers and distributors worldwide, we guarantee swift delivery of top-quality products that meet the highest standards.<\/p>"
+          }
+        },
+        "text_WbUAcP": {
+          "type": "text",
+          "settings": {
+            "title": "What should I do if my package is missing?",
+            "text": "<p>If you haven't received your order yet or it's lost in transit with the carrier, please reach out to our Customer Support Team at service@popilushsupport.com. We're here to assist you and provide the necessary help.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VDHwQf",
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3",
+        "accordion_block_2_4",
+        "text_8ViYHF",
+        "text_rYqynP",
+        "text_yGpXan",
+        "text_pm4MFH",
+        "text_WbUAcP"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Shipping & Delivery",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_ydjrFJ": {
+          "type": "text",
+          "settings": {
+            "title": "What is Popilush’s return policy?",
+            "text": "<p>If you are not happy with any of our products for any reason, we will gladly accept your non-final sale items within 60 days of your purchase date for a refund. <br\/>Your refund of the original purchase price will be issued in the same form as the original payment. Please expect your refund 3–5 business days after we receive the package. The original shipping and handling will not be refunded. <br\/><br\/>Please note: We cannot accept a return (even within 60 days of purchase) in certain situations, including, but not limited to: <br\/>- Products returned without original tags attached<br\/>- Products showing excessive wear and tear, or at the end of their intended lifespan.<br\/>- Swimwear purchases that no longer have the hygienic liner attached and the reusable pouch not included with the return.<br\/>- Items damaged by misuse, alterations, improper care, or accidents.<br\/>- Items listed as final\/cleaeance sale at the time of purchase. <br\/>- Instances of abuse of the Popilush Return Policy.   <br\/>- Items not purchased on Popilush.com. (For purchases made through the Amazon store, please return to the original place of purchase.) <br\/>The acceptance of a return is determined at the sole discretion of Popilush. <br\/><br\/>Products must be returned unworn, unwashed, in their original condition and with all tags and liners attached.  Returns of multiple orders should not be combined and one return label can only be used for one order. If your order was purchased using a gift card, you will only be refunded directly back to the gift card.<br\/><br\/>For hygienic reasons, we DO NOT accept returns or exchanges of any used bras and underwear. Please wear your own underwear when first trying on your new items.<br\/>Popilush cannot currently create return labels for APO\/FPO addresses, as they require customs information for shipping.<br\/><br\/>International returns are accepted. Return shipping and any reverse duties are the responsibility of the customer. <br\/><br\/>Shipping fees from the original order are non-refundable.<\/p>"
+          }
+        },
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Products must be returned unworn, unwashed, in their original condition, and with all tags attached.<br\/><br\/>Please include the original order packing slip in your return package. Please note that original shipping fees, duty paid or any other associated costs are non-refundable, and return postage\/costs are the customer’s responsibility unless the return is caused by quality problems.<br\/><\/p><p>For instructions on how to ship the returned products, refer to the email received after placing the return request.<\/p>"
+          }
+        },
+        "text_DFf9qB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Products must be returned unworn, unwashed, in their original condition, and with all tags attached.<br\/><br\/>Please include the original order packing slip in your return package. Please note that original shipping fees, duty paid or any other associated costs are non-refundable, and return postage\/costs are the customer’s responsibility unless the return is caused by quality problems.<br\/><\/p><p>For instructions on how to ship the returned products, refer to the email received after placing the return request.<\/p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "How long after I complete a purchase can I ask for a refund?",
+            "text": "<p>60-day return guarantee.<\/p>"
+          }
+        },
+        "accordion_block_4_2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "How much can I get refunded?",
+            "text": "<p>In the case when the<strong>product and packaging are unopened and undamaged<\/strong>, you are<strong>eligible<\/strong>for a full refund.<br\/><br\/>In the case when<strong>the packaging has been opened and the product has been used<\/strong>, you are<strong>eligible<\/strong>for a partial refund.<br\/><br\/>In the case when a<strong>product has been damaged<\/strong>, and the damage is not covered by your warranty, you are<strong>not eligible<\/strong>for a refund.<br\/><br\/>Please check our <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a> to see if you're eligible for a refund.<\/p>"
+          }
+        },
+        "accordion_block_4_3": {
+          "type": "text",
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund or return?",
+            "text": "<p>Please note that original shipping fees, duty paid or any other associated costs are non-refundable, and return postage\/costs are the customer’s responsibility unless the return is caused by quality problems.<\/p><p>We offer a free exchange service if you want to exchange another color\/style\/size. This offer is for the Contiguous United States only.<br\/>We’re sorry, but this offer is not for recipients in Alaska, Hawaii, Puerto Rico, U.S.V.I. etc.<br\/><br\/>Exchanges will be provided with a free return label but customers will be responsible for new shipping costs after the first free exchange.<\/p>"
+          }
+        },
+        "text_KW9qjL": {
+          "type": "text",
+          "settings": {
+            "title": "How to get refund?",
+            "text": "<p>If the product is not a quality problem, only because of personal dislike the size\/color\/other issues, you will be request to return the package first. And shipping fees from the order is NOT refundable.<\/p><p>If your request of return is accepted, your refund will be processed and applied to the original method of payment. You will be notified via email.<\/p><p>Note that refunds can take up to 5-10 business days to appear on your bank account due to varying processing times of financial organizations.<\/p><p>You can always contact us for any refund questions at service@popilushsupport.com.<\/p>"
+          }
+        },
+        "text_kLkD6c": {
+          "type": "text",
+          "settings": {
+            "title": "How do I exchange my order?",
+            "text": "<p>You can request an exchange for the same product for a different size or color or a completely new style. <\/p><p>Once we receive your return item and it is processed, we will ship you your exchange. Customers must also pay any price difference for exchanged items.<\/p><p>We offer a free exchange service. This offer is for the Contiguous United States only. <\/p><p>Exchanges will be provided with a free return label but customers will be responsible for new shipping costs after the first free exchange.<\/p><p><br\/>Please note that international customers will have to pay for the shipping fee on returns\/exchanges. <\/p><p><br\/>If the items don’t fit when you recieve your package, please feel free to contact us at service@popilushsupport.com.<\/p>"
+          }
+        },
+        "text_KMcXPx": {
+          "type": "text",
+          "settings": {
+            "title": "How do I return and\/or exchange multiple items or orders?",
+            "text": "<p>When returning any part of your order, please make sure there is no artificial damage to the products. The tags and packages must be in good condition.<br\/>Please get in touch with our Customer Support Team to handle your returns or exchanges.<br\/>Customer Support Team: service@popilushsupport.com<br\/>Please give us your Order number (e.g. #123456), the items’ photos (with tag and package bag), and the detailed return reason.<br\/>Due to the high volume of emails, please allow 1-3 business days for our support team to reply.<br\/>Please note: We are not in the office to read or reply to emails on the weekends.<br\/><br\/>Returning and\/or Exchanging multiple items from the same order<br\/>If returning or exchanging multiple items from the same order, please include all items in the same box and use one return label. It's important that the return label matches the return content to ensure the appropriate refund is received once processed.<br\/>If possible, we recommend processing one return label per order, this way, only one return fee is applied even if multiple items are returned at once.<br\/><br\/>Returning or exchanging items from multiple orders<br\/>When items from different orders need to be returned, it is very important to create separate returns for each order and ensure that each item is packaged using the corresponding return label. In principle, one return label is used per order.<\/p>"
+          }
+        },
+        "accordion_block_4_4": {
+          "type": "text",
+          "settings": {
+            "title": "How to request a return?",
+            "text": "<p>When returning any part of your order, please make sure there is no artificial damage to the products. And the tags and packages are in good condition. If you are not totally in love with how they feel or fit, simply exchange or return them within 60 days. Email service@popilushsupport.com with your Order ID (e.g. #1234 ), items’ photos (with tag and package bag), and the detailed return reason. We are sorry, but the return label is for the Contiguous United States only, not for recipients in Alaska, Hawaii, Puerto Rico, the U.S.V.I., etc. <\/p><p><br\/>* One return label per order<\/p>"
+          }
+        },
+        "text_d8C7YL": {
+          "type": "text",
+          "settings": {
+            "title": "How do I check my return status?",
+            "text": "<p>Return status<br\/>For the status of your return, we recommend referencing your return tracking number on the label.  <br\/>You can expect to receive your refund and refund confirmation email within 3–5 business days after we receive the package. Your refund will be issued in the same form as the original payment. If you select the gift card, a POPILUSH gift card will be issued once your return order is in transit back to us, and sent to the email used to make the original purchase.<br\/>Please email our Customer Support Team at service@popilushsupport.com if you have any additional questions regarding your return status.<br\/><br\/>Exchange status<br\/>Once you return your original order using the return label provided by our team, your exchange will be processed, and a shipping confirmation email will be sent once the order is on its way to you. <br\/>If you have returned your original order and you have not yet received an update on your exchange order, please email our Customer Support Team at service@popilushsupport.com for more information!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ydjrFJ",
+        "accordion_block_4_0",
+        "text_DFf9qB",
+        "accordion_block_4_1",
+        "accordion_block_4_2",
+        "accordion_block_4_3",
+        "text_KW9qjL",
+        "text_kLkD6c",
+        "text_KMcXPx",
+        "accordion_block_4_4",
+        "text_d8C7YL"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Returns & Refunds",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_MAVhbE": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_jLzpbm": {
+          "type": "text",
+          "settings": {
+            "title": "Where to shop?",
+            "text": "<p>Popilush is exclusively available on https:\/\/www.popilush.com\/. By registering your email <a href=\"https:\/\/www.popilush.com\/account\/register\" target=\"_blank\" title=\"https:\/\/www.popilush.com\/account\/register\"><em>here<\/em><\/a>, you'll be the first to know about new collections, restocks, and more.<\/p>"
+          }
+        },
+        "text_yirjDi": {
+          "type": "text",
+          "settings": {
+            "title": "How do I find my order number?",
+            "text": "<p>After completing your order, you'll receive a confirmation email with your order number, typically consisting of four or six digits.<br\/>Here's how to find your order number:<br\/>Check your email inbox or spam folder for order confirmation.<br\/>Create a Popilush account using the email address you provided during purchase. Find your order number in your order history.<br\/>Still unable to locate your order number? Let us help - <a href=\"https:\/\/www.popilush.com\/pages\/contact \" target=\"_blank\" title=\"https:\/\/www.popilush.com\/pages\/contact \">contact us.<\/a><\/p>"
+          }
+        },
+        "text_rNRPfW": {
+          "type": "text",
+          "settings": {
+            "title": "How do I change or cancel an order?",
+            "text": "<p>You can modify or cancel your order with the assistance of our <a href=\"mailto:support@popilush.com\" target=\"_blank\" title=\"mailto:support@popilush.com\">Customer Support Team<\/a> before it's processed.<br\/>If you missed the grace period, don't worry! We're committed to helping you find the ideal fit and we provide easy Exchanges & Returns within 60 days.<\/p>"
+          }
+        },
+        "text_Wz6YFz": {
+          "type": "text",
+          "settings": {
+            "title": "How do I track my order?",
+            "text": "<p>Once your order has been shipped, you will receive an email notification with tracking details. You can track your order through the tracking link in the email or by logging into your account on Popilush.com. Your order may be shipped in multiple packages, and you will receive a separate email notification for each package.<br\/><br\/>These notifications will be sent to the email address you provided at the time of your order. If you are unable to track your order, you can check the delivery status directly via the online AI chatbot on our website. If you still encounter issues, please contact us by sending an email to service@popilushsupport.com<a href=\"mailto:support@popilush.com\" target=\"_blank\" title=\"mailto:support@popilush.com\"> <\/a>with your order number and request.<\/p>"
+          }
+        },
+        "text_mDKzRe": {
+          "type": "text",
+          "settings": {
+            "title": "Why was my order canceled?",
+            "text": "<p>When your order is flagged as high-risk by our system, it may be canceled. If you receive a cancellation notice, please verify your payment method with your financial institution and contact our <a href=\"mailto:support@popilush.com\" target=\"_blank\" title=\"mailto:support@popilush.com\">Customer Support Team<\/a>. All charges will be refunded once your order details are confirmed.<\/p>"
+          }
+        },
+        "text_zDHkBG": {
+          "type": "text",
+          "settings": {
+            "title": "What should I do if I did not receive my delivered package?",
+            "text": "<p>First, please check around your premises where the package may have been left, and ask your neighbors in case it was delivered to the wrong address. Also, look for any \"Attempted Delivery\" notices, which indicate that the carrier tried to deliver your package but nobody was home. If you still do not see your package, please allow an additional 1-2 days as sometimes the carrier's tracking system may show that the package has been delivered even though it's still en route. Still no luck? Contact the carrier with your tracking number for more details.<br\/><br\/>If the carrier cannot provide a solution, please reach out to our Customer Support Team at service@popilushsupport.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jLzpbm",
+        "text_yirjDi",
+        "text_rNRPfW",
+        "text_Wz6YFz",
+        "text_mDKzRe",
+        "text_zDHkBG"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Order Issues",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_jpnfxd": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_qcP4dJ": {
+          "type": "text",
+          "settings": {
+            "title": "What currency is the site in?",
+            "text": "<p>Our website currently operates in USD for transactions. However, you can also convert and settle payments in your local currency.<\/p>"
+          }
+        },
+        "text_zBWCNq": {
+          "type": "text",
+          "settings": {
+            "title": "What payment options do you accept?",
+            "text": "<p>We accept a wide variety of <a href=\"https:\/\/www.popilush.com\/pages\/payment-methods\" target=\"_blank\" title=\"https:\/\/www.popilush.com\/pages\/payment-methods\">payment<\/a> options.<br\/>For the quickest checkout process, you can select one of our express options - Shop Pay, PayPal, Amazon Pay, or Google Pay, but be sure to double-check that the shipping address is correct when using this method.<br\/>We also accept Afterpay, Visa, Mastercard, Apple Pay, American Express, JCB, Discover, JCB, and Diners Club.<\/p>"
+          }
+        },
+        "text_eGppTR": {
+          "type": "text",
+          "settings": {
+            "title": "How secure is my payment information?",
+            "text": "<p>Rest assured, your payment is secure and your information remains private. We utilize encrypted forms to ensure the utmost security of all sensitive data.<\/p>"
+          }
+        },
+        "text_XWmXxr": {
+          "type": "text",
+          "settings": {
+            "title": "Does Popilush charge sales tax?",
+            "text": "<p>In accordance with legal requirements, taxes may be charged and collected on products we sell, based on the tax laws applicable to the shipping or delivery location. During checkout, all applicable taxes will be included in the order total. The tax estimate displayed at checkout may vary slightly from the actual tax amount due to differences in tax rates based on the origin and destination of the purchased item(s), among other factors.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qcP4dJ",
+        "text_zBWCNq",
+        "text_eGppTR",
+        "text_XWmXxr"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Payment",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-3": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_3_0": {
+          "type": "text",
+          "settings": {
+            "title": "How do I apply my discount code?",
+            "text": "<p>On the checkout page, you'll notice a box where you can enter your discount code. Once you input the code, click \"Apply\". Your total amount will be updated to reflect the discount.<br\/><br\/>*Only one discount code can be applied per purchase. <\/p><p>*Discount code cannot be combined with other offers.<\/p>"
+          }
+        },
+        "accordion_block_3_1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you offer extended warranty?",
+            "text": "<p>An extended warranty can be added to your products for an additional cost.<br\/><br\/>Please get in touch for more information about extended warranties.<\/p>"
+          }
+        },
+        "accordion_block_3_2": {
+          "type": "text",
+          "settings": {
+            "title": "Why isn’t my coupon code working?",
+            "text": "<p>Please check for the following potential issues:<br\/><br\/>-Ensure that your coupon code has not expired.<br\/><br\/>-Some codes may have limitations on specific products or total order amounts.<br\/><br\/>-Certain coupon codes, like store credit codes, are tied to your Popilush account.<br\/><br\/>To resolve this issue, follow these steps:<br\/><br\/> <br\/><br\/>Sign in to your Popilush account using the email address associated with your promo code.<br\/><br\/>Select the desired code during the checkout process.<br\/><br\/>If you have any inquiries or encounter difficulties, please feel free to contact us at service@popilushsupport.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_3_0",
+        "accordion_block_3_1",
+        "accordion_block_3_2"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Discounts",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "How can I choose the correct size?",
+            "text": "<p>We have a Size Guide on every product page to help you select the right size. Just click the Size Chart below the product information. Please note that just so you know, some items might fit differently depending on the style. If in between sizes, please choose a larger size if you prefer a comfortable fit.<\/p>"
+          }
+        },
+        "accordion_block_1_1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "How do I wash my shapewear?",
+            "text": "<p>Refer to each product’s interior care instructions label for specific information. To keep your shapewear in \"shape\" and increase longevity, hand wash each piece in cold water and lay flat to dry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_2",
+        "accordion_block_1_1"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Size & Fit",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_MVUKzh": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_gcfJ7Q": {
+          "type": "text",
+          "settings": {
+            "title": "Who We Are?",
+            "text": "<p><strong>Popilush<\/strong> is an empowering, inviting, and fashion-forward shapewear line for women. Our mission is to highlight what women of all shapes and sizes love about their bodies. Our high-quality shapewear comes in a diverse range of sizes and is exceptionally affordable for the high level of quality.<\/p><p><\/p><p><strong>Our Core Values:<\/strong><\/p><p><strong>Body Positivity • <\/strong>We love ourselves. Full stop. We celebrate what makes us feel beautiful and powerful. Our bodies do so much for us. They take us places, teach us valuable lessons, and are stronger than we often realize. So let’s celebrate and respect our bodies—every single shape and size and skin tone.<\/p><p><\/p><p><strong>Comfortable Confidence • <\/strong>We deserve to be comfortable in the clothes we wear. Life is too short to feel restricted and closed off. We need the freedom to run, laugh, bend over, sit, and dance comfortably. Popilush gives us the freedom and confidence to be ourselves every single day.<\/p><p><\/p><p><strong>Environmentally-Friendly • <\/strong>Popilush is committed to reducing waste with earth-loving practices like using textiles that rapidly biodegrade and less plastic packaging. We <em>must<\/em> do our part to ensure the safety and future of our planet.<\/p>"
+          }
+        },
+        "text_ePgwAr": {
+          "type": "text",
+          "settings": {
+            "title": "How do I wash my shapewear?",
+            "text": "<p>Refer to each product’s interior care instructions label for specific information. To keep your shapewear in \"shape\" and increase longevity, hand wash each piece in cold water and lay flat to dry.<\/p>"
+          }
+        },
+        "text_Y7jeGx": {
+          "type": "text",
+          "settings": {
+            "title": "Contact us",
+            "text": "<p>Email to service@popilushsupport.com<\/p><p>Please check the reply from your email inbox and spam folder after you send an email to us. <\/p>"
+          }
+        },
+        "text_cpFEVK": {
+          "type": "text",
+          "settings": {
+            "title": "What is the difference between the levels of compression?",
+            "text": "<p><strong>- Light Control or Smoothing:<\/strong> Everyday shapewear pieces that smooth trouble spots so you can feel confident and be comfortable during your daily activities.<\/p><p><strong>- Medium Control or Shaping:<\/strong> Flexible control shapewear is made with stretchy high-quality fabrics that comfortably moves with your body while adding contours to your body.<\/p><p><strong>- High Control or Sculpting:<\/strong> Firm control to provide even more contouring to your figure. Firm control shapewear is perfect for formal outfits like wedding dresses and evening gowns.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_gcfJ7Q",
+        "text_ePgwAr",
+        "text_Y7jeGx",
+        "text_cpFEVK"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Others",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
+    "accordion-section-2",
+    "accordion-section-4",
+    "section_accordions_MAVhbE",
+    "section_accordions_jpnfxd",
+    "accordion-section-3",
+    "accordion-section-1",
+    "section_accordions_MVUKzh"
+  ]
+}

@@ -1,0 +1,95 @@
+<style>
+  .giftBag-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+  }
+  .giftBagBox {
+    align-items: center;
+    padding: 20px 0 0;
+    margin: 0 20px 0;
+    border-top: 1px solid #F2F2F2;
+  }
+  .giftBagBox .cart__item__image a {
+    width: 53px;
+    height: 53px;
+  }
+  .giftBag-title-variant{
+    margin-right: 5px;
+  }
+  .cart_left {
+    width: calc(100% - 80px);
+  }
+</style>
+{% if settings.giftBag != blank %}
+<div class="cart__item cart__item--no-border aos-init aos-animate giftBagBox" data-cart-item>
+  {% assign productGiftBag = settings.giftBag %}
+  <div class="cart__item__image">
+    <a href="{{ productGiftBag.url }}">
+      {%- liquid
+        assign image = productGiftBag.featured_media.preview_image
+        assign image_alt = productGiftBag.title | strip_html | escape
+        assign retina_size = 200
+        assign image_widths = '100, 150, 200'
+        assign sizes = '100px'
+      -%}
+
+      {%- render 'image',
+        image: image,
+        width: retina_size,
+        widths: image_widths,
+        sizes: sizes,
+        alt: image_alt,
+        placeholder_svg: 'product-apparel-1'
+      -%}
+    </a>
+  </div>
+  <div class="cart_left">
+    {% form 'product',
+      productGiftBag,
+      class: 'product-form product-form--mini',
+      data-product-form: '',
+      id: productGiftBag.id
+    %}
+      <input type="hidden" name="quantity" value="1">
+      <input type="hidden" name="id" value="{{ productGiftBag.variants.first.id }}">
+      <button
+        type="submit"
+        name="add"
+        id="AddToCart--{{ unique }}"
+        data-add-to-cart
+        class="product-add giftBag-add"
+      >
+        <div class="giftBag-title-variant">
+          <div class="giftBag-title">
+            <span>Add Gift Box Set For </span>
+            {% if productGiftBag.price_varies %}
+              <span class="from">{{ 'products.general.from' | t }}</span>
+            {% endif %}
+
+            {% if productGiftBag.compare_at_price > productGiftBag.price %}
+              <span class="reduced-price cart-summary-item__price-current theme-money">
+                {%- render 'price', price: productGiftBag.price, disable_currency_code: true %}1</span
+              >
+              <span class="struck-out-price theme-money">
+                {%- render 'price', price: productGiftBag.compare_at_price, disable_currency_code: true -%}
+              </span>
+            {% else %}
+              <span class="cart-summary-item__price-current theme-money">
+                {%- render 'price', price: productGiftBag.price, disable_currency_code: true -%}
+              </span>
+            {% endif %}
+
+            {%- assign variant = productGiftBag.variants | sort: 'price' | first -%}
+            {% render 'unit-price', variant: variant %}
+          </div>
+        </div>
+        <svg data-add-to-cart-text width="18" height="18" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1314.5" y="3047.5" width="14" height="14" rx="3" transform="translate(-1314 -3047)" stroke="#979797" fill="none"></rect>
+        </svg>
+      </button>
+    {% endform %}
+  </div>
+</div>
+{% endif %}

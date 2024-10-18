@@ -1,0 +1,763 @@
+{
+  "sections": {
+    "section_video_NKfkz7": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "full-height",
+        "mobile_height": "five-hundred-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a55174a1db0d4200a25b79d6f84ff49d.mp4",
+        "video_link": "",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_ph3GWE": {
+      "type": "section-text",
+      "blocks": {
+        "heading_zWFrzm": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Swimwear<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yfkcnc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From Pool to Street: The Perfect Swimsuit and Bodysuit<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWFrzm",
+        "text_yfkcnc"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_WpVcL7": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/popilush_swimwear_1_29278027-624b-449f-9a6e-ff1eca3360f5.webp",
+        "image_M": "shopify:\/\/shop_images\/popilush_swimwear_2_8d896f50-7701-4098-98dd-abdae7a21262.webp",
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": false,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "cable_joint_id": ""
+      }
+    },
+    "section_banner_text_columns_TJ63Wa": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_F87gJi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuits-v-neck-low-back.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Swimsuit Bikini Bottom High Waisted Ruched Tummy Control",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_j3Bfpz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-deep-v-neck-one-piece-low-back.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Deep V-Neck One-Piece Low-Back Swimwear",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_etTbRN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-deep-v-neck-one-piece.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Deep V-Neck Shapewear Swimsuit",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_Td63fn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-ruched-v-neck-one-piece_Bodysuit.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Ruched V-Neck One-Piece Shapewear Bodysuit Swimsuit",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_F87gJi",
+        "column_j3Bfpz",
+        "column_etTbRN",
+        "column_Td63fn"
+      ],
+      "disabled": true,
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
+      "blocks": {
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>{{ collection.title }}<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "first-open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "section_products_list_dbkf6h": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_FBcHUG": {
+          "type": "product",
+          "settings": {
+            "product": "ruched-high-waist-bikini-set",
+            "title": "",
+            "product_description": "<p>Perfect for tropical vacation, swimming, beach & pool, honeymoon, cruise. holiday gifts for mom, wife, girlfriend or women you love.<\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_FBcHUG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 10
+      }
+    },
+    "section_products_list_c4JCJw": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_ReHRdH": {
+          "type": "product",
+          "settings": {
+            "product": "built-in-shapewear-low-back-swimsuits-1",
+            "title": "",
+            "product_description": "<p>Beyond a swimsuit, our versatile design doubles as a bodysuit garment, seamlessly integrating into your daily wardrobe. <\/p><p>Whether it's pants, skirts, or cardigans, transition effortlessly from beachwear to everyday attire with style and confidence.<\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_ReHRdH"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_products_list_N9RGXW": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_HdQaM3": {
+          "type": "product",
+          "settings": {
+            "product": "ruched-v-neck-one-piece-shapewear-bodysuit-swimsuit",
+            "title": "",
+            "product_description": "<p>It can be used as a swimsuit or as a body-shaping item to match with daily clothing such as pants, skirts, and cardigans.<\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_HdQaM3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_products_list_Pax869": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_cGxbED": {
+          "type": "product",
+          "settings": {
+            "product": "deep-v-neck-one-piece-shapewear-swimsuit",
+            "title": "",
+            "product_description": "<p>The vintage sexy one piece swimsuit is very suitable for a wife or girlfriend to travel, honeymoon or birthday gift. <\/p><p>This push up padded swimsuit is a good choice for Tropical Vacations, Summer, Beach & Pool, Honeymoon, Cruise, swimming, sunbathing, hot tub and beach walking!<\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_cGxbED"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_products_list_TG66mQ": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_PYz7kD": {
+          "type": "product",
+          "settings": {
+            "product": "deep-v-neck-low-back-shapewear-thong-bodysuit",
+            "title": "",
+            "product_description": "<p>It is designed to enhance your curves and create a stylish look, the lightweight and stretchy fabric is perfect for work commutes, shopping, parties and more.<\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_PYz7kD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_products_list_UkKanG": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_nBaPjh": {
+          "type": "product",
+          "settings": {
+            "product": "built-in-shapewear-v-neck-low-back-swimsuits",
+            "title": "",
+            "product_description": "<p>The fitted back design of this bikini top accentuates your silhouette, enhancing your overall appearance and wearing experience. <\/p><p>It highlights your alluring backlines, adding a touch of elegance and style. <\/p>",
+            "button_text": "QUICK BUY",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150,
+            "circle_image": "shopify:\/\/shop_images\/pngtree-hot-sale-vector-label-with-fire-icon-png-image_8786228.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_nBaPjh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1.3,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "section_columns_HPhLfW": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_AjgTxb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101_1_e9b11204-dcf0-4c23-9d08-47e0660ede57.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_wE4yU8": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0098_1_b55d5f7e-b64b-4f11-89fd-6d82883bc2be.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_HqYMXk": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0047_3_bc452309-f245-4d7f-b9bf-d6f16a9e1e34.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_gXQVJL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/111_3_36f5426a-403a-4d56-9c8b-ea2469be68da.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_BTMnYx": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101_3_1.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_gfh7xR": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101_5_6ade3847-8912-4a86-9fb5-e270341e6af5.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_3dC7iU": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0047_2_9b0543fd-1115-425d-ae20-0fff7d6373a3.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_pe3qzb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0098_111_d18bdf5b-a7e5-4b38-b64e-63ac629d00a7.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AjgTxb",
+        "text_block_wE4yU8",
+        "text_block_HqYMXk",
+        "text_block_gXQVJL",
+        "text_block_BTMnYx",
+        "text_block_gfh7xR",
+        "text_block_3dC7iU",
+        "text_block_pe3qzb"
+      ],
+      "settings": {
+        "title": "It Looks Goods On You",
+        "align_text": "text-center",
+        "columns": 4,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1.1,
+        "mobile_aspect_ratio": 1.1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_products_with_image_GnLz8t": {
+      "type": "section-products-with-image",
+      "settings": {
+        "collection": "",
+        "product_list": [
+          "built-in-shapewear-wide-straps-mini-lounge-dress",
+          "wide-scoop-neck-slip-mini-dress",
+          "wide-scoop-neck-slip-long-dress",
+          "lace-deep-v-neck-bodysuits-or-leather-skirt",
+          "seamless-modal-shapewear-square-neck-bodysuit",
+          "lace-smooth-firm-control-thong-bodysuit",
+          "seamless-square-neck-one-piece-sport-romper",
+          "built-in-shapewear-crew-neck-sleeveless-midi-lounge-dress",
+          "seamless-square-neck-one-piece-sport-jumpsuit-or-romper",
+          "crew-neck-sleeveless-built-in-shapewear-maxi-dress",
+          "bluetag-cooling-built-in-shapewear-ruched-sheer-mesh-maxi-dress",
+          "sheer-mesh-shapewear-slip-thong-bodysuit",
+          "bluetag-cooling-built-in-shapewear-tube-maxi-dress",
+          "built-in-shapewear-halter-jumpsuit-or-romper",
+          "built-in-shapewear-modal-multi-style-dresses"
+        ],
+        "products_layout": "split-left",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": "2",
+        "columns_mobile": "2",
+        "image": "shopify:\/\/shop_images\/banner_3.12_-_-06_a7a155e6-b7d5-436b-8a16-1ae13e9f89ec.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_3.12_-_-06_a7a155e6-b7d5-436b-8a16-1ae13e9f89ec.jpg",
+        "overlay_opacity": 10,
+        "text_position": "middle-center",
+        "text_color": "text-light",
+        "title": "<p>Explore More<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<p>The shapewear dresses, bodysuits and jumpsuits.<\/p>",
+        "text_size": 100,
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/best-seller-old240813",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 14,
+        "padding_bottom": 16
+      }
+    },
+    "section_list_collection_ngzKV7": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_acKGRw": {
+          "type": "collection",
+          "settings": {
+            "collection": "bodysuits",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kH4pHQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "dress",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_MjegqT": {
+          "type": "collection",
+          "settings": {
+            "collection": "jumpsuit-romper",
+            "custom_collection_image": "shopify:\/\/shop_images\/shop_-19_1a5d5bfc-5190-423e-95b2-4a47a45b2889.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_QMgmPi": {
+          "type": "collection",
+          "settings": {
+            "collection": "bras",
+            "custom_collection_image": "shopify:\/\/shop_images\/popilush-removable-straps-push-up-shape-bra-shapewear-bra-black-36b-ny230014-bk1p-36b-33641570271408.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_acKGRw",
+        "collection_kH4pHQ",
+        "collection_MjegqT",
+        "collection_QMgmPi"
+      ],
+      "settings": {
+        "title": "Looking for more",
+        "heading_size": 100,
+        "layout": "carousel",
+        "alignment": "center",
+        "collections_per_row": 4,
+        "image_shape": "circle",
+        "image_aspect_ratio": 1,
+        "text_size": 130,
+        "overlay_text": false,
+        "layout_mobile": "grid",
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_newsletter_gALjaM": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_video_NKfkz7",
+    "hero",
+    "section_text_ph3GWE",
+    "section_image_WpVcL7",
+    "section_banner_text_columns_TJ63Wa",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "main",
+    "section_products_list_dbkf6h",
+    "section_products_list_c4JCJw",
+    "section_products_list_N9RGXW",
+    "section_products_list_Pax869",
+    "section_products_list_TG66mQ",
+    "section_products_list_UkKanG",
+    "subcollections",
+    "section_columns_HPhLfW",
+    "section_products_with_image_GnLz8t",
+    "section_list_collection_ngzKV7",
+    "section_newsletter_gALjaM"
+  ]
+}

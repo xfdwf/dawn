@@ -1,0 +1,473 @@
+{
+  "sections": {
+    "section_video_NKfkz7": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "full-height",
+        "mobile_height": "five-hundred-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a55174a1db0d4200a25b79d6f84ff49d.mp4",
+        "video_link": "",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_banner_image_czTCLw": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_JAjTxq": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_nHH4Tj": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yq6DNA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_3mUAdP": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JAjTxq",
+        "heading_nHH4Tj",
+        "text_yq6DNA",
+        "button_3mUAdP"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "image": "shopify:\/\/shop_images\/the_party_dresses_2.webp",
+        "image_mobile": "shopify:\/\/shop_images\/the_party_dresses_1.webp",
+        "overlay_opacity": 0,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_ph3GWE": {
+      "type": "section-text",
+      "blocks": {
+        "heading_zWFrzm": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Swimwear<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yfkcnc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From Pool to Street: The Perfect Swimsuit and Bodysuit<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWFrzm",
+        "text_yfkcnc"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_WpVcL7": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/swimwear_1.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": false,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_banner_text_columns_TJ63Wa": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_F87gJi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuits-v-neck-low-back.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Swimsuit Bikini Bottom High Waisted Ruched Tummy Control",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_j3Bfpz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-deep-v-neck-one-piece-low-back.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Deep V-Neck One-Piece Low-Back Swimwear",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_etTbRN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-deep-v-neck-one-piece.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Deep V-Neck Shapewear Swimsuit",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_Td63fn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear-swimsuit-ruched-v-neck-one-piece_Bodysuit.png",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "Ruched V-Neck One-Piece Shapewear Bodysuit Swimsuit",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_F87gJi",
+        "column_j3Bfpz",
+        "column_etTbRN",
+        "column_Td63fn"
+      ],
+      "disabled": true,
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
+      "blocks": {
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>{{ collection.title }}<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "first-open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "section_columns_HPhLfW": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_3dC7iU": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_3023df96-c4f2-4d8c-8866-61b9dbf0487e.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_AjgTxb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5881_HEIC_JPG.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_pe3qzb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MT230211-RD3p-S-babeparis___PLDTC_4_1c3a1eb5-a90e-4a65-945d-42d58b03f871.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_gfh7xR": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3Q0A6639-1_1.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_HqYMXk": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024_1_15_-MT230211-RD3p-L-beautywith_aj-_250-PLDTC-_2_ba676710-1a77-4632-874d-8569c3743b79.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_gXQVJL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5877_HEIC_JPG_e6a16453-9004-4703-9d7b-ea015072e76d.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_BTMnYx": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SY220012_35c8016d-85e1-414a-ae90-80dcb3d238c1.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_wE4yU8": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SY220002-BK1p-S_e413a4d9-5704-42a3-83fb-0eeafbcc39cd.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_3dC7iU",
+        "text_block_AjgTxb",
+        "text_block_pe3qzb",
+        "text_block_gfh7xR",
+        "text_block_HqYMXk",
+        "text_block_gXQVJL",
+        "text_block_BTMnYx",
+        "text_block_wE4yU8"
+      ],
+      "settings": {
+        "title": "IT LOOKS GOOD ON YOU",
+        "align_text": "text-center",
+        "columns": 4,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1.2,
+        "mobile_aspect_ratio": 1.2,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_newsletter_gALjaM": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_video_NKfkz7",
+    "section_banner_image_czTCLw",
+    "hero",
+    "section_text_ph3GWE",
+    "section_image_WpVcL7",
+    "section_banner_text_columns_TJ63Wa",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "main",
+    "subcollections",
+    "section_columns_HPhLfW",
+    "section_newsletter_gALjaM"
+  ]
+}

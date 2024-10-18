@@ -1,0 +1,63 @@
+<style>
+.section__color-wrapper-zdy {
+  display: flow-root;
+  background: #fff;
+}
+.content-box--text-describe-sty{
+  padding:30px 15vw;
+  text-align:center
+}
+.content-box--text-describe-sty p{
+	line-height: 30px;
+}
+
+
+</style>
+{%- if collection.description != blank -%}
+  <div class="section__color-wrapper-zdy">
+    <div class="container vertical-breather">
+      <div class="content-box content-box--medium content-box--text-describe-sty content-box--center text-container">
+        <h3 class="heading h2">{{ collection.title }}</h3>
+        <div class="collection-description-wrap">{{- collection.description -}}</div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collection describe",
+  "class": "shopify-section--main-collection-describe",
+  "settings": [
+  ],
+  "presets": [
+      {
+        "name": "Collection describe",
+        "settings": {}
+      }
+    ]
+}
+{% endschema %}
+<style>
+  @media screen and (max-width:767px) {
+    .content-box--text-describe-sty{
+      padding: 10px 5vw;
+    }
+    .product-facet__meta-bar-item--count {
+      display: none!important;
+    }
+    .product-facet {
+      margin-top: 0!important;
+    }
+    .collection-description-wrap p{
+      display: none;
+    }
+    .collection-description-wrap p:first-child {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+</style>

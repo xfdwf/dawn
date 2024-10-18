@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "section_banner_image_9GhFiM": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_xgepGq": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_nYKPyQ": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_hDRmUR": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_C877jG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xgepGq",
+        "heading_nYKPyQ",
+        "text_hDRmUR",
+        "button_C877jG"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "image": "shopify:\/\/shop_images\/Autumn_Ease_Modal_Popilush_1_c4d060b6-57ab-440d-ab80-ce51f1ad5a50.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Autumn_Ease_Modal_Popilush_2_c0551610-edcd-4758-88fc-9f9ff5e4d261.webp",
+        "overlay_opacity": 0,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_image_with_text_BEBMJP": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/3_ba584d80-0c06-4e67-ace6-108db922c897.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/3_5c296d1e-e2b9-4bee-ac1a-f5201fd0abaf.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>Whether you're getting ready for work or a night out, Popilush bodysuits are the perfect choice. Our bodysuits offer a classy and sophisticated look for many different occasions.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_list_butttons_XA3CFf": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_P97gaJ": {
+          "type": "button",
+          "settings": {
+            "heading": "Low Back Bodysuits",
+            "button_link": "shopify:\/\/collections\/low-back-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_H4mVxB": {
+          "type": "button",
+          "settings": {
+            "heading": "Thong Bodysuits",
+            "button_link": "shopify:\/\/collections\/thong-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_XfnTdJ": {
+          "type": "button",
+          "settings": {
+            "heading": "Mid-Thigh Bodysuits",
+            "button_link": "shopify:\/\/collections\/mid-thigh-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_NAQBVj": {
+          "type": "button",
+          "settings": {
+            "heading": "Cloudsense Bodysuits",
+            "button_link": "shopify:\/\/collections\/cloudsense-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_gFLVpP": {
+          "type": "button",
+          "settings": {
+            "heading": "Sleeveless Bodysuits",
+            "button_link": "shopify:\/\/collections\/sleeveless-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_8GHcQz": {
+          "type": "button",
+          "settings": {
+            "heading": "Long Sleeve Bodysuits",
+            "button_link": "shopify:\/\/collections\/long-sleeve-bodysuits",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "button_P97gaJ",
+        "button_H4mVxB",
+        "button_XfnTdJ",
+        "button_NAQBVj",
+        "button_gFLVpP",
+        "button_8GHcQz"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 6,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "rounded",
+        "text_size": 90,
+        "letter_spacing": 75,
+        "section_bg_color": "",
+        "section_text_color": "",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b5058786-b763-4ab8-b375-d96e3dbab791": {
+      "type": "section-grid",
+      "blocks": {
+        "template--21524360200470__b5058786-b763-4ab8-b375-d96e3dbab791-image-1": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "{{ collection.image }}",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__b5058786-b763-4ab8-b375-d96e3dbab791-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
+      "blocks": {
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>{{ collection.title }}<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1",
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_2_d9f868b4-75eb-42f7-8c1e-583dbff54892.jpg",
+            "position": 5,
+            "width": "half",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#fbcaff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f5f4f1",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
+      ],
+      "settings": {
+        "products_per_row_on_mobile_switch": false,
+        "products_per_row_on_mobile_section": "1",
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "first-open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_fCfkmP": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UKBjUV": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to<\/p>",
+            "size": 100
+          }
+        },
+        "heading_xCbcz4": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Palo Alto<\/p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_FyXFgf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_Jh3ppa": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UKBjUV",
+        "heading_xCbcz4",
+        "text_FyXFgf",
+        "button_Jh3ppa"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_image_with_text_cBzWXG": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/3_93ffa997-fbc0-4675-be72-86a18bf26e35.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/3_36705378-343c-4564-88bb-65c656cc1039.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Bodysuit<\/p>",
+        "heading_size": 130,
+        "content": "<p>From sexy lace bodysuits, backless bodysuits to elegant square neck bodysuits and more, our bodysuit effectively controls the tummy and helps tighten the waist, which is designed for you to create an hourglass figure. The comfortable and breathable fabric keeps you fresh and chic all the time. Complete your image with these shaping bodysuits paired with high-waisted jeans and ankle boots for a stylish everyday. So shop a Popilush bodysuit now! Add a unique touch of femininity to your everyday look, making you stylish and flawless.<\/p>",
+        "text_alignment": "left",
+        "button_text": "SHOP NOW",
+        "button_link": "shopify:\/\/products\/lace-deep-v-neck-bodysuits-or-leather-skirt",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "collection_describe_J8KWkf": {
+      "type": "collection-describe",
+      "settings": {}
+    },
+    "section_newsletter_gALjaM": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_banner_image_9GhFiM",
+    "section_image_with_text_BEBMJP",
+    "section_list_butttons_XA3CFf",
+    "hero",
+    "b5058786-b763-4ab8-b375-d96e3dbab791",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "subcollections",
+    "main",
+    "section_banner_image_fCfkmP",
+    "section_image_with_text_cBzWXG",
+    "collection_describe_J8KWkf",
+    "section_newsletter_gALjaM"
+  ]
+}

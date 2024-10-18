@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".section-padding .wrapper {display: flex; align-items: center; justify-content: center;}",
+        ".section-padding h1 {padding-bottom: 0; margin-bottom: 0;}"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "bg_color_secondary": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_banner_image_Pnr8AA": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_fccCTE": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fccCTE"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "image": "shopify:\/\/shop_images\/bodysuits.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/bodysuit_2.jpg",
+        "overlay_opacity": 10,
+        "transition": "fade",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_adcLnq": {
+      "type": "section-text",
+      "blocks": {
+        "heading_DBy4HB": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Bodysuits<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_pcRBQB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The bodysuit is the most flattering style and never lets you down when you need a quick last-minute chic look. This is what makes the Popilush bodysuit collections unique. Either you're dressing up for a go outing or work, Popilush bodysuits are the perfect versatile clothes for a restrained yet sophisticated look.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_DBy4HB",
+        "text_pcRBQB"
+      ],
+      "custom_css": [
+        "#Text--template--16964903600304__section_text_adcLnq {display: block;}",
+        "@media only screen and (max-width: 767px) {#Text--template--16964903600304__section_text_adcLnq {display: none; }}"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_BYKVg9": {
+      "type": "section-text",
+      "blocks": {
+        "heading_7AFfVq": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Bodysuits<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_qmp4xk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Either you're dressing up for a go outing or work, Popilush bodysuits are the perfect versatile clothes for a restrained yet sophisticated look.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AFfVq",
+        "text_qmp4xk"
+      ],
+      "custom_css": [
+        "#Text--template--16964903600304__section_text_BYKVg9 {display: none;}",
+        "@media only screen and (max-width: 767px) {#Text--template--16964903600304__section_text_BYKVg9 {display: block; }}"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_html_Tp6C9h": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Document<\/title>\n\t<style>\n\t\t.featured-collection {\n\t\t\tpadding-bottom: 0;\n\t\t\tpadding-top: 110px;\n\t\t}\n\n\t\t#shopify-section-template--16964903600304__section_custom_html_Tp6C9h {\n\t\t\tz-index: 999;\n\t\t\tposition: sticky;\n\t\t\ttop: 0px;\n\t\t\tleft: 0;\n\t\t}\n\n\t\t.pc-page-tab {\n\t\t\tz-index: 999;\n\t\t\tposition: sticky;\n\t\t\ttop: 0px;\n\t\t\tleft: 0;\n\t\t\twidth: 100%;\n\t\t\tbackground: #fff;\n    \tborder-bottom: 1px solid rgba(0, 0, 0, .08);\n\t\t\tdisplay: block;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content::after {\n\t\t\tcontent: none;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content {\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tjustify-content: space-between;\n\t\t\theight: 50px;\n\t\t}\n\n\t\t.pc-page-tab-content .pc-page-tab-content-left {\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tflex-wrap: nowrap;\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .pc-page-tab-content-left>div {\n\t\t\twidth: calc(100% \/ 6);\n\t\t\tmargin: 0 15px;\n\t\t\theight: 50px;\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tjustify-content: center;\n\t\t\ttext-align: center;\n\t\t\tborder-bottom: 2px solid transparent;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .pc-page-tab-content-right {\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tflex-wrap: nowrap;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .colorStyle {\n\t\t\tmargin-right: 40px;\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .bottom-button-wrapper {\n\t\t\tdisplay: flex;\n\t\t\t\/* width: 350px; *\/\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .bottom-button-wrapper>div {\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .bottom-button-wrapper button {\n\t\t\tmargin: 0 6px;\n\t\t\tpadding: 6px 0;\n\t\t\tborder-radius: 4px !important;\n\t\t\twidth: 150px;\n\t\t\tmin-width: auto;\n\t\t}\n\n\t\t.pc-page-tab .pc-page-tab-content .colorStyle .mr10 {\n\t\t\tmargin-right: 10px;\n\t\t}\n\n\t\t.pc-page-tab-button {\n\t\t\tfont-size: 14px;\n\t\t\tcursor: pointer;\n\t\t}\n\n\t\t.pc-page-tab .active {\n\t\t\tfont-weight: 700;\n\t\t\tborder-bottom: 2px solid #171719!important;\n\t\t}\n\n\t\t.btnTab {\n\t\t\tdisplay: none;\n\t\t}\n\n\t\t@media only screen and (max-width: 1024px) {\n\t\t\t#shopify-section-template--16964903600304__section_custom_html_Tp6C9h {\n\t\t\t\ttop: 20px;\n\t\t\t}\n\n\t\t\t.pc-page-tab-content .pc-page-tab-content-left {\n\t\t\t\toverflow-x: auto;\n\t\t\t\toverflow-y: hidden;\n\t\t\t}\n\n\t\t\t.pc-page-tab .pc-page-tab-content .pc-page-tab-content-left>div {\n\t\t\t\tflex: 0 0 33.33%;\n\t\t\t\tmargin: 0;\n\t\t\t\tfont-size: 12px;\n\t\t\t}\n\n\t\t\t.pc-page-tab .pc-page-tab-content {\n\t\t\t\tposition: relative;\n\t\t\t}\n\n\t\t\t.btnTab {\n\t\t\t\tdisplay: block;\n\t\t\t\tposition: absolute;\n\t\t\t\ttop: 50%;\n\t\t\t\ttransform: translateY(-50%);\n\t\t\t\tpadding: 10px;\n\t\t\t\tbackground-color: #f5f5f5;\n\t\t\t\tcolor: #171719;\n\t\t\t\tborder: none;\n\t\t\t\tcursor: pointer;\n\t\t\t\tz-index: 1;\n\t\t\t\twidth: 10px;\n\t\t\t\tdisplay: flex;\n\t\t\t\tjustify-content: center;\n\t\t\t}\n\n\t\t\t.btn-left {\n\t\t\t\tleft: 0;\n\t\t\t}\n\n\t\t\t.btn-right {\n\t\t\t\tright: 0;\n\t\t\t}\n\n\t\t\t.pc-page-tab-content-left::-webkit-scrollbar {\n\t\t\t\tdisplay: none;\n\t\t\t}\n\t\t}\n\t<\/style>\n<\/head>\n\n<body>\n\t<div class=\"page-tab\">\n\t\t<div class=\"pc-page-tab\">\n\t\t\t<div class=\"pc-page-tab-content wrapper\">\n\t\t\t\t<div class=\"pc-page-tab-content-left\">\n\t\t\t\t\t<div class=\"pc-page-tab1 pc-page-tab-button active\" onclick=\"handlePreviewClick()\">\n\t\t\t\t\t\tLOW BACK BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"pc-page-tab2 pc-page-tab-button\" onclick=\"handlePreviewClick2()\">\n\t\t\t\t\t\tTHONG BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"pc-page-tab3 pc-page-tab-button\" onclick=\"handlePreviewClick3()\">\n\t\t\t\t\t\tMID-THIGH BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"pc-page-tab4 pc-page-tab-button\" onclick=\"handlePreviewClick4()\">\n\t\t\t\t\t\tCLOUDSENSE BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"pc-page-tab5 pc-page-tab-button\" onclick=\"handlePreviewClick5()\">\n\t\t\t\t\t\tSLEEVELESS BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"pc-page-tab6 pc-page-tab-button\" onclick=\"handlePreviewClick6()\">\n\t\t\t\t\t\tLONG SLEEVE BODYSUITS\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<button class=\"btnTab btn-left\">&#10094;<\/button>\n\t\t\t\t<button class=\"btnTab btn-right\">&#10095;<\/button>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n\t<script>\n\t\tconst windowWidth = window.innerWidth\n\t\tconst content = document.querySelector('.pc-page-tab-content-left');\n\t\tconst btnLeft = document.querySelector('.btn-left');\n\t\tconst btnRight = document.querySelector('.btn-right');\n\n\t\tbtnLeft.addEventListener('click', () => {\n\t\t\tcontent.scrollBy({\n\t\t\t\tleft: -windowWidth,\n\t\t\t\tbehavior: 'smooth'\n\t\t\t});\n\t\t});\n\n\t\tbtnRight.addEventListener('click', () => {\n\t\t\tcontent.scrollBy({\n\t\t\t\tleft: windowWidth,\n\t\t\t\tbehavior: 'smooth'\n\t\t\t});\n\t\t});\n\t\tconst scrollToElement = (selector) => {\n\t\t\tconst element = document.querySelector(selector);\n\t\t\tif (element) {\n\t\t\t\telement.scrollIntoView({\n\t\t\t\t\tbehavior: 'smooth',\n\t\t\t\t\tblock: 'start',\n\t\t\t\t\tinline: 'start'\n\t\t\t\t});\n\t\t\t} else {\n\t\t\t\tconsole.error('not found.');\n\t\t\t}\n\t\t};\n\n\n\t\tconst handlePreviewClick = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_tcdpzj');\n\t\t};\n\n\t\tconst handlePreviewClick2 = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_8D3bQy');\n\t\t};\n\t\tconst handlePreviewClick3 = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_gwg7rk');\n\t\t};\n\t\tconst handlePreviewClick4 = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_JDqGzy');\n\t\t};\n\t\tconst handlePreviewClick5 = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_pFCRyU');\n\t\t};\n\t\tconst handlePreviewClick6 = () => {\n\t\t\tscrollToElement('#shopify-section-template--16964903600304__section_collection_QddGFQ');\n\t\t};\n\n\t\t\/\/ 监听页面滚动事件\n\t\twindow.addEventListener('scroll', () => {\n\n\t\t\tvar TabPos = document.querySelector('#shopify-section-template--16964903600304__section_collection_tcdpzj')?.offsetTop - 300;\n\t\t\tvar TabPos2 = document.querySelector('#shopify-section-template--16964903600304__section_collection_8D3bQy')?.offsetTop - 300;\n\t\t\tvar TabPos3 = document.querySelector('#shopify-section-template--16964903600304__section_collection_gwg7rk')?.offsetTop - 300;\n\t\t\tvar TabPos4 = document.querySelector('#shopify-section-template--16964903600304__section_collection_JDqGzy')?.offsetTop - 300;\n\t\t\tvar TabPos5 = document.querySelector('#shopify-section-template--16964903600304__section_collection_pFCRyU')?.offsetTop - 300;\n\t\t\tvar TabPos6 = document.querySelector('#shopify-section-template--16964903600304__section_collection_QddGFQ')?.offsetTop - 300;\n\n\t\t\tvar scrollPos = window.scrollY;\n\t\t\tif (scrollPos >= TabPos && scrollPos < TabPos2) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab1').classList.add('active');\n\t\t\t} else if (scrollPos >= TabPos2 && scrollPos < TabPos3) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab2').classList.add('active');\n\t\t\t} else if (scrollPos >= TabPos3 && scrollPos < TabPos4) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab3').classList.add('active');\n\t\t\t} else if (scrollPos >= TabPos4 && scrollPos < TabPos5) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab4').classList.add('active');\n\t\t\t} else if (scrollPos >= TabPos5 && scrollPos < TabPos6) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab5').classList.add('active');\n\t\t\t} else if (scrollPos >= TabPos6) {\n\t\t\t\tdocument.querySelectorAll('.pc-page-tab-button').forEach(tab => {\n\t\t\t\t\ttab.classList.remove('active');\n\t\t\t\t});\n\t\t\t\tdocument.querySelector('.pc-page-tab6').classList.add('active');\n\t\t\t}\n\n\t\t});\n\t<\/script>\n<\/body>\n\n<\/html>",
+        "width": "wrapper--full",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_tcdpzj": {
+      "type": "section-collection",
+      "custom_css": [
+        ".featured-collection {padding-bottom: 0; padding-top: 110px; margin-top: -80px;}"
+      ],
+      "settings": {
+        "collection": "low-back-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Low Back Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_8D3bQy": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "thong-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Thong Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_gwg7rk": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "mid-thigh-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Mdi-Thigh Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_JDqGzy": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "cloudsense-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Cloudsense Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_pFCRyU": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "sleeveless-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Sleeveless Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_QddGFQ": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "long-sleeve-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 48,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Long Sleeve Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_XirwXY": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/best-sellers.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/best-sellers.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush carefully handpicked these highly sought-after everyday essentials just for you. Ensure you always have access to the best shapers to create the hourglass figure you crave.<\/p>",
+        "text_alignment": "center",
+        "button_text": "View",
+        "button_link": "shopify:\/\/collections\/best-seller-old240813",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_n6Naga": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "best-seller-old240813",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h2>You May Also Like<\/h2>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 75,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 46,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_banner_image_Pnr8AA",
+    "section_text_adcLnq",
+    "section_text_BYKVg9",
+    "section_custom_html_Tp6C9h",
+    "section_collection_tcdpzj",
+    "section_collection_8D3bQy",
+    "section_collection_gwg7rk",
+    "section_collection_JDqGzy",
+    "section_collection_pFCRyU",
+    "section_collection_QddGFQ",
+    "section_image_with_text_XirwXY",
+    "section_collection_n6Naga"
+  ]
+}

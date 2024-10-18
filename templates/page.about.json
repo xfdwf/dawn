@@ -1,0 +1,469 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2cc690de47a2534ae872903120a28801.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1200x1590_b8346ef6-d68f-4013-994d-6f1ced9e479c.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>About Us<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": true,
+        "duration": 4,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush Emerges as Innovative, Multifunctional Shapewear Brand Delivering Comfortable Confidence for Every Size<br\/><br\/>Evolving the perception and useability of shapewear for women everywhere, Popilush focuses on diversity, body positivity, and true functionality with quality, accessible pieces. <br\/><br\/>Popilush, the fashion-forward shapewear brand that is pioneering the fusion of comfortable confidence and multifunctional style, reveals their game-changing range that is size inclusive and effortlessly modern. Made for every shape and skin tone, Popilush is proud to empower women with more freedom in movement, shape, and comfort with a category defining line of shapewear that is stylish and amazingly versatile.<\/p>",
+            "size": 95
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "909772ff-e663-4f4f-9da8-7ede957325bf": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/1500x1000_2_d69a63a8-c216-41ab-946a-7422f66a6209.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1500x1000_2_d69a63a8-c216-41ab-946a-7422f66a6209.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>About Popilush<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush is an empowering, inviting, and fashion-forward shapewear line for women. Their mission is to highlight what women of all shapes and sizes love about their bodies and to promote comfortable confidence. Popilush gives all women the freedom and confidence to be themselves every single day with high-quality shapewear that comes in a diverse range of sizes and is exceptionally affordable for the high level of quality.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_QzaApc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSC01907_6_11zon.webp",
+        "image_mobile": "shopify:\/\/shop_images\/DSC01907_6_11zon.webp",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>About Founder<\/p>",
+        "heading_size": 130,
+        "content": "<p>Eve DeMartine, a visionary and pioneering female entrepreneur, has known what women want from the beginning - confidence, comfort, and style. Her passion for creating truly transformative products has sparked a shapewear revolution. She is also a mother of twins, proving that balancing family life and building an empire is completely possible and inspiring.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/1500x1000.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1500x1000.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>The Shapewear Products<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush is thrilled to bring their shapewear products to women who deserve high-quality, affordable, and versatile solutions that empower and inspire confidence, no matter the occasion. In addition, Popilush is committed to reducing waste with earth-loving practices including the use of biodegradable textiles and less plastic packaging.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_6pyRLm": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/1500x1000-_3.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1500x1000-_3.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Innovative, Multifunctional Brand<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush Emerges as Innovative, Multifunctional Shapewear Brand Delivering Comfortable Confidence for Every SizeEvolving the perception and useability of shapewear for women everywhere, Popilush focuses on diversity, body positivity, and true functionality with quality, accessible pieces. <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_mnxqbm": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/006b5b6830c5ea8be9154dc3f60a5b2b_2363ff75-fc99-4a13-88b3-bb9f53483d34.jpg",
+        "height": "seven-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "cable_joint_id": ""
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_56858b25-d74b-4737-859e-5c8f949b636c.jpg",
+            "title": "Body Positivity",
+            "text": "<p>We love ourselves. We celebrate what makes us<br\/>feel beautiful and powerful. Let’s celebrate and<br\/>respect our bodies—every single shape and size and skin tone.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1684025a-bd61-454e-970e-68cfbcfccc2d.jpg",
+            "title": "Comfortable Confidence",
+            "text": "<p>We deserve to be comfortable in the clothes we wear. Life is too short to feel restricted and closed off.<br\/>Popilush gives us the freedom and confidence to be ourselves every single day.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b439b36d-ab32-4317-811b-0848bf775104.jpg",
+            "title": "Environmentally-Friendly",
+            "text": "<p>Popilush is committed to reducing waste with earth-loving practices like using textiles that rapidly biodegrade and less plastic packaging.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1,
+        "mobile_aspect_ratio": 1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $99<\/p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase<\/p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "1% Donated Annually",
+            "text": "<p>to forest conservation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_QnTbkV": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/853d2523-4507-4ec5-a48b-e76bc09209d7.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/853d2523-4507-4ec5-a48b-e76bc09209d7.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Where Style Meets Tech<\/p>",
+        "heading_size": 130,
+        "content": "<p>We developed a breakthrough in fabric technology, using premium collagen protein extracted from discarded oyster shells. Lightweight,odor-resistant, and naturally moisturizing, our Bluetag fabric is designed to keep you comfortable all summer long.<\/p><p>Introducing Popilush Bluetag, our summer style revolution. Elevate your everyday wardrobe with dresses that feel as cool as they look, made with our innovative antibacterial and skin-friendly fabric.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "https:\/\/www.popilush.com\/collections\/bluetag-series",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "f9132c5c-9f15-4676-8086-613d0304f488": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "bluetag-series",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Bluetag Series<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "text",
+    "909772ff-e663-4f4f-9da8-7ede957325bf",
+    "section_image_with_text_QzaApc",
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
+    "section_image_with_text_6pyRLm",
+    "section_image_mnxqbm",
+    "columns",
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
+    "section_image_with_text_QnTbkV",
+    "main",
+    "f9132c5c-9f15-4676-8086-613d0304f488"
+  ]
+}

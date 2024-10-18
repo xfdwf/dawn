@@ -1,0 +1,298 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_kkHDRG": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_1_c96e299f-ca17-48ab-a16a-a36919dbd86f.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_1_5f493c73-b3d4-40d0-adce-d1067ca6154b.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_UtrVjM": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "modal-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_WTyAmt": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_2_b459e383-bc1a-4198-b87c-01e08f9689b5.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_2_31493a4d-8d10-4611-a8ae-3a16de807ba3.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_cWGzip": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_3_3f86d6f8-a0a6-44ad-81a5-d44c2ef5c864.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_3_4b42e187-9b7b-4951-aee6-79474a7d17f3.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_XWUgyV": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_4.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_4.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_UFz7Mb": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_4_3fecc278-dc2b-49a6-bdc5-ef12dfb96e13.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_4_0d0a0c36-599c-498f-ade7-a53fdeae642c.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_eYCdML": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_5_65dc130d-2698-4c8c-bf27-02b1a644a224.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_5_3db0a90d-3723-4d01-bf24-2e76353fd703.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_bmbqAj": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_qhK3AL": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>More shapewear dress style to check<\/p>",
+            "size": 130,
+            "margin_bottom": 10
+          }
+        },
+        "heading_Wnyy83": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><em><strong>More shapewear dress style to check<\/strong><\/em><\/p>",
+            "size": 125,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_TcaEdH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_PNiMgh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qhK3AL",
+        "heading_Wnyy83",
+        "text_TcaEdH",
+        "button_PNiMgh"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_DHmkJF": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_8.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_8.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_KW96JU": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_6_07a2ba1e-e36a-4620-b32a-4fea666da2f9.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-Pc_1_6_07a2ba1e-e36a-4620-b32a-4fea666da2f9.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_NbB4Dd": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "modal-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "17159287205d767809": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_yTmB7h": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "built-in-shapewear-slip-maxi-dress-or-gift-box-set"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_yTmB7h"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_image_kkHDRG",
+    "section_collection_UtrVjM",
+    "section_image_WTyAmt",
+    "section_image_cWGzip",
+    "section_image_XWUgyV",
+    "section_image_UFz7Mb",
+    "section_image_eYCdML",
+    "section_text_bmbqAj",
+    "section_image_DHmkJF",
+    "section_image_KW96JU",
+    "section_collection_NbB4Dd",
+    "17159287205d767809"
+  ]
+}

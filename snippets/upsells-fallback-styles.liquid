@@ -1,0 +1,99 @@
+{%- comment -%}
+  Renders a style tag with declarations necessary when there is an overlap between Upsells background color and:
+  - global body background color
+  - section specific background color
+  - secondary background color of a section
+
+  Accepts:
+  - section {Object} - Section object
+
+  Usage:
+  {% render 'upsells-fallback-styles', section: section %}
+{%- endcomment -%}
+
+{%- liquid
+  assign upsells_bg_color = settings.upsells_bg_color
+  assign color_body_bg = settings.color_body_bg
+  assign color_body_bg_secondary = settings.color_body_bg_secondary
+  assign bg_color = section.settings.bg_color
+  assign bg_color_secondary = section.settings.bg_color_secondary
+  assign add_border = false
+
+  capture upsells_border
+    comment
+      Cart page
+    endcomment
+    if bg_color_secondary != null
+      if upsells_bg_color != 'rgba(0,0,0,0)' and upsells_bg_color != blank
+        if bg_color_secondary and color_body_bg_secondary == upsells_bg_color
+          assign add_border = true
+        endif
+        if bg_color_secondary == false and color_body_bg == upsells_bg_color
+          assign add_border = true
+        endif
+      else
+        if bg_color_secondary
+          assign add_border = true
+        endif
+      endif
+    endif
+
+    comment
+      "Product pages" and "Featured product" sections
+    endcomment
+    if bg_color != null
+      if bg_color != 'rgba(0,0,0,0)' and bg_color != blank
+        case upsells_bg_color
+          when 'rgba(0,0,0,0)' or blank
+            if bg_color == color_body_bg_secondary
+              assign add_border = true
+            endif
+          else
+            if bg_color == upsells_bg_color
+              assign add_border = true
+            endif
+        endcase
+      else
+
+        case upsells_bg_color
+          when 'rgba(0,0,0,0)' or blank
+            if bg_color == color_body_bg_secondary
+              assign add_border = true
+            endif
+          else
+            if color_body_bg == upsells_bg_color
+              assign add_border = true
+            endif
+        endcase
+      endif
+    endif
+
+    comment
+      Cart drawer
+    endcomment
+    if bg_color == null and bg_color_secondary == null
+      case upsells_bg_color
+        when 'rgba(0,0,0,0)' or blank
+          if color_body_bg == color_body_bg_secondary
+            assign add_border = true
+          endif
+        else
+          if color_body_bg == upsells_bg_color
+            assign add_border = true
+          endif
+      endcase
+    endif
+
+    echo '--upsells-border: var(--COLOR-TEXT); '
+  endcapture
+
+  capture upsells_styles
+    if add_border
+      echo 'style="'
+      echo upsells_border
+      echo '"'
+    endif
+  endcapture
+
+  echo upsells_styles
+-%}

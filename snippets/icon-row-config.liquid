@@ -1,0 +1,186 @@
+<style>
+   #product__block-{{ block.id }} .product__icon__row--multiple {
+    flex-direction: {{ block_settings.alignment_section }};
+  }
+  {% if block_settings.alignment_section == 'column' %}
+    #product__block-{{ block.id }} .icons-row-block__item {
+      flex-direction: row;
+      padding-top: 0;
+      margin: 10px 0;
+    }
+    #product__block-{{ block.id }} .icons-row-block__icon {
+      transform: none!important;
+      position: initial;
+      margin-right: 10px;
+      overflow: visible;
+    }
+  {% endif %}
+  {% if block_settings.alignment_section == 'column' %}
+    #product__block-{{ block.id }} .icons-row-block__item {
+      width: 100%;
+      align-self: start;
+      justify-content: start;
+    }
+    /* @media only screen and (max-width: 767px) { */
+      #product__block-{{ block.id }} .icons-row-block__text {
+        text-align: left;
+        margin-left: 10px;
+      }
+    /* } */
+  {% endif %}
+  {% if block_settings.alignment_section == 'row' %}
+
+    @media only screen and (max-width: 767px) {
+      #product__block-{{ block.id }} .icons-row-block__item {
+        width: 100%;
+        align-self: start;
+      }
+      #product__block-{{ block.id }} .icons-row-block__item {
+        margin: 5px 0;
+      }
+      {% if icon1 %}
+        #product__block-{{ block.id }} .icons-row-block__item {
+          width: 100%;
+        }
+      {% endif %}
+      {% if icon1 and icon2 %}
+        #product__block-{{ block.id }} .icons-row-block__item {
+          width: 25%;
+        }
+      {% endif %}
+      {% if icon1 and icon2 and icon3 %}
+        #product__block-{{ block.id }} .icons-row-block__item {
+          width: 33%;
+        }
+      {% endif %}
+      {% if icon1 and icon2 and icon3 and icon4 %}
+        #product__block-{{ block.id }} .icons-row-block__item {
+          width: 50%;
+        }
+      {% endif %}
+    }
+  {% endif %}
+    {%- capture icon_style -%}
+    --icon-size: 60px;
+        {%- endcapture -%}
+</style>
+{% if tags == 'dresses bra 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/dresses_bra_1.svg?v=1713864910' %}
+  {% assign tag_test = 'Removable Bra Padded with Built-in support' %}
+  <div class="icons-row-block__item"  style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'dresses gusset 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/dresses_gusset_1.svg?v=1713864935' %}
+  {% assign tag_test = 'Opening Gusset for easy bathroom breaks' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'shapewear dresses 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/shapewear_dresses_1.svg?v=1713864934' %}
+  {% assign tag_test = 'Built in Shapewear Sculpt your figure' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'bodysuits Sculpt 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/bodysuits_Sculpt_1.svg?v=1713864934' %}
+  {% assign tag_test = 'Sculpt your figure' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'bodysuits bra 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/bodysuits_bra_1.svg?v=1713864934' %}
+  {% assign tag_test = 'Built-in Bra support' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'bodysuits snap 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/bodysuits_snap_1.svg?v=1713864934' %}
+  {% assign tag_test = 'Easy bathroom breaks' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'bodysuits snap 2' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/bodysuits_snap_2.svg?v=1713864935' %}
+  {% assign tag_test = 'Easy bathroom breaks' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'Jumpsuits Sculpt 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/Jumpsuits_Sculpt_1.svg?v=1713864935' %}
+  {% assign tag_test = 'Sculpt your figure' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'Jumpsuits bra 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/Jumpsuits_bra_1.svg?v=1713864934' %}
+  {% assign tag_test = 'Built-in Bra support' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'Jumpsuits material 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/Jumpsuits_material_1.svg?v=1713864935' %}
+  {% assign tag_test = 'Comfortable and breathable' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'Lower back 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2-08.svg?v=1725520270' %}
+  {% assign tag_test = 'Lower back design for easy wear and removal' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}
+{% if tags == 'large breasts 1' %}
+  {% assign icon_image = 'https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2-07.svg?v=1725520270' %}
+  {% assign tag_test = 'Full coverage for larger chests' %}
+  <div class="icons-row-block__item" style="{{ icon_style }}">
+    <div class="icons-row-block__icon icon-stroke">
+      <img class="icons-row-block__icon icon-stroke" src="{{icon_image}}" alt="">
+    </div>
+    <span class="icons-row-block__text">{{ tag_test }}</span>
+  </div>
+{% endif %}

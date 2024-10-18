@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_4ktVPD": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_TErawe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2000x900_7234f9de-5fa1-4fdb-b35d-d8f1250f2cf8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1200x1590_13dcd87f-5978-4b71-abb3-90b37c62c1be.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Influencer Program<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Email: collaboration17@popilushmedia.com",
+            "button_1_text": "Join Now",
+            "button_1_link": "",
+            "button_1_mail": "mailto: collaboration14@popilushmail.com",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TErawe"
+      ],
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_ALr8em": {
+      "type": "section-text",
+      "blocks": {
+        "heading_BkLwGW": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>To Be Our Influencer<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Mnd7XJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you an influencer? Do you want a FREE sample?<\/p><p>If you’re interested to promote Popilush at your social media, eg. Instagram, TikTok, YouTube, Facebook, etc.<\/p><p>Don’t hesitate to<strong> join us<\/strong>!<\/p><p>Email: collaboration17@popilushmedia.com<\/p>",
+            "size": 120
+          }
+        }
+      },
+      "block_order": [
+        "heading_BkLwGW",
+        "text_Mnd7XJ"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_9mKHMd": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_mzECYU": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3600x5400_1.jpg",
+            "title": "Rewards & Discounts",
+            "text": "<p>Get access to exclusive deals and earn rewards when you join!<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_3K9Qd7": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3600x5400_2.jpg",
+            "title": "Free Products",
+            "text": "<p>As a thank you, we'll gift you free products on us!<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_bdFBFb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1684025a-bd61-454e-970e-68cfbcfccc2d.jpg",
+            "title": "Features On Social",
+            "text": "<p>Get featured on our social accounts and blog wearing your Popilush gear!<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_mzECYU",
+        "text_block_3K9Qd7",
+        "text_block_bdFBFb"
+      ],
+      "custom_css": [
+        ".column-item__content h3 {font-size: 17px;}",
+        ".column-item__content {text-align: center;}"
+      ],
+      "settings": {
+        "title": "What You'll Earn",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_4ktVPD",
+    "section_text_ALr8em",
+    "section_columns_9mKHMd"
+  ]
+}

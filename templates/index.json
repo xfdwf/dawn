@@ -1,0 +1,1437 @@
+{
+  "sections": {
+    "section-slideshow-0": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_BcYE7i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Fall_Season_New_Arrivals_Popilush_1_1508ae6b-83ed-4fd4-b2f8-b586803174f6.webp",
+            "image_mobile": "shopify:\/\/shop_images\/The_Fall_Season_New_Arrivals_Popilush_2_2d576273-db7a-4994-8b50-7d43eb2f8e0c.webp",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/special-offer",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_8Lhwew": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6c7e113d108513f592dbe6f74fb6df42_f89edf09-2404-4475-b327-552d475cb693.webp",
+            "image_mobile": "shopify:\/\/shop_images\/db5c96e55c16808fc6ec4ada91427b13_5e096b77-c508-49bc-8c17-bcc69867ee34_1.webp",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/live-lush",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--black",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_KhLAQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/popilush_redtag_series_PC.webp",
+            "image_mobile": "shopify:\/\/shop_images\/popilush_redtag_series_M.webp",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/redtag",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--primary",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_c3JWRT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_Arrivals_Leather_Vollection_Popilush_4_a7e04f4c-4805-46db-8cd0-321ce96ae288.webp",
+            "image_mobile": "shopify:\/\/shop_images\/New_Arrivals_Leather_Vollection_Popilush_2_a6523a4b-b187-4453-b608-97f8fd5d1029.webp",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/faux-leather",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BcYE7i",
+        "image_8Lhwew",
+        "image_KhLAQN",
+        "image_c3JWRT"
+      ],
+      "custom_css": [
+        ".text-highlight__break {font-weight: 0 !important;}"
+      ],
+      "settings": {
+        "slide_height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "original-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": true,
+        "duration": 5,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "heading_size": 180
+      }
+    },
+    "section_tab_collections_VaThWd": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_Rz4h8B": {
+          "type": "collection",
+          "settings": {
+            "title": "Best Seller",
+            "tab_collection": "best-seller-old240813",
+            "number_of_products": 6,
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/1_cc008e61-a90d-44d8-8aa7-d05f0a8c302e.webp",
+            "overlay_opacity": 5,
+            "heading": "<h2>Popular and Most-Loved<\/h2>",
+            "text_color": "text-light",
+            "button_text": "View All",
+            "button_link": "shopify:\/\/collections\/best-seller-old240813",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "collection_nfCdfD": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "new-old240813",
+            "number_of_products": 6,
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/2_275d0d1e-2412-4663-ab6e-183ee4d59e51.webp",
+            "overlay_opacity": 10,
+            "heading": "<h2>New in  New Look <\/h2>",
+            "text_color": "text-light",
+            "button_text": "View All",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "collection_fcayGK": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "Sale",
+            "tab_collection": "sale",
+            "number_of_products": 7,
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/3_060d67cb-abbe-44f7-8bef-321de606fe00.webp",
+            "overlay_opacity": 10,
+            "heading": "<h2>Get'em while you can！<\/h2>",
+            "text_color": "text-light",
+            "button_text": "View All",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Rz4h8B",
+        "collection_nfCdfD",
+        "collection_fcayGK"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header h2 {font-size: 32px;}",
+        ".tab-collections__heading h2 {font-size: 43.2px;}"
+      ],
+      "settings": {
+        "image_aspect_ratio": 1.3,
+        "text_alignment": "text-left",
+        "title": "Best Sellers",
+        "text": "",
+        "tab_heading_size": 120,
+        "show_buttons": false,
+        "collection_button_text": "Shop Now",
+        "collection_button_color": "btn--black",
+        "collection_button_style": "btn--solid",
+        "collection_button_size": "btn--small",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-promotion-row-0": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "section-promotion-row-0-block-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_two_get_one_free_rLtSu3Jz_e093bdf7-b695-4a6e-9a62-64a7010f1ceb.webp",
+            "subheading": "<p>Buy 2<\/p>",
+            "subheading_size": 200,
+            "heading": "<p>Get 1 Free<\/p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 305,
+            "description": "Add 3 items to cart",
+            "description_size": 80,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/special-offer",
+            "button_color": "btn--secondary",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 10
+          }
+        },
+        "section-promotion-row-0-block-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_one_get_one_free_u22zdOim_2a8f3723-3292-4672-a3d8-dabe322f576f.webp",
+            "subheading": "<p>Buy 1<\/p>",
+            "subheading_size": 200,
+            "heading": "<p>Get 1 Free<\/p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 300,
+            "description": "Add 2 items to cart",
+            "description_size": 80,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/sale",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 50
+          }
+        },
+        "column_B9Jndn": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S2bXr76m.webp",
+            "subheading": "<p>Flash <\/p>",
+            "subheading_size": 225,
+            "heading": "<p>SALE<\/p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 260,
+            "description": "Up To 25%Off",
+            "description_size": 80,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/weekly-deals",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "section-promotion-row-0-block-1",
+        "section-promotion-row-0-block-2",
+        "column_B9Jndn"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "none",
+        "height": "450",
+        "bg_color": "",
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_pTrDxf": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "best-seller",
+        "products_layout": "carousel",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_kXyRX8": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "new",
+        "products_layout": "carousel",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Trending<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_eVbnwF": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "best-seller-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Bodysuits<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-sticky-images-and-text-0": {
+      "type": "section-sticky-images-and-text",
+      "blocks": {
+        "section-sticky-images-and-text-0-block-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_870ce97c-687b-4fa1-9681-e0e83ec9aa36.gif",
+            "image_mobile": "shopify:\/\/shop_images\/2_870ce97c-687b-4fa1-9681-e0e83ec9aa36.gif",
+            "subheading": "",
+            "title": "<p>Elevate Your Style with Popilush Bluetag!<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<p>Explore Popilush Bluetag—a fusion of style and innovation crafted for the empowered woman. Limited edition dresses for a summer of sophistication.<\/p>",
+            "text_size": 125,
+            "button_text": "Shop now",
+            "button_link": "https:\/\/www.popilush.com\/collections\/bluetag-series",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "https:\/\/youtu.be\/86kS-vjivhI",
+            "video_text": "Play video"
+          }
+        },
+        "section-sticky-images-and-text-0-block-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "title": "<p>Sustainable trends you'll love!<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<p>Our mission is to empower people through sustainable fashion.<\/p>",
+            "text_size": 125,
+            "button_text": "Learn more",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "section-sticky-images-and-text-0-block-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "subheading": "Lookbooks",
+            "title": "<p>Summer 2024<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<p>Our latest lookbook has dropped and is now ready to shop. Tailored to elevate your style<\/p>",
+            "text_size": 125,
+            "button_text": "View lookbook",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "section-sticky-images-and-text-0-block-0",
+        "section-sticky-images-and-text-0-block-1",
+        "section-sticky-images-and-text-0-block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "scroll_direction": "horizontal",
+        "text_alignment": "left",
+        "image_position": "",
+        "space_around_images": true,
+        "image_width": "standard",
+        "aspect_ratio_desktop": 1.5,
+        "aspect_ratio_mobile": 1.5,
+        "show_single_text": false,
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 3%, rgba(223, 223, 223, 1) 100%)",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_video_j9bA7C": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "six-fifty-height",
+        "mobile_height": "four-hundred-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/youtu.be\/86kS-vjivhI",
+        "video_link": "",
+        "image": "shopify:\/\/shop_images\/c8673ad12c925aade37ed748fd89991c_024163c1-fbf4-4675-9e03-ec5b4db89d1a.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section-marquee-1": {
+      "type": "section-marquee",
+      "blocks": {
+        "image_9XGYc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6509bb375eff79650d8d573c_yAHOO_ee867afc-0063-4ebc-9f38-da667decf813.jpg",
+            "link": "",
+            "image_width": 180
+          }
+        },
+        "image_KG3VAc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d88cdb2232232b438f1cc8e73038dcf9.jpg",
+            "link": "",
+            "image_width": 180
+          }
+        },
+        "image_dtcbUi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buzzfeed-logo-black-transparent.jpg",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_dzfpzq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/markets-insider-logo-for-website_1013x1013_crop_center_4457d568-2a09-4fc4-adb8-4457fe449c3c.jpg",
+            "link": "",
+            "image_width": 180
+          }
+        },
+        "image_mAkkjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8a88e9e6e22b855efb823ad492e8e195_a26322bc-9b74-430b-943c-963f4e332aaa.jpg",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_DpAwrc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PR_Newswire_Navy_Logo_883e33bf-acb7-4e9d-ae5d-06d61ed1c9ab.jpg",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_EzyAAT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8a88e9e6e22b855efb823ad492e8e195.jpg",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_4yhJ3h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9126c10944ac354f47d585ee668aef26.jpg",
+            "link": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_9XGYc8",
+        "image_KG3VAc",
+        "image_dtcbUi",
+        "image_dzfpzq",
+        "image_mAkkjR",
+        "image_DpAwrc",
+        "image_EzyAAT",
+        "image_4yhJ3h"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "slider",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 15,
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "slider_speed": 5,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-divider-0": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section-grid-2": {
+      "type": "section-grid",
+      "blocks": {
+        "section-grid-2-block-0": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Trending",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "section-grid-2-block-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_text_columns_UbK74j": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_DEpqdc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/populush_dress_homepage.webp",
+            "overlay_opacity": 10,
+            "subheading": "innovative and on-trend dresses",
+            "heading": "Dresses",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/dress"
+          }
+        },
+        "column_gF79R9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Popilush_Shapewear_Bodysuit_with_Square_Neck_and_Mesh.webp",
+            "overlay_opacity": 10,
+            "subheading": "designed for you to create an hourglass figure",
+            "heading": "Bodysuits",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/bodysuits"
+          }
+        },
+        "column_3VjhK3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/popilush_jumpsuit_homepage.webp",
+            "overlay_opacity": 10,
+            "subheading": "perfect jumpsuit romper that will keep you comfy all day",
+            "heading": "Jumpsuits",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/jumpsuits"
+          }
+        },
+        "column_RkXBEK": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "Add a subheading",
+            "heading": "Add a heading",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DEpqdc",
+        "column_gF79R9",
+        "column_3VjhK3",
+        "column_RkXBEK"
+      ],
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "seven-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_section_height": "four-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-press-0": {
+      "type": "section-press",
+      "blocks": {
+        "section-press-0-block-0": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/6509bb375eff79650d8d573c_yAHOO_ee867afc-0063-4ebc-9f38-da667decf813.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_yVfLmn": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/d88cdb2232232b438f1cc8e73038dcf9.jpg",
+            "logo_width": 180
+          }
+        },
+        "section-press-0-block-1": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/buzzfeed-logo-black-transparent.jpg",
+            "logo_width": 180
+          }
+        },
+        "section-press-0-block-2": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/markets-insider-logo-for-website_1013x1013_crop_center_4457d568-2a09-4fc4-adb8-4457fe449c3c.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_4jkhzN": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/8a88e9e6e22b855efb823ad492e8e195_a26322bc-9b74-430b-943c-963f4e332aaa.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_wQmTUF": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/PR_Newswire_Navy_Logo_883e33bf-acb7-4e9d-ae5d-06d61ed1c9ab.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_7wcErN": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/9126c10944ac354f47d585ee668aef26.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_tEAc4t": {
+          "type": "press",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/seeking-alpha-logo.jpg",
+            "logo_width": 70
+          }
+        }
+      },
+      "block_order": [
+        "section-press-0-block-0",
+        "press_yVfLmn",
+        "section-press-0-block-1",
+        "section-press-0-block-2",
+        "press_4jkhzN",
+        "press_wQmTUF",
+        "press_7wcErN",
+        "press_tEAc4t"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": false,
+        "autoplay": true,
+        "duration": 3,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_columns_xDCUrj": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_T33TQN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Influencer_showing_popilush_dress.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/the-shapewear-dress-long-sleeve-mermaid-hem-lace-maxi",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_NANUGX": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MT230211-RD3p-S-babeparis___PLDTC_4.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-off-shoulder-v-neck-ruched-midi-dress?_pos=1&_psq=+OFF+SHOULDER&_ss=e&_v=1.0",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_AVbQqw": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5874_HEIC_JPG_00eb9bf5-f301-4a4c-99e0-6deca4e91979.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.popilush.com\/products\/wide-scoop-neck-slip-long-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_Wy9WgF": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_857d9957-7477-4d66-99fe-79e1eb1adea4.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-lace-slip-split-maxi-dress-1",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_yQX7yh": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/built-in-shapewear-crew-neck-sleeveless-midi-lounge-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_egHYgf": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_beecfbef-42ec-4178-ba33-09f60e5be98c.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/crew-neck-sleeveless-built-in-shapewear-maxi-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_BfdNTi": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_691606e8-ff67-4225-8ad1-bf3130060a43.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/bluetag-cooling-deep-v-neck-ruched-midi-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_bmWGAY": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_1703d482-3471-42e3-866a-fed08544e3bd.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/deep-v-neck-lace-thong-bodysuit",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_pdP4Nk": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_8215bac3-f00a-4868-924a-583e72eb389a.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/built-in-shapewear-slip-midi-lounge-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_YgEPDN": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_6d6a3011-9a7a-49f7-bf77-64228435c6dd.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/built-in-shapewear-deep-v-neck-twisted-shine-maxi-dress",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_T33TQN",
+        "text_block_NANUGX",
+        "text_block_AVbQqw",
+        "text_block_Wy9WgF",
+        "text_block_yQX7yh",
+        "text_block_egHYgf",
+        "text_block_BfdNTi",
+        "text_block_bmWGAY",
+        "text_block_pdP4Nk",
+        "text_block_YgEPDN"
+      ],
+      "custom_css": [
+        ".column-item--image:hover .overlay-none {opacity: 1;}",
+        ".wrapper {width: 100%;}",
+        ".section__header h2 {font-size: 32px;}"
+      ],
+      "settings": {
+        "title": "Styled by the Popilush Community",
+        "align_text": "text-center",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1,
+        "mobile_aspect_ratio": 1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 10
+      }
+    },
+    "section_newsletter_i4qUAF": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>SUBSCRIBE TO ENJOY 10% OFF<\/p><p>Early access to new products and sales.<\/p>",
+        "extra_fields": "name",
+        "button_text": "SUBSCRIBE NOW",
+        "bg_color": "",
+        "image_height": "five-fifty-height",
+        "overlay_opacity": 70,
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_7hyaYx": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Popilush_Community-1.webp",
+        "image_M": "shopify:\/\/shop_images\/Popilush_Community-2.webp",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 18,
+        "padding_bottom": 18,
+        "cable_joint_id": ""
+      }
+    },
+    "section_testimonials_CriYnd": {
+      "type": "section-testimonials",
+      "blocks": {
+        "text_VccJTn": {
+          "type": "text",
+          "settings": {
+            "heading": "We let our reviews speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>29000+ reviews<\/p>",
+            "block_color": "#000000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial_dqjVqA": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I wore this bodysuit paired with jeans to a recent trip to Las Vegas and I felt like a million bucks! It’s so flattering.<\/p>",
+            "customer_name": "Meredyth D.",
+            "subheading": "<p>8 hours ago<\/p>"
+          }
+        },
+        "testimonial_jp4eUJ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>This dress is so flattering!! Fits like a glove.👌🏾<br\/> The shapewear holds you in just right, the material is smooth and soft like butter! A must have in your closet. Just go get it!!!<\/p>",
+            "customer_name": "Barbie W.",
+            "subheading": "<p>12 hours ago<\/p>"
+          }
+        },
+        "testimonial_3YFgbz": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Bought this for a Latin dance competition and it fit and felt perfect! Everything stayed where it should! Sizes run true to the measurements so follow those! Would give it more stars if possible!<\/p>",
+            "customer_name": "Alexandra B.",
+            "subheading": "<p>18 hours ago<\/p>"
+          }
+        },
+        "testimonial_4R86W4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Love this dress so much! It's Sexy, Comfy and I always feel like a beauty in this dress. It's a must have!<\/p>",
+            "customer_name": "SHARRON MILLER",
+            "subheading": "<p>2 hours ago<\/p>"
+          }
+        },
+        "testimonial_caJDH3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Super cute and comfy.! Holds in my tummy area and supports the ta-ta's. I got the medium in size and fits great and confident wearing it with my mom bod. My measurements are 43\" hips, 31\" waist and 38\" bust.<\/p>",
+            "customer_name": "Emily Alotta",
+            "subheading": "<p>3 hours ago<\/p>"
+          }
+        },
+        "testimonial_7DwtaY": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>It looks amazing, can’t wait to see how it will look on my wife, I think it gives confidence, it is definitely sexy. It Will look great with her skirts. Hope there is some stretch in it.<\/p>",
+            "customer_name": "Frank",
+            "subheading": "<p>Apr. 27th<\/p>"
+          }
+        },
+        "testimonial_bznh9A": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Perfect figure flattering dress - Love it and so did my husband.❤️<\/p>",
+            "customer_name": "Nicole Shambley",
+            "subheading": "<p>Apr. 27th<\/p>"
+          }
+        },
+        "testimonial_i7yJFR": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I was a little nervous about what size to get, so I sized up, and it ended up fitting like a gloveee! Fabric is soft, and breathes so well. Held me in all the right places!<\/p>",
+            "customer_name": "Nikki DeFaux",
+            "subheading": "<p>Apr. 26th<\/p>"
+          }
+        },
+        "testimonial_LEDkVA": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Beautiful dress with satisfactory material. The body suit is perfect. I have made several purchases from this company… highly recommended.<\/p>",
+            "customer_name": "Diana Ferry ",
+            "subheading": "<p>Apr. 23rd<\/p>"
+          }
+        },
+        "testimonial_xfWUNh": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>The color of this dress is vibrant, it instantly lifts your mood, and the flowing skirt adds a touch of dynamism, ideal for summer<\/p>",
+            "customer_name": "Ralaine C Ramer",
+            "subheading": "<p>Apr. 21st<\/p>"
+          }
+        },
+        "testimonial_zg6twi": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I love love the two piece!!! It holds everything in place but is comfortable and it accentuates  your curves. I wish this came in white or a tan color 😉<\/p>",
+            "customer_name": "MARISSA HAMBLY ",
+            "subheading": "<p>Apr. 20th<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VccJTn",
+        "testimonial_dqjVqA",
+        "testimonial_jp4eUJ",
+        "testimonial_3YFgbz",
+        "testimonial_4R86W4",
+        "testimonial_caJDH3",
+        "testimonial_7DwtaY",
+        "testimonial_bznh9A",
+        "testimonial_i7yJFR",
+        "testimonial_LEDkVA",
+        "testimonial_xfWUNh",
+        "testimonial_zg6twi"
+      ],
+      "custom_css": [
+        ".section__header h2 {font-size: 32px;}"
+      ],
+      "settings": {
+        "title": "Love notes from our customers",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "testimonial_block_color": "",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 50,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_Vp9m7d": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/006b5b6830c5ea8be9154dc3f60a5b2b.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "cable_joint_id": ""
+      }
+    },
+    "section_sticky_images_and_text_6Rkx9e": {
+      "type": "section-sticky-images-and-text",
+      "blocks": {
+        "slide_GBTDiy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bcc2f450b16a86aab1239d9176d9c1dd.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/bcc2f450b16a86aab1239d9176d9c1dd.jpg",
+            "subheading": "",
+            "title": "<h1>All-in-one<\/h1>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<h6>Pack light! This shapewear acts like an undergarment and outfit in one, reducing the number of clothes you need to bring.<\/h6>",
+            "text_size": 130,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_kwDWUX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7777_0178fc83-a6c9-4c37-a8c3-a0e81224788e.gif",
+            "image_mobile": "shopify:\/\/shop_images\/7777_0178fc83-a6c9-4c37-a8c3-a0e81224788e.gif",
+            "subheading": "",
+            "title": "<h1>Create a confident figure<\/h1>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<h6>Look and feel your best with a shapewear piece designed to accentuate your hourglass curves.<\/h6>",
+            "text_size": 130,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_BxcBH7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22222_2f5ebc23-2b79-475d-8938-c6a76a2aa88f.gif",
+            "image_mobile": "shopify:\/\/shop_images\/22222.gif",
+            "subheading": "",
+            "title": "<p>Smooth and sculpt your curves<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 130,
+            "content": "<p>Popilush shapewear slims your tummy and lifts your hips for a flattering silhouette without the need for a separate bra<\/p>",
+            "text_size": 130,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_GBTDiy",
+        "slide_kwDWUX",
+        "slide_BxcBH7"
+      ],
+      "disabled": true,
+      "settings": {
+        "scroll_direction": "horizontal",
+        "text_alignment": "right",
+        "image_position": "is-reversed",
+        "space_around_images": true,
+        "image_width": "standard",
+        "aspect_ratio_desktop": 1,
+        "aspect_ratio_mobile": 1,
+        "show_single_text": false,
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 3%, rgba(223, 223, 223, 1) 100%)",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_row_zDGq4F": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_hEHDAt": {
+          "type": "text",
+          "settings": {
+            "icon_name": "package",
+            "icon_image": "shopify:\/\/shop_images\/PC-07.svg",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>60-day free exchanges & no-hassle returns<\/p>"
+          }
+        },
+        "text_NyV9kC": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/PC-04.svg",
+            "title": "Free Shipping",
+            "text": "<p>Free shipping on orders over $80 in the U.S.<\/p>"
+          }
+        },
+        "text_3B7jyn": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "icon_image": "shopify:\/\/shop_images\/PC-05.svg",
+            "title": "Express Shipping",
+            "text": "<p>Delivery within 2-5 business days in the U.S.<\/p>"
+          }
+        },
+        "text_MK96MA": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "icon_image": "shopify:\/\/shop_images\/PC-06.svg",
+            "title": "Student Discount",
+            "text": "<p>Enjoy 15% off your order<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hEHDAt",
+        "text_NyV9kC",
+        "text_3B7jyn",
+        "text_MK96MA"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "section-slideshow-0",
+    "section_tab_collections_VaThWd",
+    "section-promotion-row-0",
+    "section_collection_pTrDxf",
+    "section_collection_kXyRX8",
+    "section_collection_eVbnwF",
+    "section-sticky-images-and-text-0",
+    "section_video_j9bA7C",
+    "section-marquee-1",
+    "section-divider-0",
+    "section-grid-2",
+    "section_banner_text_columns_UbK74j",
+    "section-press-0",
+    "section_columns_xDCUrj",
+    "section_newsletter_i4qUAF",
+    "section_image_7hyaYx",
+    "section_testimonials_CriYnd",
+    "section_image_Vp9m7d",
+    "section_sticky_images_and_text_6Rkx9e",
+    "section_icons_row_zDGq4F"
+  ]
+}

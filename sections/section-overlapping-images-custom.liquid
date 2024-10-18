@@ -1,0 +1,688 @@
+{% style %}
+  .textImagesCustom {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .section-overlapping-images-custom {
+      display: flex;
+      margin: 10px 0;
+      justify-content:center;
+  }
+
+
+  .content-box-right {
+      width: 50%;
+  }
+
+  .content-box-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .text-container {
+      width: 400px;
+  }
+
+  #section-id-{{ section.id }} .section-overlapping-images-custom {
+      background-color: {{section.settings.background_color}};
+  }
+  .text-title {
+    bottom: 12px;
+  }
+  .text-content {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    .textImagesCustom .section-overlapping-images-custom:nth-child(2n) .content-box-left{
+      order:2;
+    }
+    .textImagesCustom .section-overlapping-images-custom:nth-child(2n) .content-box-right{
+      order:1;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+     .textImagesCustom{
+       padding-top:15px;
+     }
+      .section-overlapping-images-custom {
+          flex-direction: column;
+      }
+
+      .content-box-left,
+      .content-box-right {
+          width: 100%!important;
+      }
+
+      .text-container {
+          width: 100%;
+          padding: 20px;
+      }
+
+      .section-overlapping-images-custom {
+          display: flex;
+          padding: 0;
+      }
+  }
+  .only-m {
+    display: none;
+  }
+  .only-pc {
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    .only-pc {
+    display: none;
+    }
+    .only-m {
+      display: block;
+    }
+  }
+{% endstyle %}
+
+<div class="textImagesCustom container" id="section-id-{{ section.id }}">
+  {%- for i in (1..12) -%}
+    {% assign image_variable = 'image' | append: i %}
+    {% assign image_variable_m = 'imageM' | append: i %}
+
+    {% assign title_variable = 'title' | append: i %}
+    {% assign content_variable = 'content' | append: i %}
+    {% assign title_name = section.settings[title_variable] %}
+    {% assign content_name = section.settings[content_variable] %}
+    {% if section.settings[image_variable] or section.settings[image_variable_m] %}
+      <section class="section-overlapping-images-custom">
+        {% if title_name == blank and content_name == blank %}
+          {% assign img_width = '100%'  %}
+        {% else %}
+          {% assign img_width = '50%'  %}
+        {% endif %}
+        <div class="content-box-left" style="width: {{ img_width }}">
+          {% if section.settings[image_variable] %}
+            <img {% if section.settings[image_variable_m] != blank %}
+              class="only-pc"
+            {% endif %} src="{{ section.settings[image_variable] | image_url: width: 3000 }}" alt="" width='100%' height="100%" >
+          {% endif %}
+          {% if section.settings[image_variable_m] %}
+            <img class="only-m" src="{{ section.settings[image_variable_m] | image_url: width: 3000 }}" alt="" width='100%' height="100%" >
+          {% endif %}
+        </div>
+        {% if title_name != blank or content_name != blank %}
+          <div class="content-box-right" >
+            <div class="text-container" >
+              <div class="image-with-text-block__text-container">
+                <h3 class="text-title">{{ title_name }}</h3>
+                <div class="text-content">{{ content_name }}</div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      </section>
+    {% endif %}
+  {%- endfor -%}
+</div>
+{%- for tag in product.tags -%}
+  {%- if tag contains 'bodysuit details 1' -%}
+    {%- assign bodysuitDetails1 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'bodysuit details 2' -%}
+    {%- assign bodysuitDetails2 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'bodysuit details 3' -%}
+    {%- assign bodysuitDetails3 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'bodysuit details 4' -%}
+    {%- assign bodysuitDetails4 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'swimsuit details 1' -%}
+    {%- assign swimsuitdetails1 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'MT230468 details' -%}
+    {%- assign MT230468details = true -%}
+  {%- endif -%}
+  {%- if tag contains 'dress details 1' -%}
+    {%- assign dressdetails1 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'dress details 2' -%}
+    {%- assign dressdetails2 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'dress details 3' -%}
+    {%- assign dressdetails3 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'toilet diagram 1' -%}
+    {%- assign toiletdiagram1 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'toilet diagram 2' -%}
+    {%- assign toiletdiagram2 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'Jumpsuits details 1' -%}
+    {%- assign JumpsuitsDetails1 = true -%}
+  {%- endif -%}
+  {%- if tag contains 'Jumpsuits details 2' -%}
+    {%- assign JumpsuitsDetails2 = true -%}
+  {%- endif -%}
+{%- endfor -%}
+{% if bodysuitDetails1 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/83a83d0611c72dc9f7e83956b48fb2aa.gif?v=1719885818"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/iwEdAqNnaWYDAQTRBLEF0QZHBrCb6l_mL9-jPAY64RHBo3oBB9Ia4ik4CAAJomltCgAL0gCO2M0.gif_720x720q90.gif?v=1716535492"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if bodysuitDetails2 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1_ae6164d9-f674-47f1-a61a-16a3dc20f559.gif?v=1718603809" alt="" >
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2_52c0a025-6e1b-4d31-89a4-f9cb624927f7.gif?v=1718603803" alt="" >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if bodysuitDetails3 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1_01_27c44ce4-071a-4ea9-9960-1e000141ae88.gif?v=1718604012" alt="">
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2-2_0d257848-6422-42e2-b8c2-0d4995c33bdd.gif?v=1718603993" alt="">
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if bodysuitDetails4 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1-3_01_72a22c5e-a4fa-434f-b339-b85aac9b34cf.gif?v=1718604094" alt="">
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2-3_2474ebdd-6483-44d6-8b4a-b6e8feaf7d05.gif?v=1718604088" alt="">
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if swimsuitdetails1 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2000_800.jpg?v=1715848105" alt="">
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1200_1600.jpg?v=1715848110" alt="">
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if MT230468details %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/MT230468-_2000-800_3f125c74-0bce-46f4-b7d9-104de3148a67.jpg?v=1715848111"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/MT230468-_1200-1600_3229675c-f4ff-4a83-b383-3fdd43227b78.jpg?v=1715848119"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if dressdetails1 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/7-17.gif?v=1721179223" alt="">
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/7-17-2.gif?v=1721179237" alt="">
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if dressdetails2 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2_af16a8d1-59eb-4d29-be9f-521bc0826548.jpg?v=1715848082"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2_2_6e6975a8-e6da-45b8-b3eb-d8cf6cdb2587.jpg?v=1715848096"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if dressdetails3 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/20240508-_2.gif?v=1715848124" alt="">
+      </div>
+      <div class="only-m">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/20240508-_2-APP.gif?v=1715848123" alt="">
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if toiletdiagram1 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1_2_f7221e6a-d9a1-43cf-a52f-ecdb83c055b4.jpg?v=1723596164"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/5_c4fb2019-1b85-4599-abb3-0ddab85451f4.jpg?v=1723596164"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if toiletdiagram2 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/103_2000.800.jpg?v=1716270232"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/103_2_273670cc-7768-488a-9542-fe0fa432cc88.jpg?v=1715848100"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if JumpsuitsDetails1 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/0515-MT220271-_-PC_5c9cc774-d339-4e48-b514-57aab2d947cf.gif?v=1716983379"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/0515-MT220271-_-APP_fb786e96-56c1-4bff-b6a3-cfd976acaab9.gif?v=1716536521"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% if JumpsuitsDetails2 %}
+  <section
+    id="Image--{{ unique }}"
+    class="section-padding section-image{% if image_stretch %} section-image--stretch{% endif %} section-image--{{ image_position }}{% if bg_color_secondary %} bg-secondary{% endif %}"
+    data-section-id="{{ unique }}"
+    data-section-type="image"
+  >
+    <div class="wrapper">
+      <div class="only-pc">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/0515-MT220271-_-PC_cc7b9d1f-53bb-4484-92f8-1cb028a11200.gif?v=1717053732"
+          alt=""
+        >
+      </div>
+      <div class="only-m">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/0515-MT220271-_-APP_23ef4800-0960-4960-b754-b10e47416434.gif?v=1716536530"
+          alt=""
+        >
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% schema %}
+{
+  "name": "custom image with text",
+  "class": "section-overlapping-images-custom-main",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "Heading1"
+    },
+    {
+      "type": "richtext",
+      "id": "content1",
+      "label": "content1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Heading2"
+    },
+    {
+      "type": "richtext",
+      "id": "content2",
+      "label": "content2"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "Heading3"
+    },
+    {
+      "type": "richtext",
+      "id": "content3",
+      "label": "content3"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "Heading4"
+    },
+    {
+      "type": "richtext",
+      "id": "content4",
+      "label": "content4"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "Heading5"
+    },
+    {
+      "type": "richtext",
+      "id": "content5",
+      "label": "content5"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "label": "Heading6"
+    },
+    {
+      "type": "richtext",
+      "id": "content6",
+      "label": "content6"
+    },
+    {
+      "type": "text",
+      "id": "title7",
+      "label": "Heading7"
+    },
+    {
+      "type": "richtext",
+      "id": "content7",
+      "label": "content7"
+    },
+    {
+      "type": "text",
+      "id": "title8",
+      "label": "Heading8"
+    },
+    {
+      "type": "richtext",
+      "id": "content8",
+      "label": "content8"
+    },
+    {
+      "type": "text",
+      "id": "title9",
+      "label": "Heading9"
+    },
+    {
+      "type": "richtext",
+      "id": "content9",
+      "label": "content9"
+    },
+    {
+      "type": "text",
+      "id": "title10",
+      "label": "Heading10"
+    },
+    {
+      "type": "richtext",
+      "id": "content10",
+      "label": "content10"
+    },
+    {
+      "type": "text",
+      "id": "title11",
+      "label": "Heading11"
+    },
+    {
+      "type": "richtext",
+      "id": "content11",
+      "label": "content11"
+    },
+    {
+      "type": "text",
+      "id": "title12",
+      "label": "Heading12"
+    },
+    {
+      "type": "richtext",
+      "id": "content12",
+      "label": "content12"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "images1"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM1",
+      "label": "M-images1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "images2"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM2",
+      "label": "M-images2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "images3"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM3",
+      "label": "M-images3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "images4"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM4",
+      "label": "M-images4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "images5"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM5",
+      "label": "M-images5"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6",
+      "label": "images6"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM6",
+      "label": "M-images6"
+    },
+    {
+      "type": "image_picker",
+      "id": "image7",
+      "label": "images7"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM7",
+      "label": "M-images7"
+    },
+    {
+      "type": "image_picker",
+      "id": "image8",
+      "label": "images8"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM8",
+      "label": "M-images8"
+    },
+    {
+      "type": "image_picker",
+      "id": "image9",
+      "label": "images9"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM9",
+      "label": "M-images9"
+    },
+    {
+      "type": "image_picker",
+      "id": "image10",
+      "label": "images10"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM10",
+      "label": "M-images10"
+    },
+    {
+      "type": "image_picker",
+      "id": "image11",
+      "label": "images11"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM11",
+      "label": "M-images11"
+    },
+    {
+      "type": "image_picker",
+      "id": "image12",
+      "label": "images12"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageM12",
+      "label": "M-images12"
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom image with text",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

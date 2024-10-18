@@ -1,0 +1,481 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_slideshow_wUwzXp": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_mAC6iY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_de9ce522-0906-4626-bd50-7442805476c5.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/05.jpg",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mAC6iY"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "original-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_video_Qyibhk": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "seven-fifty-height",
+        "mobile_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6e29c7f230d24949ab9b7b2f9086e7fa.mp4",
+        "video_link": "",
+        "image": "shopify:\/\/shop_images\/shop___1_43796f5d-4676-4711-8f4b-3f69e61d8eff.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_image_with_text_3ALwPg": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text {margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/5_5_1.gif",
+        "image_mobile": "shopify:\/\/shop_images\/5_5_1.gif",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<h1><em>Live Lush<\/em><\/h1>",
+        "heading_size": 200,
+        "content": "<p>Lush is a feeling from the soft caress of The Popilush Dress as it gently lifts and shapes to the confidence boost that comes as you catch your reflection in the mirror. But more than that, lush is a lifestyle.<\/p><p>What's in bloom for us at Popilush? Something beautiful, big and oh-so lush Check back tomorrow for the full video!<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_LkHFxM": {
+      "type": "section-image-with-text",
+      "custom_css": [
+        ".image-with-text {margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify:\/\/shop_images\/live_lush_shapewear_featured_1.gif",
+        "image_mobile": "shopify:\/\/shop_images\/live_lush_shapewear_featured_1.gif",
+        "use_full_size": true,
+        "subheading": "",
+        "title": "<p><em>Live Lush<\/em><\/p>",
+        "heading_size": 200,
+        "content": "<p>Lush is a feeling—from the soft caress of The Popilush Dress as it gently lifts and shapes to the confidence boost that comes as you catch your reflection in the mirror. But more than that, lush is a lifestyle.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_3bbACW": {
+      "type": "section-image-with-text",
+      "custom_css": [
+        ".image-with-text {margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify:\/\/shop_images\/live_lush_shapewear_featured_2.gif",
+        "image_mobile": "shopify:\/\/shop_images\/live_lush_shapewear_featured_2.gif",
+        "use_full_size": true,
+        "subheading": "",
+        "title": "<p><em>Built-in Shapewear<\/em><\/p>",
+        "heading_size": 130,
+        "content": "<p>We've incorporated shapewear into our dresses to tailor elegant curves for women of all body types. This design ensures comfort and breathability while providing ample support, allowing you to feel confident and beautiful at all times.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_3N6TPm": {
+      "type": "section-image-with-text",
+      "custom_css": [
+        ".image-with-text {margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify:\/\/shop_images\/live_lush_shapewear_featured_3.gif",
+        "image_mobile": "shopify:\/\/shop_images\/live_lush_shapewear_featured_3.gif",
+        "use_full_size": true,
+        "subheading": "",
+        "title": "<p><em>You can always trust Popilush.<\/em><\/p>",
+        "heading_size": 130,
+        "content": "<p>At every moment of your life, whether it's a high or a low, Popilush will be your most loyal witness and powerful supporter.<\/p><p>Providing support to the body, confidence to the soul. Together with Popilush, reap the best version of yourself.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_products_with_image_4XpCqx": {
+      "type": "section-products-with-image",
+      "disabled": true,
+      "settings": {
+        "collection": "best-seller-old240813",
+        "product_list": [
+          "bluetag-cooling-built-in-shapewear-one-shoulder-ruched-midi-dress",
+          "bluetag-cooling-built-in-shapewear-ruched-sheer-mesh-maxi-dress",
+          "bluetag-cooling-built-in-shapewear-tube-maxi-dress",
+          "bluetag-cooling-square-neck-ruched-bodysuit"
+        ],
+        "products_layout": "split-left",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": "2",
+        "columns_mobile": "2",
+        "image": "shopify:\/\/shop_images\/2023_7_15_-SY230007-BU5p-L-im._.soniamahmoudieh-_4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2024_4_18_-MT230467-PK5p-XL-PLDTC-_80-mrs.irregular-_1.jpg",
+        "overlay_opacity": 10,
+        "text_position": "middle-center",
+        "text_color": "text-dark",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_i7KCpx": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (max-width: 767px) {.image-with-text__image {padding-top: 33%; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Media with text",
+        "title_size_pc": 21,
+        "title_size_m": 17,
+        "text": "<p>Use this text to share information about your store with your customers. Describe product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size_pc": 16,
+        "text_size_m": 16,
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "text_width": 40,
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6e29c7f230d24949ab9b7b2f9086e7fa.mp4",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "alternate_bg_color": false
+      }
+    },
+    "section_image_7mGKi9": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop-04_c30e4856-dad7-43a4-955c-8ba0886ddcf0.jpg",
+        "image_M": "shopify:\/\/shop_images\/shop-04_c30e4856-dad7-43a4-955c-8ba0886ddcf0.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b5058786-b763-4ab8-b375-d96e3dbab791": {
+      "type": "section-grid",
+      "blocks": {
+        "template--21524360200470__b5058786-b763-4ab8-b375-d96e3dbab791-image-1": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "{{ collection.image }}",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__b5058786-b763-4ab8-b375-d96e3dbab791-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
+      "blocks": {
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>{{ collection.title }}<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1",
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "position": 5,
+            "width": "half",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#fbcaff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f5f4f1",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "first-open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "collection_describe_PprAdM": {
+      "type": "collection-describe",
+      "settings": {}
+    },
+    "section_newsletter_gALjaM": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_slideshow_wUwzXp",
+    "section_video_Qyibhk",
+    "section_image_with_text_3ALwPg",
+    "section_image_with_text_LkHFxM",
+    "section_image_with_text_3bbACW",
+    "section_image_with_text_3N6TPm",
+    "section_products_with_image_4XpCqx",
+    "image_with_text_i7KCpx",
+    "section_image_7mGKi9",
+    "b5058786-b763-4ab8-b375-d96e3dbab791",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "subcollections",
+    "main",
+    "collection_describe_PprAdM",
+    "section_newsletter_gALjaM"
+  ]
+}

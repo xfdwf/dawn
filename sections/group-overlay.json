@@ -1,0 +1,41 @@
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "popup-0": {
+          "type": "popup-with-image",
+          "disabled": true,
+          "settings": {
+            "position": "center-center",
+            "height": "four-fifty-height",
+            "title": "Sign up for 10% off",
+            "text": "<p>Let’s keep in touch. We promise we won’t bug you too much - just promotions and new releases.<\/p>",
+            "show_newsletter_form": true,
+            "extra_fields": "",
+            "button_text": "",
+            "trigger": "delayed_10",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile",
+            "bg_color": "#ffffff",
+            "text_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "popup-0"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "popup"
+  ]
+}

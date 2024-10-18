@@ -1,0 +1,325 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_tags": true,
+        "show_share_button": true,
+        "text": "Share",
+        "bg_color_secondary": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "recommended-posts": {
+      "type": "section-recommended-posts",
+      "disabled": true,
+      "settings": {
+        "posts_type": "paging",
+        "title": "",
+        "default_color": "accent",
+        "blog_style": "photo",
+        "image_aspect_ratio": 1.3,
+        "show_rss_icon": false,
+        "show_date": true,
+        "show_author": true,
+        "show_tags": true,
+        "show_comments_count": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_dDeD6j": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UYnLRY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_dQi9Jw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Nx3PWy": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_MBMVAb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UYnLRY",
+        "heading_dQi9Jw",
+        "text_Nx3PWy",
+        "button_MBMVAb"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/bc9e525463566466932dba9f94c3f259_5c93c94d-3383-4ac6-a397-91fc3fe79853.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/banner_4_607bb08d-f613-47da-9ebc-84a5b7d4cdee.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_YcG3Uk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_gXKhqn": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h2>Step into the Spotlight: Popilush's New Shapewear Dresses for the Ultimate Party Look<\/h2>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_UchtEa": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yMMYbp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WILLIAMSBURG, Va., Dec. 4, 2023 \/PRNewswire\/ -- As the festive season of Christmas and New Year approaches, the well-known fashion brand Popilush is thrilled to introduce its latest collection of shapewear dresses. These dresses are crafted to help every woman stand out at year-end celebrations. Prioritizing comfort, style, and adaptability, these dresses are poised to transform the way women experience party attire.<\/p><p>Popilush understands the diverse needs of women attending a range of themed parties. The brand's latest collection is crafted to assist in creating the most captivating ensembles, be it for a formal dinner, a casual gathering, or a glamorous New Year's Eve celebration. The designs exude simplicity and elegance, highlighting the multifaceted allure of women. The comfortable quality ensures confident self-expression.<\/p><p>The collection features three unique dresses, each crafted with high-quality, shimmering fabric that adds a touch of sophistication to any party atmosphere. The fabric, a blend of 86% nylon and 14% imported Korean spandex, is knitted to provide a softer, more comfortable fit. The imported spandex ensures excellent softness, feel, and elasticity, allowing the wearer to move freely and comfortably.<\/p><p>Each dress features an inbuilt shapewear mesh that effectively sculpts the wearer's waistline. The leg mesh design helps shape women's legs, while the overlapping crotch design makes restroom visits easier. The crotch area is cotton-lined for added comfort, eliminating the need for underwear. The bust area is designed to provide better coverage and support, with removable padding for added convenience. The design also minimizes visible shapewear lines, ensuring a seamless look.<\/p>",
+            "size": 100
+          }
+        },
+        "button_NfEqGQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gXKhqn",
+        "heading_UchtEa",
+        "text_yMMYbp",
+        "button_NfEqGQ"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 26,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_YmeQKg": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/1_8928982e-2b0a-428a-81fb-f6f721cea89b.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1_8928982e-2b0a-428a-81fb-f6f721cea89b.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>The <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-slip-shine-maxi-dress?variant=42833847353520\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear Slip Shine Maxi Dress <\/strong><\/span><\/a>boasts an elegant design, featuring a one-shoulder detail that adds a touch of allure and sophistication to any ensemble. This versatile piece pairs effortlessly with a blouse or cardigan, facilitating an easy transition from a professional work setting to a lively party atmosphere. Its unique design and adaptability render it an essential addition to any wardrobe.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-slip-shine-maxi-dress?variant=42833847353520",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_mgjLgE": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/2_06fd0537-2174-4a17-98b9-f3ceedce959d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2_06fd0537-2174-4a17-98b9-f3ceedce959d.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>The <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-v-neck-long-sleeve-shine-maxi-dress?_pos=1&_psq=%20MT230280&_ss=e&_v=1.0&variant=42900982988976\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear Long Sleeve Cut-Out Back Shine Maxi Dress<\/strong><\/span><\/a> is beautifully designed with a V-neckline, a feature that serves to elongate the wearer's neck. This design element not only enhances the overall aesthetic of the dress but also imparts an elegant and sophisticated look to the wearer.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-v-neck-long-sleeve-shine-maxi-dress?_pos=1&_psq=%20MT230280&_ss=e&_v=1.0&variant=42900982988976",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_DBkPFb": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/3_67a412ff-d298-4581-bdba-f655aaca27c4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/3_67a412ff-d298-4581-bdba-f655aaca27c4.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>The <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-ruched-long-sleeve-split-midi-dress?_pos=1&_psq=%20MT230316&_ss=e&_v=1.0&variant=42779411742896\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear Ruched Long Sleeve Split Midi Dress<\/strong><\/span><\/a>, crafted from high-stretch nylon fabric, ensures a comfortable, breathable fit. Its waist pleat design offers a visually slimming effect, while a slit at the hem provides a relaxed, non-stuffy feel. The dress also boasts a butt-lifting structure to accentuate the wearer's curves.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-ruched-long-sleeve-split-midi-dress?_pos=1&_psq=%20MT230316&_ss=e&_v=1.0&variant=42779411742896https:\/\/www.popilush.com\/products\/built-in-shapewear-ruched-long-sleeve-split-midi-dress?_pos=1&_psq=%20MT230316&_ss=e&_v=1.0&variant=42779411742896",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_WdpYmW": {
+      "type": "section-text",
+      "blocks": {
+        "text_k4hE9n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These shapewear dresses from Popilush are more than options for party look, they are also tools of empowerment, designed to help women unleash their inner diva and radiate confidence at year-end celebrations. The focus of these dresses extends beyond enhancing physical appearance, aiming to boost self-esteem and celebrate femininity. With the arrival of these Popilush shapewear dresses, women everywhere are invited to shine bright, make a statement, and turn heads at their holiday parties.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_k4hE9n"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 18,
+        "padding_bottom": 8
+      }
+    },
+    "section_text_pmrYMi": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_k3tq7F": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_HywPaH": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>About Popilush<\/h2>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_c9QEFM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush is an empowering, inviting, and fashion-forward shapewear line for women. Their mission is to highlight what women of all shapes and sizes love about their bodies and to promote comfortable confidence. Popilush gives all women the freedom and confidence to be themselves every single day with high-quality shapewear that comes in a diverse range of sizes and is exceptionally affordable for the high level of quality. While caring for its customers, the brand is also committed to caring for the environment. The brand uses rapidly biodegradable textiles for its clothing and uses less plastic when packaging them.<\/p><p>To learn more about Popilush and discover its modern shapewear products for women of every size and color, please visit <a href=\"http:\/\/www.popilush.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>www.popilush.com<\/strong><\/span><\/a>, or engage with the Popilush community on Instagram <a href=\"https:\/\/www.instagram.com\/popilush\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>@popilush<\/strong><\/span><\/a>.<\/p><p>View original content to download multimedia: <a href=\"https:\/\/www.prnewswire.com\/news-releases\/step-into-the-spotlight-popilushs-new-shapewear-dresses-for-the-ultimate-party-look-302004375.html\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>https:\/\/www.prnewswire.com\/news-releases\/step-into-the-spotlight-popilushs-new-shapewear-dresses-for-the-ultimate-party-look-302004375.html<\/strong><\/span><\/a><\/p><p>SOURCE Popilush LLC<\/p><p>NOTE: This content is not written by or endorsed by \"WYTV\", its advertisers, or Nexstar Media Inc.<\/p><p>For inquiries or corrections to Press Releases, please reach out to <a href=\"mailto:prncs@cision.com\"><span style=\"text-decoration:underline\"><strong>Cision<\/strong><\/span><\/a>.Posted by Cision PR Newswire<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k3tq7F",
+        "heading_HywPaH",
+        "text_c9QEFM"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommended-posts",
+    "section_banner_image_dDeD6j",
+    "section_text_YcG3Uk",
+    "section_image_with_text_YmeQKg",
+    "section_image_with_text_mgjLgE",
+    "section_image_with_text_DBkPFb",
+    "section_text_WdpYmW",
+    "section_text_pmrYMi"
+  ]
+}

@@ -1,0 +1,605 @@
+<!doctype html>
+<html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0,maximum-scale=5.0">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com" crossorigin>
+    {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
+    {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+    {% comment %} <link rel="preload" as="image" href="{{ 'loading.svg' | asset_url }}"> {% endcomment %}
+    {% comment %} {%- liquid
+      assign loading_appearance = settings.loading_appearance
+      assign image_width = settings.loading_image_width
+      assign image = settings.loading_image
+    -%}
+    {%- unless loading_appearance == 'never' -%}
+      {%- if image != blank -%}
+        {%- assign image_height = image_width | divided_by: image.aspect_ratio | round -%}
+        {%- capture preload_image_size -%}{{ image_width }}x{{ image_height }}{%- endcapture -%}
+        <link rel="preload" as="image" href="{{ image | img_url: preload_image_size }}" data-preload="{{ preload_image_size }}"
+        >
+      {%- endif -%}
+
+      {%- style -%}
+        :root { --loader-image-size: {{ image_width }}px; }
+        {%- if image == blank -%}
+          :root { --loader-image-size: 320px; }
+        {%- endif -%}
+        html:not(.is-loading) .loading-overlay { opacity: 0; visibility: hidden; pointer-events: none; }
+        .loading-overlay { position: fixed; top: 0; left: 0; z-index: 99999; width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--bg); transition: opacity 0.3s ease-out, visibility 0s linear 0.3s; }
+        .loading-overlay .loader__image--fallback { width: 320px; height: 100%; background: var(--loader-image) no-repeat center center/contain; }
+        .loader__image__holder { position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-size: 0; display: flex; align-items: center; justify-content: center; animation: pulse-loading 2s infinite ease-in-out; }
+        .loader__image { max-width: {{ image_width }}px; height: auto; object-fit: contain; }
+      {%- endstyle -%}
+
+      <script>
+        const loadingAppearance = {{ loading_appearance | json }};
+        const loaded = sessionStorage.getItem('loaded');
+
+        if (loadingAppearance === 'once') {
+          if (loaded === null) {
+            sessionStorage.setItem('loaded', true);
+            document.documentElement.classList.add('is-loading');
+          }
+        } else {
+          document.documentElement.classList.add('is-loading');
+        }
+      </script>
+    {%- endunless -%} {% endcomment %}
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {%- endif -%}
+
+    {% comment %} Title and description {% endcomment %}
+    <title>
+      {{ page_title }}
+      {% if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif %}
+      {% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+      {% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    </title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- else -%}
+      <meta name="description" content="{{ shop.description | escape }}">
+    {%- endif -%}
+
+    {%- unless settings.type_base_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_base_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.type_heading_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_heading_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'css-variables' -%}
+    {{- 'theme.css' | asset_url | stylesheet_tag -}}
+    {{- 'swiper-bundle.min.css' | asset_url | stylesheet_tag -}}
+    <style>
+      {% comment %} LCP optimization {% endcomment %}
+      /* .slider--zoom-out.slider--no-cached-images.flickity-enabled .is-selected .slide__image__inner,.slider--no-animation div.slide__image__inner{
+        transform: scale(1) ;
+      } */
+     {% if template.name != 'product' %}
+        .image--simple img{
+          opacity:1 !important;
+          transition:none;
+        }
+      {% else %}
+        @media only screen and (min-width: 767px){
+          .image--simple img{
+            opacity:1 !important;
+            transition:none;
+          }
+        }
+      {% endif %}
+    </style>
+    
+    <script src="{{ 'custom.js' | asset_url }}" async load></script>
+
+    <script
+      type="text/javascript"
+      load
+    >
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      let root = '{{ routes.root_url }}';
+      if (root[root.length - 1] !== '/') {
+        root = `${root}/`;
+      }
+
+      window.theme = {
+        routes: {
+          root: root,
+          cart_url: {{ routes.cart_url | json }},
+          cart_add_url: {{ routes.cart_add_url | json }},
+          cart_change_url: {{ routes.cart_change_url | json }},
+          shop_url: {{ shop.url | json }},
+          searchUrl: '{{ routes.search_url }}',
+          predictiveSearchUrl: '{{ routes.predictive_search_url }}',
+          product_recommendations_url: {{ routes.product_recommendations_url | json }}
+        },
+        assets: {
+          photoswipe: '{{ "photoswipe.js" | asset_url }}',
+          smoothscroll: '{{ "smoothscroll.js" | asset_url }}',
+          no_image: "{{ image | img_url: '1024x' }}",
+          swatches: '{{ "swatches.json" | asset_url }}',
+          base: "{{ 'nothing.jpg' | asset_url | split: 'nothing.jpg' | first }}"
+        },
+        strings: {
+          add_to_cart: {{ "products.product.add_to_cart" | t | json }},
+          cart_acceptance_error: {{ "cart.general.accept_terms" | t | json }},
+          cart_empty: {{ "cart.general.empty" | t | json }},
+          cart_price: {{ "cart.label.price" | t | json }},
+          cart_quantity: {{ "cart.label.quantity" | t | json }},
+          cart_items_one: {{ "cart.label.items_with_count.one" | t | json }},
+          cart_items_many: {{ "cart.label.items_with_count.other" | t | json }},
+          cart_title: {{ "cart.general.title" | t | json }},
+          cart_total: {{ "cart.label.total" | t | json }},
+          continue_shopping: {{ "cart.general.continue_shopping" | t | json }},
+          free: {{ 'products.product.free' | t | json }},
+          limit_error: {{ "cart.general.limit_error" | t | json }},
+          preorder: {{ "products.product.preorder" | t | json }},
+          remove: {{ 'cart.general.remove' | t | json }},
+          sale_badge_text: {{ "products.product.sale" | t | json }},
+          saving_badge: {{ "products.product.save_badge_html" | t | json }},
+          saving_up_to_badge: {{ "products.product.save_badge_up_to_html" | t | json }},
+          sold_out: {{ "products.product.sold_out" | t | json }},
+          subscription: {{ "products.product.subscription" | t | json }},
+          unavailable: {{ "products.product.unavailable" | t | json }},
+          unit_price_label: {{ "products.product.unit_price_label" | t | json }},
+          unit_price_separator: {{ "general.accessibility.unit_price_separator" | t | json }},
+          zero_qty_error: {{ "cart.general.zero_qty_error" | t | json }},
+          delete_confirm: {{ "customer.addresses.delete_confirm" | t | json }},
+          newsletter_product_availability: {{ "general.newsletter_form.newsletter_product_availability" | t | json }}
+        },
+        icons: {
+          plus: '{% render "icon-toggle-plus" %}',
+          minus: '{% render "icon-toggle-minus" %}',
+          close: '{% render "icon-close" %}'
+        },
+        settings: {
+          animations: {{ settings.animations_enabled | json }},
+          cartType: {{ settings.cart_type | json }},
+          enableAcceptTerms: {{ settings.enable_accept_terms | json }},
+          enableInfinityScroll: {{ settings.enable_infinity_scroll | json }},
+          enablePaymentButton: {{ settings.show_payment_button | json }},
+          gridImageSize: {{ settings.image_size | json }},
+          gridImageAspectRatio: {{ settings.image_aspect_ratio | json }},
+          mobileMenuBehaviour: {{ settings.mobile_menu_behaviour | json }},
+          productGridHover: {{ settings.product_grid_hover | json }},
+          savingBadgeType: {{ settings.saving_badge_type | json }},
+          showSaleBadge: {{ settings.show_sale_badge | json }},
+          showSoldBadge: {{ settings.show_sold_badge | json }},
+          showSavingBadge: {{ settings.show_saving_badge | json }},
+          quickBuy: {{ settings.quick_buy | json }},
+          suggestArticles: {{ settings.suggest_articles | json }},
+          suggestCollections: {{ settings.suggest_collections | json }},
+          suggestProducts: {{ settings.suggest_products | json }},
+          suggestPages: {{ settings.suggest_pages | json }},
+          suggestionsResultsLimit: {{ settings.suggestions_results_limit | json }},
+          currency_code_enable: {{ settings.currency_code_enable | json }},
+          hideInventoryCount: {{ settings.hide_inventory_count | json }},
+          enableColorSwatchesCollection: {{ settings.enable_color_swatches_collection | json }},
+          swatches: {{ settings.color_swatch_config | json }}
+        },
+        sizes: {
+          mobile: 480,
+          small: 768,
+          large: 1024,
+          widescreen: 1440
+        },
+        moneyFormat: {{ shop.money_format | json }},
+        moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
+        subtotal: {{ cart.total_price | json }},
+        originaTotalPrice: {{ cart.original_total_price | json }},
+        info: {
+          name: 'Palo Alto'
+        },
+        version: '5.6.0'
+      };
+      window.PaloAlto = window.PaloAlto || {};
+      window.slate = window.slate || {};
+      window.isHeaderTransparent = false;
+      window.stickyHeaderHeight = 60;
+      window.lastWindowWidth = window.innerWidth || document.documentElement.clientWidth;
+    </script>
+
+    {%- if request.page_type contains 'customers/' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+    {%- endif -%}
+
+    <script src="{{ 'jquery-2.2.3.min.js' | asset_url }}" load></script>
+    <script src="{{ 'vendor.js' | asset_url }}" load></script>
+
+    {% comment %} {{ content_for_header }} {% endcomment %}
+     {% render 'content_for_header' %}
+
+  </head>
+  {%- capture body_classes -%}
+    template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
+    {% if customer %} customer-logged-in{% endif %}
+    {% if settings.show_rounded_corners %} body--rounded-corners{% endif %}
+    {% if settings.animations_enabled %} aos-initialized{% endif %}
+    {% if settings.color_body_bg == '#000000' or settings.color_body_bg == '#000' %} palette--dark{% endif %}
+    {% if settings.color_body_bg == '#ffffff' or settings.color_body_bg == '#fff' %} palette--light{% endif %}
+      no-outline
+  {%- endcapture -%}
+  {%- assign body_classes = body_classes | strip_newlines | strip -%}
+  <body id="{{ page_title | handle }}" class="{{ body_classes }}" data-animations="{{ settings.animations_enabled }}">
+    {% comment %} {%- render 'loading' -%} {% endcomment %}
+    <a class="in-page-link skip-link" data-skip-content href="#MainContent">
+      {{- 'general.accessibility.skip_to_content' | t -}}
+    </a>
+    {% sections 'group-header' %}
+    {% sections 'group-overlay' %}
+    <main id="MainContent" class="main-content" data-main>
+      {{ content_for_layout }}
+    </main>
+    {% sections 'group-footer' %}
+    {%- comment -%} Photoswipe containers {%- endcomment -%}
+    {%- render 'zoom-pswp', template_index: 0 -%}
+    {%- render 'zoom-pswp', template_index: 1 -%}
+    {%- if settings.show_scroll_to_top -%}
+      <button
+        type="button"
+        class="btn btn--primary btn--solid btn--scroll-top"
+        data-scroll-top-button
+        aria-label="{{ 'general.accessibility.scroll_to_top' | t }}"
+      >
+        {% render 'icon-select' %}
+      </button>
+    {%- endif -%}
+    <!-- 从下方开始引入第三方脚本 -->
+
+    <script src="{{ 'theme.dev.js' | asset_url }}" load></script>
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer load></script>
+    <!-- <script type="speculationrules">
+      {
+        "prerender": [
+          {
+            "where": {
+              "href_matches": "/*"
+            },
+            "eagerness": "moderate"
+          }
+        ]
+      }
+    </script> -->
+    {% if product %}
+      <script type="text/javascript" load>
+        var _learnq = _learnq || [];
+        function addedToCart() {
+          fetch(`${window.location.origin}/cart.js`).then((res) =>
+            res
+              .clone()
+              .json()
+              .then((data) => {
+                var cart = {
+                  total_price: data.total_price / 100,
+                  $value: data.total_price / 100,
+                  total_discount: data.total_discount,
+                  original_total_price: data.original_total_price / 100,
+                  items: data.items,
+                };
+                if (item !== 'undefined') {
+                  cart = Object.assign(cart, item);
+                }
+                _learnq.push(['track', 'Added to Cart', cart]);
+              })
+          );
+        }
+        (function (ns, fetch) {
+          ns.fetch = function () {
+            const response = fetch.apply(this, arguments);
+            response.then((res) => {
+              if (`${window.location.origin}/cart/add.js`.includes(res.url)) {
+                addedToCart();
+              }
+            });
+            return response;
+          };
+        })(window, window.fetch);
+        window.addEventListener('load', (event) => {
+          $(document).ajaxComplete(function (event, request, settings) {
+            if (settings.url == '/cart/add.js') {
+              addedToCart();
+            }
+          });
+        });
+      </script>
+    {% endif %}
+    <!-- BEGIN Merchantverse Code -->
+    <script id="merchantverseScript" src="https://www.gstatic.com/merchantverse/merchantverse.js" defer></script>
+    <script type="text/javascript">
+      merchantverseScript.addEventListener('load', function () {
+        merchantverse.start({
+          position: 'LEFT_BOTTOM',
+          bottomMargin: '0',
+          mobileBottomMargin: '68',
+          mobileSideMargin: '2',
+        });
+      });
+    </script>
+    <!-- END Merchantverse Code -->
+    <!-- <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/TJSuuWbKuwBhcShLTZs-ug" async></script> -->
+
+    <!-- Paypal Tag Manager -->
+    <script>
+      (function (a, t, o, m, i) {
+        a[m] = a[m] || [];
+        a[m].push({
+          t: new Date().getTime(),
+          event: 'snippetRun',
+        });
+        var f = t.getElementsByTagName(o)[0],
+          e = t.createElement(o);
+        e.async = !0;
+        e.dataset.namespace = 'paypal_sdk';
+        e.src = 'https://www.paypal.com/sdk/js?components=shopping&client-id=' + i;
+        f.parentNode.insertBefore(e, f);
+      })( window, document, 'script', 'shoppingDDL', 'AcKjuRGFeQyek-jYXL8ZuDXLUkEd8lTjPAU0eJ3RUdF51xlutY8MpAGlPKbER8tbG7VLQpCtJSrZr7e_' );
+      var pptag = {
+        send: function (e, p) {
+          shoppingDDL.push({ event: e, payload: p });
+        },
+        set: function (s) {
+          shoppingDDL.push({ set: s });
+        },
+      };
+    </script>
+    {% if template contains 'index' %}
+      <script>
+        pptag.send('page_view', { page_type: 'HOME' });
+      </script>
+    {% elsif template contains 'product' %}
+      <script>
+        pptag.send('page_view', { page_type: 'PRODUCT_PAGE_VIEW' });
+      </script>
+      <script>
+        window.uetq = window.uetq || [];
+        window.uetq.push('event', 'view_products', {'ecomm_prodid': '{{product.id}}', 'ecomm_pagetype': 'product'});
+      </script>
+    {% elsif template contains 'collection' %}
+      <script>
+        pptag.send('page_view', { page_type: 'CATEGORY' });
+      </script>
+    {% elsif template contains 'cart' %}
+      <script>
+        pptag.send('page_view', { page_type: 'CART' });
+      </script>
+    {% else %}
+      <script>
+        pptag.send('page_view', { page_type: 'OTHER' });
+      </script>
+    {% endif %}
+    <script>
+      var productList = [];
+      {% for line in cart.items %}
+        productList.push({{ line.product_id}});
+      {% endfor %}
+      window.uetq = window.uetq || [];
+      window.uetq.push('event', 'abandon_cart_items', {'ecomm_prodid': productList, 'ecomm_pagetype': 'cart'});
+      window.uetq = window.uetq || [];window.uetq.push('event', 'add_to_cart', {"revenue_value":productList,"currency":'{{ shop.currency }}'})
+    </script>
+    <!-- End Paypal Tag Manager -->
+    <!-- Google Tag Manager -->
+   <script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-PTXRG7B');
+</script>
+
+
+
+    <!-- End Google Tag Manager -->
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11001595349"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'AW-11001595349');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16510300948"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16510300948');
+    </script>
+  
+    <script>
+      window._klOnsite = window._klOnsite || [];
+      window._klOnsite.push(['openForm', 'WLEjXc']);
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PTXRG7B"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <script>
+      (function() {
+        var klaviyoScript = document.createElement('script');
+        klaviyoScript.src = 'https://a.klaviyo.com/media/js/onsite/onsite.js';
+        klaviyoScript.async = true;
+        klaviyoScript.onload = function() {
+          // Check if klaviyo object has init method
+          if (typeof klaviyo.init === 'function') {
+            klaviyo.init({
+              account: 'TbwBkg',
+              platform: 'shopify',
+            });
+            klaviyo.enable('backinstock', {
+              trigger: {
+                product_page_text: 'Notify Me When Available',
+                product_page_class: 'btn',
+                product_page_text_align: 'center',
+                product_page_margin: '0px',
+                replace_anchor: false,
+              },
+              modal: {
+                headline: '{product_name}',
+                body_content: 'Register to receive a notification when this item comes back in stock.',
+                email_field_label: 'Email',
+                button_label: 'Notify me when available',
+                subscription_success_label: "You're in! We'll let you know when it's back.",
+                footer_content: '',
+                additional_styles: "@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');",
+                drop_background_color: '#000',
+                background_color: '#fff',
+                text_color: '#222',
+                button_text_color: '#fff',
+                button_background_color: '#439fdb',
+                close_button_color: '#ccc',
+                error_background_color: '#fcd6d7',
+                error_text_color: '#C72E2F',
+                success_background_color: '#d3efcd',
+                success_text_color: '#1B9500',
+              },
+            });
+          } else {
+            console.error('klaviyo.init is not a function');
+          }
+        };
+        klaviyoScript.onerror = function() {
+          console.error('Failed to load klaviyo script');
+        };
+        document.head.appendChild(klaviyoScript);
+      })();
+    </script>
+
+    <!-- Ptengine Tag -->
+    <script src="https://js.ptengine.com/7chmbprp.js" defer></script>
+    {% if template contains 'index' %}
+      <script>
+        window.ptengine && window.ptengine.track('product_home', {}, { transport: 'beacon' });
+      </script>
+    {% elsif template contains 'product' %}
+      <script>
+        window.ptengine && window.ptengine.track('product_detail', {}, { transport: 'beacon' });
+      </script>
+    {% elsif template contains 'collection' %}
+      <script>
+        window.ptengine && window.ptengine.track('product_list', {}, { transport: 'beacon' });
+      </script>
+    {% endif %}
+    {% if customer %}
+      <script>
+        window.ptengine &&
+          window.ptengine.identify('{{ customer.id }}', {
+            email: '{{ customer.email }}',
+            name: '{{ customer.name }}',
+            has_account: '{{ customer.has_account }}',
+            last_order: '{{ customer.last_order }}',
+            orders_count: '{{ customer.orders_count }}',
+            total_spent: '{{ customer.total_spent }}',
+            accepts_marketing: '{{ customer.accepts_marketing }}',
+          });
+      </script>
+    {% endif %}
+    <script>
+      document.addEventListener('click', function findTarget(e) {
+        var target = e.target;
+
+        if (!target || target.nodeName === 'BODY') {
+          return;
+        }
+
+        if (target.nodeName == 'BUTTON') {
+          if (target.className.includes('product-add')) {
+            window.ptengine && window.ptengine.track('add_cart', {}, { transport: 'beacon' });
+          } else if (target.className.includes('drawer-checkout')) {
+            window.ptengine && window.ptengine.track('checkout', {}, { transport: 'beacon' });
+          }
+        }
+        if (
+          target.nodeName == 'DIV' &&
+          target.getAttribute('data-testid') &&
+          target.getAttribute('data-testid') == 'ShopifyPay-button'
+        ) {
+          window.ptengine && window.ptengine.track('checkout_shopify', {}, { transport: 'beacon' });
+        } else if (
+          target.nodeName == 'SPAN' &&
+          target.parentElement.getAttribute('data-testid') &&
+          target.parentElement.getAttribute('data-testid') == 'ShopifyPay-button'
+        ) {
+          window.ptengine && window.ptengine.track('checkout_shopify', {}, { transport: 'beacon' });
+        } else if (
+          target.nodeName == 'SVG' &&
+          target.parentElement.parentElement.getAttribute('data-testid') &&
+          target.parentElement.parentElement.getAttribute('data-testid') == 'ShopifyPay-button'
+        ) {
+          window.ptengine && window.ptengine.track('checkout_shopify', {}, { transport: 'beacon' });
+        }
+      });
+    </script>
+
+<!--Structed data markup code added by Simprosys Infomedia - Start-->
+{% if template contains "product" %}
+	{%- assign simp_current_variant = product.selected_or_first_available_variant -%}
+
+	{%- if cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'GBP' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'USD' or cart.currency.iso_code == 'AUD' or cart.currency.iso_code == 'BWP' or cart.currency.iso_code == 'BND' or cart.currency.iso_code == 'DOP' or cart.currency.iso_code == 'GTQ' or cart.currency.iso_code == 'HKD' or cart.currency.iso_code == 'INR' or cart.currency.iso_code == 'ILS' or cart.currency.iso_code == 'YEN' or cart.currency.iso_code == 'KES' or cart.currency.iso_code == 'KOR' or cart.currency.iso_code == 'LBP' or cart.currency.iso_code == 'MYR' or cart.currency.iso_code == 'MXN' or cart.currency.iso_code == 'NPR' or cart.currency.iso_code == 'NZD' or cart.currency.iso_code == 'NIO' or cart.currency.iso_code == 'NGN' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CNY' or cart.currency.iso_code == 'PHP' or cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'LKR' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'TWD' or cart.currency.iso_code == 'TSH' or cart.currency.iso_code == 'THB' or cart.currency.iso_code == 'UGX' or cart.currency.iso_code == 'KWD' or cart.currency.iso_code == 'CLP' -%}
+	{%- assign simp_product_price = simp_current_variant.price | money_without_currency | remove:',' -%}		
+	{%- else -%}
+	{%- assign simp_product_price = simp_current_variant.price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+	{%- endif -%}
+
+
+	<div itemscope itemtype=" http://schema.org/Product ">
+		<meta itemprop="name" content="{{product.title}}" />
+		<meta itemprop="description" content="{{product.description | strip_html | truncatewords: 50}}" />
+		<meta itemprop="sku" content="{{ product.selected_or_first_available_variant.sku }}" />
+		<meta itemprop="url" content="{{ shop.secure_url }}{{ product.url }}">
+		<meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+		<meta itemprop="brand" content="{{ product.vendor }}" />
+		<meta itemprop="mpn" content="{{ product.selected_or_first_available_variant.sku }}" />
+		{% assign gtin_num = product.selected_or_first_available_variant.barcode | size %}
+		{% if gtin_num == 12 or gtin_num == 13 or gtin_num == 14  %}
+			<meta itemprop="gtin{{gtin_num}}" content="{{ product.selected_or_first_available_variant.barcode }}" />
+		{% endif %} 
+
+		<div itemprop="offers" itemscope itemtype=" http://schema.org/Offer ">
+			<meta itemprop="priceCurrency" content="{{ shop.currency }}" />
+			<meta itemprop="price" content="{{ simp_product_price }}" />
+			<meta itemprop="priceValidUntil" content="{{ "today" | date: '%s' | plus: 3650000 | date: "%Y-%m-%d" }}">
+			<meta itemprop="availability" content=" http://schema.org/{%  if product.selected_or_first_available_variant.available %}InStock{% else %}OutOfStock{% endif %}"/>
+			<meta itemprop="itemCondition" itemtype=" http://schema.org/OfferItemCondition " content=" http://schema.org/NewCondition "/>
+			<meta itemprop="seller" content="{{ shop.name | escape }}" />
+			<meta itemprop="url" content="{{ shop.secure_url }}{{ product.selected_or_first_available_variant.url }}">
+		</div> 
+	</div>
+{% endif %}
+<!--Structed data markup code added by Simprosys Infomedia - End -->
+    {% render 'bottom' %}
+  </body>
+</html>

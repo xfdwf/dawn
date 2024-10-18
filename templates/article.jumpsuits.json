@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_tags": true,
+        "show_share_button": true,
+        "text": "Share",
+        "bg_color_secondary": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "recommended-posts": {
+      "type": "section-recommended-posts",
+      "disabled": true,
+      "settings": {
+        "posts_type": "paging",
+        "title": "",
+        "default_color": "accent",
+        "blog_style": "photo",
+        "image_aspect_ratio": 1.3,
+        "show_rss_icon": false,
+        "show_date": true,
+        "show_author": true,
+        "show_tags": true,
+        "show_comments_count": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_dDeD6j": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UYnLRY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_dQi9Jw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Nx3PWy": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_MBMVAb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UYnLRY",
+        "heading_dQi9Jw",
+        "text_Nx3PWy",
+        "button_MBMVAb"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/1300x500_3_c73a4640-532d-4c7b-a15c-ae0e2ad4da48.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/banner_1_45525c73-a995-4909-9809-0ecd448e4cc3.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_YcG3Uk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_gXKhqn": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h2>Popilush Unveils New Outerwear Onesie Series: A Fusion of Comfort, Confidence, and Style<\/h2>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_UchtEa": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yMMYbp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WILLIAMSBURG, Va., Dec. 3, 2023 \/PRNewswire\/ -- Popilush, the dynamic and trend-setting shapewear brand, has launched a fresh series of outerwear onesies, meticulously designed to accommodate a variety of situations. The brand's unwavering dedication to body positivity and comfortable confidence is beautifully mirrored in the design and functionality of these innovative new products.<\/p><p>\"At Popilush, we believe in celebrating all body types and empowering women to feel confident and comfortable in their own skin,\" said Eve DeMartin, Co-Founder of Popilush. \"This new series of outerwear onesies underscores our dedication to our core values, showcasing our enhanced capabilities and potential to enrich the fashion wardrobes of many more women.\"<\/p><p>The new series introduces four distinctively designed onesies, each boasting unique attributes. These designs all share common features that enhance their appeal and functionality. They are crafted from high-stretch shapewear fabric, ensuring a comfortable fit that adapts to the body's movements. Additionally, a double-layer mesh design is incorporated into each onesie, providing both comfort and a shaping effect. This combination of features makes these onesies versatile, making them an ideal choice for both athletic activities and everyday wear.<\/p><p>The integrated shaping mesh is expertly designed to sculpt the waistline effectively, enhancing the wearer's natural silhouette. The unique chest support design offers superior coverage and support, ensuring comfort and confidence. The crotch area is lined with soft cotton, eliminating the need for additional underwear and providing added comfort. The design also incorporates a user-friendly, easy on-and-off feature, considering the practical needs of the wearer for convenience and ease of use.<\/p><p>Each onesie in the series has its own unique design elements.<\/p>",
+            "size": 100
+          }
+        },
+        "button_NfEqGQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gXKhqn",
+        "heading_UchtEa",
+        "text_yMMYbp",
+        "button_NfEqGQ"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 26,
+        "padding_bottom": 14
+      }
+    },
+    "section_image_with_text_yBGQtt": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/1_3823d47a-ebb3-4e55-b606-635a08d27a06.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1_3823d47a-ebb3-4e55-b606-635a08d27a06.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>The <a href=\"https:\/\/www.popilush.com\/products\/long-sleeve-shapewear-jumpsuits?_pos=1&_psq=%20MT230344&_ss=e&_v=1.0&variant=42876879012016\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Long Sleeve Shapewear Zip Front Jumpsuit <\/strong><\/span><\/a>is designed with a unique double-layer fabric that significantly enhances the shoulder and neckline areas. This feature not only adds to the aesthetic appeal but also provides additional comfort. Moreover, it incorporates a three-dimensional body-shaping design that effectively creates a slimming effect. This innovative design not only flatters the figure but also promotes a more confident and stylish appearance. The jumpsuit is a perfect blend of fashion and functionality, offering a superior wearing experience.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/products\/long-sleeve-shapewear-jumpsuits",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "padding_top": 12,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_GKYEfD": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/2_a90f979e-7c65-4f55-bf24-81a0e5be87c3.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2_a90f979e-7c65-4f55-bf24-81a0e5be87c3.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "",
+        "heading_size": 130,
+        "content": "<p>The <a href=\"https:\/\/www.popilush.com\/products\/square-neck-wide-leg-long-sleeve-shapewear-jumpsuit?_pos=1&_psq=%20MT230310&_ss=e&_v=1.0&variant=42786250326192\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Square Neck Wide-Leg Long Sleeve Shapewear Jumpsuit <\/strong><\/span><\/a>is meticulously crafted from high-stretch shaping nylon fabric, designed to offer a perfect blend of comfort and flexibility. It features a snug fit at the top and a relaxed fit at the bottom, effectively camouflaging any undesired bulges while sculpting and enhancing the natural shape of the wearer's legs.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/products\/square-neck-wide-leg-long-sleeve-shapewear-jumpsuit",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "padding_top": 10,
+        "padding_bottom": 12
+      }
+    },
+    "section_text_BDr8XR": {
+      "type": "section-text",
+      "blocks": {
+        "text_t78qVp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the unveiling of the new outerwear onesie series, Popilush continues to shape the way women express their confidence through fashion. The brand is dedicated to crafting designs that authentically reflect the strength and beauty of every woman. In addition to this, Popilush is set to further diversify its design offerings to meet an even wider range of customer needs, ensuring that every woman can find a style that aligns with her unique personality and lifestyle.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_t78qVp"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 22,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_THJrez": {
+      "type": "section-text",
+      "blocks": {
+        "heading_ACR8Qp": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>About Popilush<\/h2>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_meP4br": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush is an empowering, inviting, and fashion-forward shapewear line for women. Their mission is to highlight what women of all shapes and sizes love about their bodies and to promote comfortable confidence. Popilush gives all women the freedom and confidence to be themselves every single day with high-quality shapewear that comes in a diverse range of sizes and is exceptionally affordable for the high level of quality. While caring for its customers, the brand is also committed to caring for the environment. The brand uses rapidly biodegradable textiles for its clothing and uses less plastic when packaging them.<\/p><p>To learn more about Popilush and discover its modern shapewear products for women of every size and color, please visit <a href=\"http:\/\/www.popilush.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>www.popilush.com<\/strong><\/span><\/a>, or engage with the Popilush community on Instagram <a href=\"https:\/\/www.instagram.com\/popilush\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>@popilush<\/strong><\/span><\/a>.<\/p><p> View original content to download multimedia:<a href=\"https:\/\/www.prnewswire.com\/news-releases\/popilush-unveils-new-outerwear-onesie-series-a-fusion-of-comfort-confidence-and-style-302004074.html\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>https:\/\/www.prnewswire.com\/news-releases\/popilush-unveils-new-outerwear-onesie-series-a-fusion-of-comfort-confidence-and-style-302004074.html<\/strong><\/span><\/a><\/p><p>SOURCE Popilush LLC<\/p><p>NOTE: This content is not written by or endorsed by \"WYTV\", its advertisers, or Nexstar Media Inc.<\/p><p>For inquiries or corrections to Press Releases, please reach out to <a href=\"mailto:prncs@cision.com\"><span style=\"text-decoration:underline\"><strong>Cision<\/strong><\/span><\/a>.Posted by Cision PR Newswire<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_ACR8Qp",
+        "text_meP4br"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommended-posts",
+    "section_banner_image_dDeD6j",
+    "section_text_YcG3Uk",
+    "section_image_with_text_yBGQtt",
+    "section_image_with_text_GKYEfD",
+    "section_text_BDr8XR",
+    "section_text_THJrez"
+  ]
+}

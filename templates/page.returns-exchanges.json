@@ -1,0 +1,363 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_xdmiry": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_BTitm3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3000x1300.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1200x1590_766d9c32-e890-423a-b01b-dcce0df76707.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Returns & Exchanges<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BTitm3"
+      ],
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_accordions_crGnPa": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_tyH8Pw": {
+          "type": "text",
+          "settings": {
+            "title": "Where to shop?",
+            "text": "<p>Popilush is exclusively available at https:\/\/www.popilush.com\/. By registering your email <a href=\"https:\/\/www.popilush.com\/account\/register\" target=\"_blank\" title=\"https:\/\/www.popilush.com\/account\/register\"><em>here<\/em><\/a>, you'll be the first to know about new collections, restocks, and more.<\/p>"
+          }
+        },
+        "text_7GgCaJ": {
+          "type": "text",
+          "settings": {
+            "title": "How do I find my order number?",
+            "text": "<p>After completing your order, you'll receive a confirmation email with your order number, typically consisting of four or six digits.<br\/>Here's how to find your order number:<br\/>Check your email inbox or spam folder for order confirmation.<br\/>Create a Popilush account using the email address you provided during purchase. Find your order number in your order history.<br\/>Still unable to locate your order number? Let us help - <a href=\"https:\/\/www.popilush.com\/pages\/contact \" target=\"_blank\" title=\"https:\/\/www.popilush.com\/pages\/contact \">contact us.<\/a><\/p>"
+          }
+        },
+        "text_amgLEW": {
+          "type": "text",
+          "settings": {
+            "title": "How do I change or cancel an order?",
+            "text": "<p>You can modify or cancel your order with the assistance of our <a href=\"mailto:support@popilush.com\" target=\"_blank\" title=\"mailto:support@popilush.com\">Customer Support Team <\/a>before it's processed.<br\/>If you missed the grace period, don't worry! We're committed to helping you find the ideal fit and we provide easy Exchanges & Returns within 60 days.<\/p>"
+          }
+        },
+        "text_fJVgbr": {
+          "type": "text",
+          "settings": {
+            "title": "How do I apply my discount code?",
+            "text": "<p>On the checkout page, you'll notice a box where you can enter your discount code. Once you input the code, click \"Apply\". Your total amount will be updated to reflect the discount.<br\/><br\/>*Only one discount code can be applied per purchase. <\/p><p>*Discount code cannot be combined with other offers.<\/p>"
+          }
+        },
+        "text_7PmDNr": {
+          "type": "text",
+          "settings": {
+            "title": "How do I track my order?",
+            "text": "<p>Once your order has been shipped, you will receive an email notification with tracking details. You can track your order through the tracking link in the email or by logging into your account on Popilush.com. Your order may be shipped in multiple packages, and you will receive a separate email notification for each package.<br\/><br\/>These notifications will be sent to the email address you provided at the time of your order. If you are unable to track your order, you can check the delivery status directly via the online AI chatbot on our website. If you still encounter issues, please contact us by sending an email to service@popilushsupport.com with your order number and request.<\/p>"
+          }
+        },
+        "text_MranCm": {
+          "type": "text",
+          "settings": {
+            "title": "Why was my order canceled?",
+            "text": "<p>When your order is flagged as high-risk by our system, it may be canceled. If you receive a cancellation notice, please verify your payment method with your financial institution and contact our Customer Support Team. All charges will be refunded once your order details are confirmed.<\/p>"
+          }
+        },
+        "text_7iCjhi": {
+          "type": "text",
+          "settings": {
+            "title": "What should I do if I did not receive my delivered package?",
+            "text": "<p>First, please check around your premises where the package may have been left, and ask your neighbors in case it was delivered to the wrong address. Also, look for any \"Attempted Delivery\" notices, which indicate that the carrier tried to deliver your package but nobody was home. If you still do not see your package, please allow an additional 1-2 days as sometimes the carrier's tracking system may show that the package has been delivered even though it's still en route. Still no luck? Contact the carrier with your tracking number for more details.<br\/><br\/>If the carrier cannot provide a solution, please reach out to our Customer Support Team at service@popilushsupport.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tyH8Pw",
+        "text_7GgCaJ",
+        "text_amgLEW",
+        "text_fJVgbr",
+        "text_7PmDNr",
+        "text_MranCm",
+        "text_7iCjhi"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Order Issues",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_Fi8dcz": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_ReEypC": {
+          "type": "text",
+          "settings": {
+            "title": "What is Popilush's return policy?",
+            "text": "<p>If you are not happy with any of our products for any reason, we will gladly accept your non-sale items within 60 days of your purchase date for a refund. <br\/>Your refund of the original purchase price will be issued in the same form as the original payment. Please expect your refund 3–5 business days after we receive the package. The original shipping and handling will not be refunded. <br\/><br\/>Please note: We cannot accept a return (even within 60 days of purchase) in certain situations, including, but not limited to: <br\/>- Products returned without original tags attached<br\/>- Products showing excessive wear and tear, or at the end of their intended lifespan.<br\/>- Swimwear purchases that no longer have the hygienic liner attached and the reusable pouch not included with the return.<br\/>- Items damaged by misuse, alterations, improper care, or accidents.<br\/>- Items listed as final\/cleaeance sale at the time of purchase. <br\/>- Instances of abuse of the Popilush Return Policy.   <br\/>- Items not purchased on Popilush.com. (For purchases made through the Amazon store, please return to the original place of purchase.) <br\/>The acceptance of a return is determined at the sole discretion of Popilush. <br\/><br\/>Products must be returned unworn, unwashed, in their original condition and with all tags and liners attached.  Returns of multiple orders should not be combined and one return label can only be used for one order. If your order was purchased using a gift card, you will only be refunded directly back to the gift card.<br\/><br\/>For hygienic reasons, we DO NOT accept returns or exchanges of any used bras and underwear. Please wear your own underwear when first trying on your new items.<br\/>Popilush cannot currently create return labels for APO\/FPO addresses, as they require customs information for shipping.<\/p><p><br\/>International returns are accepted. Return shipping and any reverse duties are the responsibility of the customer.<br\/>Please note that any customs duties incurred upon the package's arrival in the destination country will be the responsibility of the customer.<br\/><br\/>Shipping fees from the original order are non-refundable.<\/p>"
+          }
+        },
+        "text_PteGFh": {
+          "type": "text",
+          "settings": {
+            "title": "How do you request a return label?",
+            "text": "<p>If you are not totally in love with how they feel or fit, simply exchange or return them within 60 days. Please feel free to contact us for a return label. We are sorry, but the return label is for the Contiguous United States only, not for recipients in Alaska, Hawaii, Puerto Rico, the U.S.V.I., etc. <br\/>Customer Support Team Email: service@popilushsupport.com<br\/><br\/>* One return label per order<\/p>"
+          }
+        },
+        "text_eRCgjD": {
+          "type": "text",
+          "settings": {
+            "title": "How do I return and\/or exchange multiple items or orders?",
+            "text": "<p>When returning any part of your order, please make sure there is no artificial damage to the products. The tags and packages must be in good condition.<br\/>Please get in touch with our Customer Support Team to handle your returns or exchanges.<br\/>Customer Support Team: service@popilushsupport.com<br\/>Please give us your Order number (e.g. #123456), the items’ photos (with tag and package bag), and the detailed return reason.<br\/>Due to the high volume of emails, please allow 1-3 business days for our support team to reply.<br\/>Please note: We are not in the office to read or reply to emails on the weekends.<br\/><br\/>Returning and\/or Exchanging multiple items from the same order<br\/>If returning or exchanging multiple items from the same order, please include all items in the same box and use one return label. It's important that the return label matches the return content to ensure the appropriate refund is received once processed.<br\/>If possible, we recommend processing one return label per order, this way, only one return fee is applied even if multiple items are returned at once.<br\/><br\/>Returning or exchanging items from multiple orders<br\/>When items from different orders need to be returned, it is very important to create separate returns for each order and ensure that each item is packaged using the corresponding return label. In principle, one return label is used per order.<\/p>"
+          }
+        },
+        "text_j3wN4f": {
+          "type": "text",
+          "settings": {
+            "title": "How do I exchange my order?",
+            "text": "<p>You can request an exchange for the same product for a different size or color or a completely new style. Once we receive your return item and it is processed, we will ship you your exchange. Customers must also pay any price difference for exchanged items.<br\/>We offer a free exchange service. This offer is for the Contiguous United States only. We’re sorry, but this offer is not for recipients in Alaska, Hawaii, Puerto Rico, the U.S.V.I., etc. Exchanges will be provided with a free return label but customers will be responsible for new shipping costs after the first free exchange.<br\/>Please note that international customers will have to pay for the shipping fee on returns\/exchanges. <br\/>If the items don’t fit when you recieve your package, please feel free to contact us at service@popilushsupport.com.<\/p>"
+          }
+        },
+        "text_DQfNDi": {
+          "type": "text",
+          "settings": {
+            "title": "How long will my return take to process?",
+            "text": "<p>Please notify the support team with the return tracking number when you send the package.  We need the tracking to process your refund.  Once your return is received and inspected, we will notify you if your return is accepted or declined.  This process can take up to 7 business days from the date your return tracking information shows delivered.<br\/>If your return is accepted, your refund will be processed and applied to the original method of payment.<br\/>Please note that refunds can take up to 3-5 business days to appear in your bank account due to the varying processing times of financial organizations.<br\/>Where returns are processed for gift cards, a POPILUSH gift card will be issued once your return order is in transit back to us, and sent to the email used to make the original purchase. <br\/><br\/> Please Note: The original shipping and handling will not be refunded.  If you need assistance, please email us at service@popilushsupport.com.<\/p>"
+          }
+        },
+        "text_HNmn9q": {
+          "type": "text",
+          "settings": {
+            "title": "How do I check my return status?",
+            "text": "<p>Return status<br\/>For the status of your return, we recommend referencing your return tracking number on the label.  <br\/>You can expect to receive your refund and refund confirmation email within 3–5 business days after we receive the package. Your refund will be issued in the same form as the original payment. If you select the gift card, a POPILUSH gift card will be issued once your return order is in transit back to us, and sent to the email used to make the original purchase.<br\/>Please email our Customer Support Team at service@popilushsupport.com if you have any additional questions regarding your return status.<br\/><br\/>Exchange status<br\/>Once you return your original order using the return label provided by our team, your exchange will be processed, and a shipping confirmation email will be sent once the order is on its way to you. <br\/>If you have returned your original order and you have not yet received an update on your exchange order, please email our Customer Support Team at service@popilushsupport.com for more information!<\/p>"
+          }
+        },
+        "text_rXfq4E": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Is shipping insurance available on the website?",
+            "text": "<p>We've teamed up with Route, a package protection and tracking solution, to enhance our customers' delivery experience.  Route offers affordable shipping protection to safeguard your package in case of loss, theft, or damage during transit.<br\/>Additionally, Route provides a convenient mobile app that lets you track all your online orders visually in one place, eliminating the need to search through your emails for tracking numbers. With dynamic maps and real-time shipping updates, Route keeps you informed at every stage of your delivery.<br\/>To ensure your package is protected, simply toggle the Route button On during checkout to opt-in and add Route to your order.  This helps protect your package from theft, damage, or any delivery issues.<br\/>If you encounter any problems with your order, you can file a claim with Route's team <a href=\"https:\/\/route.com\/\" target=\"_blank\" title=\"https:\/\/route.com\/\">here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ReEypC",
+        "text_PteGFh",
+        "text_eRCgjD",
+        "text_j3wN4f",
+        "text_DQfNDi",
+        "text_HNmn9q",
+        "text_rXfq4E"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Exchanges & Returns",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_fbwc8Q": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_XdHTTj": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods are utilized?",
+            "text": "<p>We utilize external delivery services (Postal Service, FedEx, DHL, and USPS), but we cannot guarantee their delivery times.<\/p>"
+          }
+        },
+        "text_xirx3t": {
+          "type": "text",
+          "settings": {
+            "title": "Does Popilush ship internationally?",
+            "text": "<p>Yes, we offer standard shipping  to most countries.<\/p>"
+          }
+        },
+        "text_Ay7mqK": {
+          "type": "text",
+          "settings": {
+            "title": "How can I update the shipping address?",
+            "text": "<p>Typically, we only ship to the address provided during the order placement. If you need to update your shipping address, please contact us before the package is dispatched. If the package has already been shipped, please contact the logistics company to update your address.<\/p>"
+          }
+        },
+        "text_QP3jYp": {
+          "type": "text",
+          "settings": {
+            "title": "When will my order ship?",
+            "text": "<p>Orders are processed depending on item availability and payment approval. During high volume periods, product availability may be subject to change while your order is being processed.<br\/>Most orders placed on business days will be processed and shipped within 1-2 business days.<br\/>We are unable to deliver on weekends or public holidays. Any orders placed during this period will be dispatched the following business day.<\/p>"
+          }
+        },
+        "text_LGHqeA": {
+          "type": "text",
+          "settings": {
+            "title": "How long does my order take to arrive?",
+            "text": "<p>*We offer FREE shipping for orders over 80 USD in the US. <br\/><br\/>For US shipping: Standard delivery takes 4-10 business days. <br\/>For international shipping: Standard delivery takes 10-15 business days. <br\/>Please note that shipping time does not include weekends or the standard processing time of 1-2 business days required for order fulfillment.<br\/><br\/>Please be advised: Due to the high volume of orders during Black Friday, logistics may experience delays, leading to potential shipment delays. We are working diligently to ensure the timely delivery of your orders.<\/p>"
+          }
+        },
+        "text_GMjTT4": {
+          "type": "text",
+          "settings": {
+            "title": "Is shipping insurance available on the website?",
+            "text": "<p>We've teamed up with Route, a package protection and tracking solution, to enhance our customers' delivery experience.  Route offers affordable shipping protection to safeguard your package in case of loss, theft, or damage during transit.<br\/>Additionally, Route provides a convenient mobile app that lets you track all your online orders visually in one place, eliminating the need to search through your emails for tracking numbers. With dynamic maps and real-time shipping updates, Route keeps you informed at every stage of your delivery.<br\/>To ensure your package is protected, simply toggle the Route button On during checkout to opt-in and add Route to your order.  This helps protect your package from theft, damage, or any delivery issues.<br\/>If you encounter any problems with your order, you can file a claim with Route's team <a href=\"https:\/\/route.com\/\" target=\"_blank\" title=\"https:\/\/route.com\/\">here<\/a>.<\/p>"
+          }
+        },
+        "text_8KEeTg": {
+          "type": "text",
+          "settings": {
+            "title": "Where does Popilush ship from?",
+            "text": "<p>Typically, the majority of Popilush's available products are shipped from the US, arriving within 1-5 business days. However, some items are shipped directly from our other factories, which may take 10-15 business days for delivery. Through partnerships with leading manufacturers and distributors worldwide, we guarantee swift delivery of top-quality products that meet the highest standards.<\/p>"
+          }
+        },
+        "text_ePXRtj": {
+          "type": "text",
+          "settings": {
+            "title": "What should I do if my package is missing?",
+            "text": "<p>If you haven't received your order yet or it's lost in transit with the carrier, please reach out to our Customer Support Team at service@popilushsupport.com. We're here to assist you and provide the necessary help.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XdHTTj",
+        "text_xirx3t",
+        "text_Ay7mqK",
+        "text_QP3jYp",
+        "text_LGHqeA",
+        "text_GMjTT4",
+        "text_8KEeTg",
+        "text_ePXRtj"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Shipping",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_KzdkJk": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_DW7hhm": {
+          "type": "text",
+          "settings": {
+            "title": "What currency is the site in?",
+            "text": "<p>Our website currently operates in USD for transactions. However, you can also convert and settle payments in your local currency.<\/p>"
+          }
+        },
+        "text_JnEBCQ": {
+          "type": "text",
+          "settings": {
+            "title": "What payment options do you accept?",
+            "text": "<p>We accept a wide variety of <a href=\"https:\/\/www.popilush.com\/pages\/payment-methods\" target=\"_blank\" title=\"https:\/\/www.popilush.com\/pages\/payment-methods\">payment<\/a> options.<br\/>For the quickest checkout process, you can select one of our express options - Shop Pay, PayPal, Amazon Pay, or Google Pay, but be sure to double check the shipping address is correct when using this method<br\/>.<br\/>We also accept: Afterpay, Visa, Mastercard, Apple pay, American Express, JCB, Discover, JCB, Diners Club.<\/p>"
+          }
+        },
+        "text_dxJ87x": {
+          "type": "text",
+          "settings": {
+            "title": "How secure is my payment information?",
+            "text": "<p>Rest assured, your payment is secure and your information remains private. We utilize encrypted forms to ensure the utmost security of all sensitive data.<\/p>"
+          }
+        },
+        "text_69dbTH": {
+          "type": "text",
+          "settings": {
+            "title": "Does Popilush charge sales tax?",
+            "text": "<p>In accordance with legal requirements, taxes may be charged and collected on products we sell, based on the tax laws applicable to the shipping or delivery location. During checkout, all applicable taxes will be included in the order total. The tax estimate displayed at checkout may vary slightly from the actual tax amount due to differences in tax rates based on the origin and destination of the purchased item(s), among other factors.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DW7hhm",
+        "text_JnEBCQ",
+        "text_dxJ87x",
+        "text_69dbTH"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Payment",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_xdmiry",
+    "section_accordions_crGnPa",
+    "section_accordions_Fi8dcz",
+    "section_accordions_fbwc8Q",
+    "section_accordions_KzdkJk"
+  ]
+}

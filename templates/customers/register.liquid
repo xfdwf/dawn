@@ -1,0 +1,57 @@
+{%- comment -%} /templates/customers/register.liquid {%- endcomment -%}
+<section class="page-customer">
+  <!-- <div class="customer-login-title">
+    <div>Wellbeing made easier. We’ve got you.</div>
+  </div> -->
+  <div class="wrapper account-wrapper">
+    {%- render 'customerText' -%}
+
+    <div class="form-vertical-wrapper account-form-wrapper">
+      {% comment %} <div class="section__header">
+        <h2 class="section__heading account__heading account__heading--small">{{ 'customer.register.title' | t }}</h2>
+        {%- if settings.show_spacer_lines -%}
+          <hr class="section__heading-line">
+        {%- endif -%}
+      </div> {% endcomment %}
+      <div class="form-vertical paddleft150">
+        {% form 'create_customer', id: 'CreateCustomer' %}
+          <div class="wrapper-left-title" style="margin-bottom: 20px;">Create a member account</div>
+          {{ form.errors | default_errors }}
+          <label for="FirstName" class="hidden-label">{{ 'customer.register.first_name' | t }}</label>
+          <input type="text" name="customer[first_name]" id="FirstName" class="input--full" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+          <label for="LastName" class="hidden-label">{{ 'customer.register.last_name' | t }}</label>
+          <input type="text" name="customer[last_name]" id="LastName" class="input--full" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+          <label for="Email" class="hidden-label">{{ 'customer.register.email' | t }}</label>
+          <input type="email" name="customer[email]" id="Email" class="input--full{% if form.errors contains 'email' %} error{% endif %}" placeholder="{{ 'customer.register.email' | t }}" {% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off" required>
+          <label for="CreatePassword" class="hidden-label">{{ 'customer.register.password' | t }}</label>
+          <input type="password" name="customer[password]" id="CreatePassword" class="input--full{% if form.errors contains 'password' %} error{% endif %}" placeholder="{{ 'customer.register.password' | t }}" required>
+          <div style="margin:15px 0;font-size:18px;">
+            You'll be the first to know about news and get 10% off now. (You can unsubscribe at any time.)
+          </div>
+          <button type="submit" class="btn btn--primary btn--solid"  style="font-size:18px;">{{ 'customer.register.submit' | t }}</button>
+          {% comment %} <a class = "return light-gray" href="{{ shop.url }}">{{ 'customer.register.cancel' | t }}</a> {% endcomment %}
+          <a href="" alt=""></a>
+          <div style="font-size:18px;color:#53565a;">
+            By signing in, you agree to the <a href="/pages/terms-conditions" style="color:#53565a; text-decoration:underline;" alt="">Terms & Conditions</a> and acknowledge the <a href="/pages/privacy-policy" style="color:#53565a; text-decoration:underline;" alt="">Privacy Policy</a>.
+          </div>
+
+          {% comment %} <div class="hexin-register-freeicon-sty">
+            <div class="hexin-freeicon-item">
+              <img width="50px" height="auto" style=" color:#804C1A;" src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1_9e55feb7-f414-4168-9354-db9187869e40.png?v=1706514105" alt="" />
+              <div style="margin-top:10px;">Subscribe To Get 10% OFF</div>
+            </div>
+            <div class="hexin-freeicon-item">
+              <img width="50px" height="auto" style=" color:#804C1A;" src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/2_b4fe7b73-7056-494c-9743-3179fc43084b.png?v=1706514105" alt="" />
+              <div style="margin-top:10px;">Free Shipping:Global Orders $80+</div>
+            </div>
+            <div class="hexin-freeicon-item">
+              <img width="50px" height="auto" style=" color:#804C1A;" src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/3_45592cae-5c83-4171-9674-4303cdac1e53.png?v=1706514106" alt="" />
+              <div style="margin-top:10px;">Hassle-Free Exchanges & Easy Returns</div>
+            </div>
+            
+          </div> {% endcomment %}
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</section>

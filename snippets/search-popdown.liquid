@@ -1,0 +1,261 @@
+{%- liquid
+assign classes = classes | prepend: ' ' | default: ''
+assign attributes = attributes | prepend: ' ' | default: ''
+assign in_header = in_header | default: false
+assign summary_classes = summary_classes | prepend: ' ' | default: ''
+assign search_types = search_types | default: ''
+
+assign has_details = false
+if in_header
+assign has_details = true
+endif
+
+assign popular_searches_menu = settings.popular_searches_menu
+assign show_browse_categories_menu = settings.show_browse_categories_menu
+assign show_popular_searches = false
+if popular_searches_menu != blank or show_browse_categories_menu
+assign show_popular_searches = true
+endif
+
+capture search_popdown_classes
+echo 'search-popdown' | append: classes
+unless in_header
+echo ' search-popdown--page'
+endunless
+endcapture
+
+capture search_popdown_attributes
+echo attributes
+if in_header
+echo ' data-popdown-in-header'
+else
+echo ' data-popdown-in-page'
+endif
+endcapture
+
+capture search_popdown_body_classes
+echo 'search-popdown__body'
+if in_header
+echo ' search-popdown__body--fixed'
+endif
+if show_popular_searches
+echo ' search-popdown__body--has-popular-searches'
+endif
+endcapture
+-%}
+
+{%- capture search_popdown_body -%}
+<div class="{{ search_popdown_body_classes }}" role="dialog" aria-modal="true"
+  aria-label="{{ 'general.search.search' | t }}" data-popdown-body>
+  <div class="search-popdown__main">
+    {%- if settings.enable_predictive_search -%}
+    <predictive-search>
+      {%- else -%}
+      <search-form>
+        {%- endif -%}
+
+        <form class="search-form" action="{{ routes.search_url }}" method="get" role="search" data-search-form>
+          <input name="options[prefix]" type="hidden" value="last">
+          {%- if search_types != '' or template.name == 'search' -%}
+          <input type="hidden" name="type" value="{{ search_types }}">
+          {%- endif -%}
+
+          <div class="search-form-box">
+            <div class="search-form__inner" data-search-form-inner>
+              <div class="search-form__input-holder">
+                <label for="searchInput-{{ unique }}" class="search-form__label">
+                  <span class="visually-hidden">{{ 'general.search.title' | t }}</span>
+                  {%- render 'icon-search' -%}
+                </label>
+
+                <input type="search" id="searchInput-{{ unique }}" class="search-form__input" name="q"
+                  value="{{ search.terms | escape }}" aria-label="{{ 'general.search.placeholder' | t }}" {% if
+                  settings.enable_predictive_search %} role="combobox" aria-expanded="false"
+                  aria-owns="searchResults-{{ unique }}" aria-controls="searchResults-{{ unique }}"
+                  aria-haspopup="listbox" aria-autocomplete="list" autocorrect="off" autocomplete="off"
+                  autocapitalize="off" spellcheck="false" {% endif %}>
+
+                <button class="search-form__submit visually-hidden" type="submit" tabindex="-1"
+                  aria-label="{{ 'general.search.submit' | t }}">
+                  {%- render 'icon-search' -%}
+                </button>
+
+                <button type="button" class="search-popdown__close" title="{{ 'general.accessibility.close' | t }}"
+                  data-popdown-close>
+                  {%- render 'icon-close' -%}
+                </button>
+              </div>
+              <div id="searchResults-{{ unique }}" class="search-results">
+                {%- if settings.enable_predictive_search -%}
+                <div class="predictive-search" data-predictive-search-results data-scroll-lock-scrollable>
+                  <div class="predictive-search__loading-state">
+                    <div class="predictive-search__loader loader loader--line">
+                      <div class="loader-indeterminate"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"
+                  data-predictive-search-status></span>
+                  <div class="search-hot-over2">
+                    <div style="height: 120px; display:block; width: 100%;"></div>
+                    <div class="search-hot2">
+                    {%- assign collection3 = settings.collection3 -%}
+                    <div class="featured-collections2">
+                          {%- for product in collection3.products limit: settings.products_count -%}
+                            {%- render 'product-grid-item2', product: product, collection: collection3, show_cta: section.settings.show_cta, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition -%}
+                          {%- endfor -%}
+                    </div>
+                      <style>
+                      .featured-collections2 {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        padding-bottom: 20px ;
+                      }
+                      .search-hot-over2 {
+                          overflow: auto;
+                          padding-top:260px;
+                          max-height: calc(100vh - 160px);
+                          background: var(--bg);
+                          padding: 0 var(--inner);
+                      }
+                      predictive-search[open=true][results=true].is-searched .search-hot2{
+                        visibility: hidden;
+                      }
+                      .search-hot2{
+                        visibility: visible;
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 420px;
+                        margin: 0 auto;
+                      }
+                      
+                      @media only screen and (max-width: 767px) {
+                        .search-hot2{
+                            display: block;
+                            padding-top: 10px;
+                        }
+                      }
+                      @media screen and (max-width: 767px) {
+                        .search-hot2 {
+                          width: 100%;
+                          padding: 10px 7% 0;
+                        }
+                      }
+
+                      /* 当它在搜索栏显示的时候 宽度调整一下 */
+                      @media only screen and (min-width: 1440px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width) - var(--grid-gutter) * 3) / 6);
+                        } 
+                      }
+
+                       @media only screen and (min-width: 1281px) and (max-width: 1439px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width)*0.9 - var(--grid-gutter) * 3) / 6);
+                        }
+                      }
+
+
+                       @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width)*0.9 - var(--grid-gutter) * 3) / 4.5);
+                        }
+                      }
+                    
+                      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width) * 0.9 - var(--grid-gutter)) / 4);
+                        }
+                      }
+                      @media only screen and (max-width: 767px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width) * 0.9 - var(--grid-gutter)) / 2.5);
+                        }
+                      }
+                      @media only screen and (max-width: 568px) {
+                        .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width) - var(--grid-gutter) * 3) / 2.3);
+                        }
+                      }
+
+
+                      @media only screen and (max-width: 429px) {
+
+                      .search-hot2 .one-quarter {
+                          width: calc((var(--wrapper-width) - var(--grid-gutter) * 3) / 2);
+                        }
+/*                       
+                        .search-hot2 .mobile--one-whole {
+                          width: calc(var(--wrapper-width) * 0.9 - var(--grid-gutter));
+                        }
+
+
+
+                        .search-hot2 .mobile--one-half {
+                          width: calc((var(--wrapper-width) * 0.9 - var(--grid-gutter)));
+                        }
+                        .search-hot2 .grid__item:only-child,
+                        .search-hot2 .carousel__item:only-child {
+                          width: 100%;
+                        } */
+
+
+
+                      }
+
+
+
+                      </style>
+                    </div>
+                  </div>
+
+
+
+
+
+                {%- endif -%}
+
+                {%- if show_popular_searches -%}
+                {%- render 'popular-searches',
+                unique: unique,
+                popular_searches_menu: popular_searches_menu,
+                show_browse_categories_menu: show_browse_categories_menu -%}
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        </form>
+
+        {%- if settings.enable_predictive_search -%}
+    </predictive-search>
+    {%- else -%}
+    </search-form>
+    {%- endif -%}
+  </div>
+</div>
+{%- endcapture -%}
+
+<search-popdown class="{{ search_popdown_classes }}" {{ search_popdown_attributes }}>
+  {%- if has_details -%}
+  <details>
+    <summary class="search-popdown__toggle{{ summary_classes }}" aria-haspopup="dialog" data-popdown-toggle
+      title="{{ 'general.accessibility.open_search_bar' | t }}">
+      {%- if header_icons_as_text -%}
+      <span class="icon-search navtext{% if settings.nav_caps_toplevel %} caps{% endif %}">{{ 'layout.navigation.search'
+        | t }}</span>
+      {%- else -%}
+      {%- render 'icon-search' -%}
+      {%- endif -%}
+      {%- render 'icon-close' -%}
+      <span class="visually-hidden">{{ 'general.accessibility.open_search_bar' | t }}</span>
+    </summary>
+    {%- endif -%}
+
+    {{- search_popdown_body -}}
+
+    {%- if has_details -%}
+  </details>
+  {%- endif -%}
+</search-popdown>

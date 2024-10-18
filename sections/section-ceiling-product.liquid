@@ -1,0 +1,170 @@
+{% comment %} /sections/section-ceiling-product.liquid {% endcomment %}
+
+{%- liquid
+  assign unique = section.id
+-%}
+
+{%- style -%}
+  .ceiling-product-wrapper::after{
+    position: absolute;
+  }
+  .ceiling-product-wrapper{
+    width: 100%;
+    height:90px;
+    position: fixed; 
+    left:0; 
+    top: 60px;
+    display: none;
+    align-items: center;
+    justify-content: space-between; 
+    background: #fff;
+    border-top: 1px solid rgb(238, 238, 238);
+    z-index: 9;
+  }
+  .ceiling-product-wrapper .ceiling-shop-btn{
+      color:#fff;
+      background: #111;
+      padding: 8px 20px;
+  }
+   .ceiling-product-wrapper .ceiling-color-wrapper{
+      margin-left: 30px;
+   }
+   .ceiling-product-wrapper .ceiling-color-wrapper .ceiling-color-item{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: 1px solid #eee;
+   }
+  @media only screen and (max-width: 767px) {
+    .ceiling-product-wrapper .ceiling-title{
+        max-width:120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .ceiling-product-wrapper .ceiling-shop-btn{
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+    .ceiling-product-wrapper .ceiling-color-wrapper{
+      margin-left: 20px;
+    }
+    .ceiling-product-wrapper{
+      top: inherit;
+      bottom: 0;
+    }
+    .ceiling-product-wrapper .ceiling-color-wrapper .ceiling-color-item{
+      width: 22px;
+      height: 22px;
+   }
+  }
+{%- endstyle -%}
+
+<section
+  id="ceiling-product--{{ unique }}"
+  class="section-padding"
+  data-section-id="{{ unique }}"
+  data-section-type="ceiling-product"
+>
+
+  {%- liquid
+    assign celing_product_item = section.settings
+  -%}
+  <div class="wrapper ceiling-product-wrapper"  >
+    <div style="display:flex;align-items:center;">
+      <a href='{{ celing_product_item.ceiling_product.url }}' alt="">
+        <img src="{{ celing_product_item.ceiling_product.featured_media.preview_image| img_url: '400x400' }}" alt="" width="auto" height="70px">
+      </a>
+      {%- for option in celing_product_item.ceiling_product.options_with_values -%}
+        {%- if option.name == 'Color' -%}
+           {%- assign ceiling_pro_colors = option.values | json -%}
+        {%- endif -%}
+      {%- endfor -%}
+      <div class="ceiling-color-wrapper">
+        <div class="ceiling-title" id="ceiling_product_title" >{{ celing_product_item.ceiling_product.title }}</div>
+          <div data-colorval='{{ ceiling_pro_colors }}' id="ceiling_product_content" style="display:flex;margin-top:10px;"> </div>
+      </div>
+    </div>
+    {%- if celing_product_item.ceiling_btn_text != blank -%}
+      <a href='{{ celing_product_item.ceiling_product.url }}' alt="" class="ceiling-shop-btn">{{- celing_product_item.ceiling_btn_text -}}</a>
+    {%- endif -%}
+
+  </div>
+</section>
+
+<script type="text/javascript">
+  const swatches = theme.settings.swatches.trim().split(/\n/); // 系统颜色色值
+  let sysColors = {};
+  for (let i = 0; i < swatches.length; i++) {
+    let v = swatches[i].split(':');
+    sysColors[v[0]] = v[1];
+  }
+
+  setTimeout(()=>{
+    getCeilingColor();
+  },10)
+  
+  if (Shopify.designMode) {
+    document.addEventListener('shopify:section:select', function (event) { // 监听自定义操作
+      getCeilingColor();
+    });
+  }
+
+  function getCeilingColor() { // 获取吸顶产品颜色和渲染
+    const ceilingProductContent = document.getElementById( 'ceiling_product_content' );
+    console.log('get ceiling ele：',ceilingProductContent )
+    if(!ceilingProductContent) return '';
+
+    const colorVal = ceilingProductContent.dataset.colorval;
+    if (!colorVal) return '';
+    const proColors = JSON.parse(colorVal);
+    let childEle = '';
+    for (let i = 0; i < proColors.length; i++) {
+      if (i < 4) {
+        childEle += `<div class='ceiling-color-item' style='background:${
+          sysColors[proColors[i]]
+        }'></div>`;
+      }
+    }
+    ceilingProductContent.innerHTML = childEle;
+
+    window.addEventListener('scroll', function () { // 滚动显示吸顶产品
+      var ceilingWrapper = document.querySelector('.ceiling-product-wrapper');
+      if (window.scrollY > 100) {
+        ceilingWrapper.style.display = 'flex';
+      } else {
+        ceilingWrapper.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Ceiling product",
+  "class": "section-ceiling-product-wrapper",
+  "settings": [
+   {
+      "type": "product",
+      "id": "ceiling_product",
+      "label": "ceiling_product"
+    },
+    {
+      "type": "text",
+      "id": "ceiling_btn_text",
+      "label": "btn_text",
+      "default": "SHOP NOW"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ceiling product",
+      "category": "Text"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header","aside","footer"]
+  }
+}
+{% endschema %}

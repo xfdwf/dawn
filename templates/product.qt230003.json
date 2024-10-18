@@ -1,0 +1,882 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "slider_text_PTAKTp": {
+          "type": "sliderText",
+          "settings": {
+            "sliderText": "60-day free exchange & no-hassle returns",
+            "sliderText2": "free shipping on orders over USD80",
+            "sliderText3": "Estimated USA Delivery: 2 to 5 Business Days"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "loox_reviews_loox_rating_RYjcFj": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "custom_code_EA4bTU": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div style=\"background-color: #EBE7E0;padding: 8px;font-size: 13px;display: inline-block;border-radius: 5px;color:#171719\">\n            <div>\n<b style=\"color:#171719\">$20 off over $120，$30 off over $200<\/b><br>*Discount calculated automatically at checkout.<\/div>\n        <\/div>",
+            "padding_bottom": 20
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "disabled": true,
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": "{{ product.metafields.theme.upsell_list.value }}",
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_UzNtwk": {
+          "type": "icon_row",
+          "disabled": true,
+          "settings": {
+            "alignment_section": "row",
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "none",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "",
+            "section_headinig": "",
+            "section_headinig_size": 16,
+            "section_headinig_alignment": "left",
+            "alignment": "center",
+            "bg_color": "#d3d3d3",
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_QDTWPA": {
+          "type": "icon_row",
+          "settings": {
+            "alignment_section": "column",
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "section_headinig": "why we love it",
+            "section_headinig_size": 20,
+            "section_headinig_alignment": "left",
+            "alignment": "left",
+            "bg_color": "#ebe7e0",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Highlight or Feature",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Material",
+            "heading_style": "font-body",
+            "accordion_text": "<p>{{ product.metafields.my_fields.details | metafield_tag }}<\/p><p>• Hand wash<\/p><p>• Do not dry clean<\/p><p>• Do not iron<\/p><p>• Do not bleach<\/p><p>• Do not tumble dry<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_LBarxN": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Fit Recommendation",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Measure your waist, bust, and hips to find your Popilush size. If your waist and hip measurements fall within different sizes, choose the <strong>larger <\/strong>size.<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Shipping & Returns",
+            "heading_style": "font-body",
+            "accordion_text": "<p><\/p><p><strong>SHIPPING POLICY<\/strong><\/p><p><\/p><ul><li>We offer free standard shipping for U.S. orders over $80+.<\/li><li>Please allow up to 3 business days for processing before your order ships<br\/><\/li><\/ul><p><strong>RETURN POLICY<\/strong><br\/><\/p><ul><li>60-Day Returns (excluding clearance items)<\/li><li>Products must be returned unworn, unwashed, in their original condition and with all tags and liners attached.<\/li><li>We ask that you wear underwear when first trying-on your purchase, as we reserve the right to refuse returns that show any signs of wear.<\/li><li>International returns are accepted. Return shipping and any reverse duties are the responsibility of the customer. <\/li><li>We cannot accept returns (even within 60 days of purchase) for items listed as final sale at the time of purchase. The acceptance of a return is at the sole discretion of the Popilush team.<\/li><\/ul>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "Need help with sizing?",
+            "text": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "slider_text_PTAKTp",
+        "title",
+        "loox_reviews_loox_rating_RYjcFj",
+        "custom_code_EA4bTU",
+        "inventory_countdown",
+        "form",
+        "upsell",
+        "icon_row_UzNtwk",
+        "icon_row_QDTWPA",
+        "description",
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "product_accordion",
+        "product_accordion_LBarxN",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_custom_FkK4JY": {
+      "type": "section-columns-custom",
+      "settings": {
+        "title": "IT LOOKS GOOD ON YOU",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1.2,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "overlapping-images-0": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>Our Story, Our Promise<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "38ff978b-66eb-4318-9ce0-94db8ff86311": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "relevance_RUABA8": {
+      "type": "relevance",
+      "blocks": {
+        "promo_9Ykk4e": {
+          "type": "promo",
+          "settings": {
+            "position": 1,
+            "width": "auto",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "promo_9Ykk4e"
+      ],
+      "settings": {
+        "collection": "",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-center",
+        "title": "<h2>COMPLETE THE LOOK<\/h2>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "You May Also Like",
+            "product_recommendations_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_KkLFLt": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bluetag_shop_2_-03_1da983d7-f2b7-488b-bcee-347b3fdd573a.jpg",
+        "image_M": "shopify:\/\/shop_images\/Bluetag_shop_1_-24_39b9d672-2119-4340-925b-723f340ab61e.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "cable_joint_id": ""
+      }
+    },
+    "section_image_iKAhPT": {
+      "type": "section-image",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.wrapper {padding: 0; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gif.gif",
+        "image_M": "shopify:\/\/shop_images\/gif.gif",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "cable_joint_id": ""
+      }
+    },
+    "section_image_bluetag_yUnEew": {
+      "type": "section-image-bluetag",
+      "settings": {
+        "title": "Where StyIe Meets Tech",
+        "logo_content": "We developed a breakthrough in fabric technology, using premium collagen protein extracted from discarded oyster shells. lightweight, odor—resistant, and naturally moisturizing, our Bluetag fabric is designed to keep you comfortable all summer long.\n<br>\n<br>\nintroducing PopiIush BIuetag, our summer style revolution. Elevate your everyday wardrobe with dresses that feel as cool as they look, made with our innovative antibacterial and skin-friendly fabric.",
+        "image": "shopify:\/\/shop_images\/045b8cfd863e52a497e14173e1919de8.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_PQMpAF": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bluetag_shop_2_-08_c1fcb9e6-5b90-4c10-a7f1-4e2f5d46b5ed.jpg",
+        "image_M": "shopify:\/\/shop_images\/Bluetag_shop_1_-25_e3d854a2-e863-4226-bb33-72738b658bd2.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "cable_joint_id": ""
+      }
+    },
+    "section_grid_blue_tag_WFQFE9": {
+      "type": "section-grid-blueTag",
+      "blocks": {
+        "image_MNqLGc": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/SPU_1_f840f827-b970-4983-aa26-5e190160f713.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Dual-layer Mesh",
+            "text": "For Shaping",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_zndBQF": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/SPU_2_316763c2-8ad5-44df-b1a1-17cc019d063c.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Bustlift",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_TFb3xF": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/SPU_3_877a2bdc-42bc-445b-b2dd-6455ace5ab85.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Enhance",
+            "text": "Buttocks",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_7rTQLx": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/SPU_4_27a0d58e-809f-4d3c-8aed-c8a1e0af1c93.png",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Hassle-free Restroom Access",
+            "text": "Overlapping crotch & Antimicrobial Shapewear",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_MNqLGc",
+        "image_zndBQF",
+        "image_TFb3xF",
+        "image_7rTQLx"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Built-In Shapewear",
+        "height": "auto",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_UwAYcU": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bluetag_shop_2_-07_319a91f1-783e-4157-824e-e04935178577.jpg",
+        "image_M": "shopify:\/\/shop_images\/Bluetag_shop_1_-09_a64a8dd7-09e4-46b6-9f6c-144f81b7ed2b.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": false,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "cable_joint_id": ""
+      }
+    },
+    "section_grid_blue_tag_RTRDVa": {
+      "type": "section-grid-blueTag",
+      "blocks": {
+        "image_96nFjx": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/1_b93da2ae-801c-4a49-adc1-4d6625592f27.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Cooling Effect",
+            "text": "Our exclusive new material delivers a cooling sensation that helps you beat the heat of summer.",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_fWtcBh": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/2_0287ea94-d36c-4439-8004-e2424a4225aa_1.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "UV protection",
+            "text": "Designed with the summer sun in mind, BIuetag fabric is more than 99％ UVA\/UVB resistant.",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_CYHQPR": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/3_29a22b20-f3a0-4266-95a3-027c7b54607d.gif",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Antibacterial TechnoIogy",
+            "text": "Say goodbye to sweaty summer situations. With BIuetag,our built-in shapewear keeps you feeling fresh with anti-bacterial properties.",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_8tGAaA": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/SPU_37fec1ac-4de1-4081-a679-45528cbff1fc.png",
+            "overlay_opacity": 0,
+            "text_position": "left",
+            "subheading": "",
+            "title": "Even Smoother Texture",
+            "text": "This is comfort, elevated. Our BIuetag dresses offer a but- tery, smoother-than-ever texture that's never too clingy or compressive.",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_96nFjx",
+        "image_fWtcBh",
+        "image_CYHQPR",
+        "image_8tGAaA"
+      ],
+      "settings": {
+        "title": "Fabric Characteristics",
+        "height": "auto",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_LK8qzk": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bluetag_shop_1_-11_596d5084-412f-4cf9-9641-255eedddcad8.jpg",
+        "image_M": "shopify:\/\/shop_images\/Bluetag_shop_1_-10_8aa43e2c-6d01-4d5f-bd61-d6e7939f85f3.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 10,
+        "cable_joint_id": ""
+      }
+    },
+    "1711673267d4f338b3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_WYHXwR": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 8,
+            "hide_thumbnails": true,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_WYHXwR"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "tabs": {
+      "type": "section-accordions",
+      "blocks": {
+        "acordion-0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Most orders placed on business days will be processed and shipped with in 1-3 days.<br\/><br\/>We are unable to deliver on weekends or public holidays, any orders placed during this period will be dispatched the following business day<br\/><br\/>SHIPPING TIMES<br\/><br\/>· Express Delivery: 3-7 business days<br\/><br\/>· Standard Delivery: 6-15 business days<br\/><br\/>Please note, that shipping times do not include the standard 1-3 business day processing time it takes for the order to ship out.<\/p>"
+          }
+        },
+        "acordion-1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I apply my Discount Coupon Code?",
+            "text": "<p>You can enter this discount codes on your checkout page, click ‘apply’. Your total amount will be updated to reflect the discount.<\/p>"
+          }
+        },
+        "acordion-2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>We offer free standard shipping on all orders $80+ in the Contiguous United States. <\/p>"
+          }
+        },
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f": {
+          "type": "text",
+          "settings": {
+            "title": "How can I choose the correct size?",
+            "text": "<p>We have a Size Guide on every product page to help you select the right size. Just click the Size Chart below the product information. Please note that just so you know, some items might fit differently depending on the style. If in between sizes, please choose a larger size if you prefer a comfortable fit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "acordion-0",
+        "acordion-1",
+        "acordion-2",
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "icons": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "package",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "Enhanced Customer Support",
+            "text": "<p>Email\/Call Friendly Connect<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>Free shipping on U.S. orders over $80<\/p>"
+          }
+        },
+        "text_PJkktj": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "Student Discount",
+            "text": "<p>Enjoy 15% Off Your Order<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2",
+        "text_PJkktj"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_columns_custom_FkK4JY",
+    "overlapping-images-0",
+    "38ff978b-66eb-4318-9ce0-94db8ff86311",
+    "relevance_RUABA8",
+    "related",
+    "section_image_KkLFLt",
+    "section_image_iKAhPT",
+    "section_image_bluetag_yUnEew",
+    "section_image_PQMpAF",
+    "section_grid_blue_tag_WFQFE9",
+    "section_image_UwAYcU",
+    "section_grid_blue_tag_RTRDVa",
+    "section_image_LK8qzk",
+    "1711673267d4f338b3",
+    "tabs",
+    "icons"
+  ]
+}

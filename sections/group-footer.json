@@ -1,0 +1,263 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "section_custom_html_9i6J8h": {
+      "type": "section-custom-html",
+      "custom_css": [
+        "#conversation-badge {background: transparent; cursor: pointer; position: fixed; width: 50px; height: 50px; bottom: 10px; right: 10px; z-index: 999999;}",
+        "#conversation-badge .inbox {position: relative;}",
+        "#conversation-badge .inbox #unread-indicator {position: absolute; top: 0; right: 0; width: 14px; height: 14px; line-height: 14px; border-radius: 9px; text-align: center; font-size: 10px; color: #fff;}",
+        "#conversation-badge img {width: 50px; height: 50px;}"
+      ],
+      "settings": {
+        "custom_code": "<!-- Start of z3nabcd Zendesk Widget script -->\n  <script id=\"ze-snippet\"\n    src=\"https:\/\/static.zdassets.com\/ekr\/snippet.js?key=2e6bfc61-fbb3-49ce-b868-e41f882749c9\"> <\/script>\n  <!-- End of z3nabcd Zendesk Widget script -->\n  <div id=\"conversation-badge\">\n    <div class=\"inbox\">\n      <span id='unread-indicator'>0<\/span>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/8139\/6829\/files\/service.png?v=1726647344\" alt=\"\">\n    <\/div>\n  <\/div>\n  <script type=\"text\/javascript\">\n    const conversationBadge = document.querySelector('#conversation-badge')\n    const unreadIndicator = document.querySelector('#unread-indicator')\n\n    const populateUnreadIndicator = (count) => {\n      if (!count) return resetUnreadIndicator()\n      unreadIndicator.style.background = '#FF0F3F'\n      unreadIndicator.style.display = 'block'\n      unreadIndicator.innerHTML = count\n      conversationBadge.setAttribute('class', 'tilt-animation');\n    }\n\n    const resetUnreadIndicator = () => {\n      unreadIndicator.style.background = '#CC3333'\n      unreadIndicator.style.color = 'FF0F3F'\n      unreadIndicator.style.display = 'none'\n      unreadIndicator.innerHTML = \"\"\n      conversationBadge.setAttribute('class', '');\n    }\n\n    \/\/ unread Message on listener\n    zE('messenger:on', 'unreadMessages', (count) => {\n      populateUnreadIndicator(count)\n    })\n\n    \/\/ on page load always close widget\n    zE('messenger', 'close');\n    conversationBadge.onclick = () => {\n      \/\/ open widget\n      zE('messenger', 'open');\n      \/\/ reset unread indicator\n      resetUnreadIndicator()\n    }\n  <\/script>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_W8GpBJ": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_jkPRKm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22222.gif",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_JfaPmN": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_LPcH7V": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_tMm6Ww": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_E6f4Vn": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_jpzBm8": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_jkPRKm",
+        "text_block_JfaPmN",
+        "text_block_LPcH7V",
+        "text_block_tMm6Ww",
+        "text_block_E6f4Vn",
+        "text_block_jpzBm8"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1,
+        "mobile_aspect_ratio": 1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_8Lj3nJ": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_JDNEEA": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping On Orders Over $80<\/p>"
+          }
+        },
+        "text_dhenm9": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "Enhanced Support",
+            "text": "<p>Email\/Call Friendly Connect<\/p>"
+          }
+        },
+        "text_EVhXqf": {
+          "type": "text",
+          "settings": {
+            "icon_name": "mail",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        },
+        "text_qfCe67": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "Student Discount",
+            "text": "<p>Enjoy 15% Off Your Order<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_JDNEEA",
+        "text_dhenm9",
+        "text_EVhXqf",
+        "text_qfCe67"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "columns": 4,
+        "icons_width": 20,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-1": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "help",
+            "title": "Help",
+            "column_width": "20"
+          }
+        },
+        "link_RRT6hX": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "resources",
+            "title": "Resources",
+            "column_width": "20"
+          }
+        },
+        "link_FzAedn": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "about",
+            "title": "About",
+            "column_width": "20"
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-1",
+        "link_RRT6hX",
+        "link_FzAedn"
+      ],
+      "custom_css": [
+        "button,.footer-title {font-size: 16px;}",
+        "li,li a {font-size: 14px;}"
+      ],
+      "settings": {
+        "show_footer_wave": false,
+        "bottom_bar_alignment": "text-left",
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": false,
+        "bottom_menu": "",
+        "color_text": "#171719",
+        "color_bg": "#f0ede6",
+        "color_border": "#f0ede6",
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_custom_html_9i6J8h",
+    "section_columns_W8GpBJ",
+    "section_icons_row_8Lj3nJ",
+    "footer"
+  ]
+}

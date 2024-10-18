@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "section_slideshow_KE9M3V": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_FhAQFQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2000-900.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1500x2000_e60acda6-363f-48b7-a84a-35e7dc6f7bfa.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p><strong>Real Reviews From Customers<\/strong><\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_mail": "mailto:",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FhAQFQ"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "four-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_gn4w6U": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_k87jH8": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Real Reviews From Customers<\/strong><\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_VYAm46": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>Real Reviews From Customers<\/strong><\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_KJtWUa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_3EYfkB": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k87jH8",
+        "heading_VYAm46",
+        "text_KJtWUa",
+        "button_3EYfkB"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-light",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1714122518cc2352a5": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_B87gxR": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_B87gxR"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1714123067ea1d8ec4": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_8Kf7Jn": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_8Kf7Jn"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_KE9M3V",
+    "main",
+    "section_text_gn4w6U",
+    "1714122518cc2352a5",
+    "1714123067ea1d8ec4"
+  ]
+}

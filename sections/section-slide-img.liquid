@@ -1,0 +1,269 @@
+{% comment %} /sections/section-slide-img.liquid {% endcomment %}
+
+{%- liquid
+  assign unique = section.id
+  assign img_width = '110px'
+  assign img_url_width = '600x600'
+-%}
+
+{%- style -%}
+  #slideimgpage--{{ unique }} {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #slideimgpage--{{ unique }} .wrapper {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  #slideimgpage--{{ unique }} .wrapper #get-src-button{
+    background:#111;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  #slideimgpage--{{ unique }} .wrapper .slide-img-color{
+    margin: 30px auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position: 17% 65%;
+  }
+  
+  #slideimgpage--{{ unique }} .wrapper::after{
+    position: absolute;
+  }
+  #slideimgpage--{{ unique }} .wrapper .swiper-button-prev::after,#slideimgpage--{{ unique }} .wrapper .swiper-button-next::after{
+    content: '';
+  }
+  #slideimgpage--{{ unique }} .wrapper .swiper-button-prev img,#slideimgpage--{{ unique }} .wrapper .swiper-button-next img{
+    max-width: inherit;
+    border-radius: 50%;
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    #slideimgpage--{{ unique }} .wrapper .swiper-button-prev,#slideimgpage--{{ unique }} .wrapper .swiper-button-next{
+      display:none;
+    }
+    #slideimgpage--{{ unique }} .wrapper .swiper-slide img{
+      width: 75px!important;
+    }
+    #slideimgpage--{{ unique }} .wrapper {
+      padding-left: 0;
+      padding-right:0;
+    }
+
+  }
+{%- endstyle -%}
+
+<section
+  id="slideimgpage--{{ unique }}"
+  class="section-padding"
+  data-section-id="{{ unique }}"
+  data-section-type="slide-img-page"
+>
+  <div id="pre_image_num" data-num="{{ section.settings.pre_image_number }}" ></div>
+  <div class="wrapper">
+    <div class="swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="link-page-item" href="{{ section.settings.link_1 }}">
+            <img src="{{ section.settings.icon_image_1 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="link-page-item" href="{{ section.settings.link_2 }}">
+            <img src="{{ section.settings.icon_image_2 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="link-page-item" href="{{ section.settings.link_3 }}">
+            <img src="{{ section.settings.icon_image_3 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="link-page-item" href="{{ section.settings.link_4 }}">
+            <img src="{{ section.settings.icon_image_4 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+          </a>
+        </div>
+        {%- if section.settings.icon_image_5 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_5 }}">
+              <img src="{{ section.settings.icon_image_5 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.icon_image_6 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_6 }}">
+              <img src="{{ section.settings.icon_image_6 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.icon_image_7 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_7 }}">
+              <img src="{{ section.settings.icon_image_7 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.icon_image_8 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_8 }}">
+              <img src="{{ section.settings.icon_image_8 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.icon_image_9 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_9 }}">
+              <img src="{{ section.settings.icon_image_9 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.icon_image_10 != blank -%}
+          <div class="swiper-slide">
+            <a class="link-page-item" href="{{ section.settings.link_10 }}">
+              <img src="{{ section.settings.icon_image_10 | img_url: img_url_width }}" alt="" width="{{ img_width }}" height="auto">
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+      <div class="swiper-button-prev">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/09.jpg?v=1721282990" alt="" width="44px" height="auto">
+      </div>
+      <div class="swiper-button-next">
+        <img src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/13_2a656338-5ead-485e-8756-553cc7dfb357.jpg?v=1721282990" alt="" width="44px" height="auto">
+      </div>
+    </div>
+    <div class="slide-img-color" id="get-slide-img-color"></div>
+    <a href="www.xxx.com" alt="" id="get-src-button" >SHOP NOW</a>
+  </div>
+</section>
+
+
+
+
+{% schema %}
+{
+  "name": "Slide img page",
+  "class": "slide-img-wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pre_image_number",
+      "label": "pre image number"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_1",
+      "label": "image1"
+    },
+    {
+      "type": "url",
+      "id": "link_1",
+      "label": "link1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_2",
+      "label": "image2"
+    },
+    {
+      "type": "url",
+      "id": "link_2",
+      "label": "link2"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_3",
+      "label": "image3"
+    },
+    {
+      "type": "url",
+      "id": "link_3",
+      "label": "link3"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_4",
+      "label": "image4"
+    },
+    {
+      "type": "url",
+      "id": "link_4",
+      "label": "link4"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_5",
+      "label": "image5"
+    },
+    {
+      "type": "url",
+      "id": "link_5",
+      "label": "link5"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_6",
+      "label": "image6"
+    },
+    {
+      "type": "url",
+      "id": "link_6",
+      "label": "link6"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_7",
+      "label": "image7"
+    },
+    {
+      "type": "url",
+      "id": "link_7",
+      "label": "link7"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_8",
+      "label": "image8"
+    },
+    {
+      "type": "url",
+      "id": "link_8",
+      "label": "link8"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_9",
+      "label": "image9"
+    },
+    {
+      "type": "url",
+      "id": "link_9",
+      "label": "link9"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_10",
+      "label": "image10"
+    },
+    {
+      "type": "url",
+      "id": "link_10",
+      "label": "link10"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slide img page",
+      "category": "Text"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside"]
+  }
+}
+{% endschema %}

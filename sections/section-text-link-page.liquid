@@ -1,0 +1,168 @@
+{% comment %} /sections/section-text-link-page.liquid {% endcomment %}
+
+{%- liquid
+  assign unique = section.id
+-%}
+
+{%- style -%}
+  #Textlinkpage--{{ unique }} .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #Textlinkpage--{{ unique }} .wrapper::after{
+    position: absolute;
+  }
+
+  #Textlinkpage--{{ unique }} .wrapper  .link-page-item{
+    text-align: center;
+  }
+  #Textlinkpage--{{ unique }} .wrapper  .link-page-item img{
+    width: 160px;
+  }
+  .link-page-text p{
+    max-width: 600px;
+    word-wrap: break-word;
+  }
+  @media only screen and (max-width: 1000px) {
+    #Textlinkpage--{{ unique }} .wrapper{
+      flex-direction: column;
+    }
+    .link-page-left{
+      text-align: center;
+    }
+    .link-page-text p{
+      max-width: 85vw;
+    }
+    #Textlinkpage--{{ unique }} .wrapper  .link-page-item img{
+      width: 100px;
+    }
+    #Textlinkpage--{{ unique }} .wrapper  .link-page-item .link-item-img{
+      display: none;
+    }
+    #Textlinkpage--{{ unique }} .wrapper  .link-page-item .link-item-img-m{
+      display: inherit;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .link-page-left{
+      max-width: 620px;
+    }
+    .link-page-right{
+      flex: 1;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    #Textlinkpage--{{ unique }} .wrapper  .link-page-item .link-item-img{
+      display: inherit;
+    }
+    #Textlinkpage--{{ unique }} .wrapper  .link-page-item .link-item-img-m{
+      display: none;
+    }
+  }
+{%- endstyle -%}
+
+<section id="Textlinkpage--{{ unique }}" class="section-padding" data-section-id="{{ unique }}" data-section-type="text-link-page">
+  <div class="wrapper">
+    <div class="link-page-left">
+      {%- if section.settings.textHead -%}
+       <h2>{{ section.settings.textHead }}</h2>
+      {%- endif -%}
+      <div class="link-page-text">{{ section.settings.text }}</div>
+    </div>
+    <div class='link-page-right'>
+      <a class="link-page-item" href="#{{ section.settings.link1 }}" >
+        <img class="link-item-img" src="{{ section.settings.icon_image_1 | img_url: '400x400' }}" alt="" height="auto" />
+        <img class="link-item-img-m" src="{{ section.settings.m_icon_image_1 | img_url: '400x400' }}" alt="" height="auto" />
+      </a>
+      <a class="link-page-item" href="#{{ section.settings.link2 }}">
+        <img class="link-item-img" src="{{ section.settings.icon_image_2 | img_url: '400x400' }}" alt="" height="auto" />
+        <img class="link-item-img-m" src="{{ section.settings.m_icon_image_2 | img_url: '400x400' }}" alt="" height="auto" />
+      </a>
+      <a class="link-page-item" href="#{{ section.settings.link3 }}">
+        <img class="link-item-img" src="{{ section.settings.icon_image_3 | img_url: '400x400' }}" alt="" height="auto" />
+        <img class="link-item-img-m" src="{{ section.settings.m_icon_image_3 | img_url: '400x400' }}" alt="" height="auto" />
+      </a>
+    </div>
+    
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Text link page",
+  "class": "text-link-page-wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "textHead",
+      "label": "Heading",
+      "default": "Why You Love it"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>richtext</p>",
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_1",
+      "label": "pc_Icon1",
+    },
+    {
+      "type": "image_picker",
+      "id": "m_icon_image_1",
+      "label": "mobile_Icon1",
+    },
+    {
+      "type": "text",
+      "id": "link1",
+      "label": "link class1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_2",
+      "label": "pc_Icon2",
+    },
+    {
+      "type": "image_picker",
+      "id": "m_icon_image_2",
+      "label": "mobile_Icon2",
+    },
+    {
+      "type": "text",
+      "id": "link2",
+      "label": "link class2"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image_3",
+      "label": "pc_Icon3",
+    },
+    {
+      "type": "image_picker",
+      "id": "m_icon_image_3",
+      "label": "mobile_Icon3",
+    },
+    {
+      "type": "text",
+      "id": "link3",
+      "label": "link class3"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Text link page",
+      "category": "Text"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header","aside"]
+  }
+}
+{% endschema %}

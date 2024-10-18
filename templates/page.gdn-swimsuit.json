@@ -1,0 +1,551 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_xUtUbK": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "six-fifty-height",
+        "mobile_height": "four-hundred-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/www.youtube.com\/watch?v=2F746uBQzbc",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=2F746uBQzbc",
+        "image": "shopify:\/\/shop_images\/0422shop_-08.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "<p>Elevate Your Poolside Confidence with Our Premium Swimwear Collection<\/p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "text_xNWwmG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>We believe that loving ourselves should not sacrifice freedom and fashion should not sacrifice comfort.<strong><br\/><\/strong>Over the past three years, Popilush has been working with a professional design team to develop the most comfortable shaping dress ever made, and after accumulating a massive following of loyal Popilush customers, the <a href=\"\/collections\/modal-dresses\" title=\"Modal Dresses\"><strong>Popilush Shapewear Dress<\/strong><\/a><strong> <\/strong>has quickly become everyones favorite. <\/h3>",
+            "size": 100
+          }
+        },
+        "heading_k3CJtm": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>Experience Unmatched Comfort and Style in the Water with Our Swimwear – Designed to Flatter, Support, and Enhance Your Silhouette!<\/strong><\/p>",
+            "size": 70,
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_xNWwmG",
+        "heading_k3CJtm"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_ErfMGp": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_eihPnb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_e34785b9-1c32-4906-a379-b1162cacf0e9.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_aMPpHx": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3077_917d019c-69bc-44b8-876f-c9c50656488a.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_W7YCwK": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3020.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_zwMKyP": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eihPnb",
+        "text_block_aMPpHx",
+        "text_block_W7YCwK",
+        "text_block_zwMKyP"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_96phDk": {
+      "type": "section-text",
+      "blocks": {
+        "text_FwRXKt": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>We believe that loving ourselves should not sacrifice freedom and fashion should not sacrifice comfort.<strong><br\/><\/strong>Over the past three years, Popilush has been working with a professional design team to develop the most comfortable shaping dress ever made, and after accumulating a massive following of loyal Popilush customers, the <a href=\"\/collections\/modal-dresses\" title=\"Modal Dresses\"><strong>Popilush Shapewear Dress<\/strong><\/a><strong> <\/strong>has quickly become everyones favorite. <\/h3>",
+            "size": 100
+          }
+        },
+        "heading_hAkcLn": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Discover Swimwear That Fits Like a Dream and Accentuates Your Natural Beauty.Prepare to dive into a world of comfort, control, and undeniable style with our swimsuits featuring<\/p>",
+            "size": 70,
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_FwRXKt",
+        "heading_hAkcLn"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "swimwear",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_cY8gqC": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641751773360.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641751773360.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Removable Bra Pads<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p><strong>•<\/strong> Customize Your Coverage: Our swimwear comes equipped with easily removable bra pads, allowing you to tailor your level of support and coverage according to your preference or occasion. Whether you desire a subtle boost or full discretion, our versatile design offers the flexibility you need.<br\/><strong>• <\/strong>Maintain Shape & Modesty: The thoughtfully placed pads ensure your swimwear maintains its shape wash after wash, while providing modesty and peace of mind during aquatic activities.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qhmKrV": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641636430000.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641636430000.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Adjustable Straps<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p><strong>•<\/strong> Perfect Fit Every Time: Say goodbye to ill-fitting straps that slip or dig in uncomfortably. Our swimwear features fully adjustable straps, ensuring a snug, personalized fit that stays put as you move, dive, or lounge by the pool.<br\/><strong>• <\/strong>Versatility for Various Necklines: Effortlessly switch between classic straight, criss-cross, or halter styles, thanks to our convertible strap system. This adaptability allows you to effortlessly complement different outfits or showcase diverse looks on your next beach getaway.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_TLkBHJ": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641636462768.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/popilush-ruched-high-waist-bikini-set-two-piece-swimsuit-33641636462768.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Tummy Control<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p><strong>• <\/strong>Smooth & Sculpted Silhouette: Embrace your curves with confidence! Our swimwear incorporates advanced tummy control technology, gently smoothing and shaping your midsection for a flattering, streamlined look. Feel empowered and poised as you enjoy your time in the sun.<br\/><strong>•<\/strong> Comfortable Compression: Unlike restrictive shapewear, our tummy control feature provides gentle compression without compromising comfort. You'll love how it comfortably hugs your body, enhancing your natural contours without any pinching or squeezing.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_8bxypR": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/lQHPJwSsvjZbiUHNBkfNBLGwSV7nUqQp6skGHStY9CgpAA_1201_1607.gif",
+        "image_mobile": "shopify:\/\/shop_images\/lQHPJwSsvjZbiUHNBkfNBLGwSV7nUqQp6skGHStY9CgpAA_1201_1607.gif",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Built-in Mesh Shapewear<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p><strong>•<\/strong> Invisible Support & Breathability: Strategically placed mesh panels offer targeted shaping where you need it most, seamlessly blending into the design for a flawless appearance. Enjoy invisible support that smoothes and sculpts without unsightly lines or bulges.<br\/><strong>•<\/strong> Enhanced Airflow & Quick Drying: The breathable mesh fabric promotes airflow, keeping you cool and fresh even on the hottest days. Additionally, it facilitates quick drying, ensuring you stay comfortable both in and out of the water.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_XPeTpc": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1-7_045d4c09-322a-4a4f-81c7-73602c8cd2cb.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1-7_045d4c09-322a-4a4f-81c7-73602c8cd2cb.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>5. Fashionable and Comfortable<\/p>",
+        "heading_size": 130,
+        "content": "<p>Perfectly suited for a variety of styles and occasions.<br\/>A versatile wardrobe essential that goes from casual chic to formal sophistication. Our <strong>shapewear dress seamlessly transitions from day to night.<\/strong> The Popilush shapewear dress is ideal for a variety of occasions including daily wear, holidays, beach trips, wedding guest attire, parties, date nights and more. It is made with a very comfortable modal fabric. Experience a seamless, non-constricting fit that enhances your curves without compromising comfort. It allows your skin to breathe freely, ensuring comfort throughout the day.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_E64t9e": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1-6_81635d11-c12b-4f4c-b827-6824b342aa1a.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1-6_81635d11-c12b-4f4c-b827-6824b342aa1a.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>6. Various colors, styles and sizes!<\/p>",
+        "heading_size": 130,
+        "content": "<p>Our dress is available in 7 colors and <strong>various sizes for all body types ranging from XS to 4XL.<\/strong> Whether you're heading to work, shopping, traveling or attending a party, it helps you effortlessly transition between elegant, casual, edgy, or glamorous looks.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/people__1_67c49a8e-2eea-472e-b2d1-50abfd472bde.png",
+            "logo_width": 180
+          }
+        },
+        "press_wWf3JJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/Bragging-Mommy-1_logo_2_b677a7bb-cece-41f7-a584-308f914d2f07.png",
+            "logo_width": 180
+          }
+        },
+        "press_XxzNP8": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2_5bf88910-6f86-4d94-aae7-6e482b041fec.png",
+            "logo_width": 180
+          }
+        },
+        "press_tWqrtG": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/athleisuremag_logo2_afc77100-9e91-4d02-80d1-3d437daf8ee6.png",
+            "logo_width": 180
+          }
+        },
+        "press_t8YhMC": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/11_f90b9a9a-be6f-48b7-8034-599eedb19f4e.png",
+            "logo_width": 180
+          }
+        },
+        "press_AbdGqD": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/33_b8f1547d-92ea-4eb4-9306-f073cf5a068c.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4",
+        "press_wWf3JJ",
+        "press_XxzNP8",
+        "press_tWqrtG",
+        "press_t8YhMC",
+        "press_AbdGqD"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "swimwear",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "popilush-built-in-shapewear-slip-maxi-lounge-dress"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_video_xUtUbK",
+    "section_text_jnGbbg",
+    "section_columns_ErfMGp",
+    "section_text_96phDk",
+    "section_collection_JyxnaW",
+    "section_image_with_text_cY8gqC",
+    "section_image_with_text_qhmKrV",
+    "section_image_with_text_TLkBHJ",
+    "section_image_with_text_8bxypR",
+    "section_image_with_text_XPeTpc",
+    "section_image_with_text_E64t9e",
+    "section_press_GgKwa8",
+    "section_collection_f3GqBM",
+    "171352471609d7f60d"
+  ]
+}

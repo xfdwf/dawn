@@ -1,0 +1,414 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_9Ampjk": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "message": "Spend ||amount|| more for free shipping. (U.S. orders only)",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_kLhziz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free shipping on orders over $80 (U.S. orders only)<\/p>",
+            "text_link": "",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_iHxWGg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>$20 off over $120，$30 off over $200<\/p>",
+            "text_link": "shopify:\/\/collections\/special-offer",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "announcement-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get student & graduate discount<\/p>",
+            "text_link": "https:\/\/www.popilush.com\/pages\/student-graduate",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "https:\/\/www.popilush.com\/account\/register",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "message_9Ampjk",
+        "text_kLhziz",
+        "text_iHxWGg",
+        "announcement-0"
+      ],
+      "settings": {
+        "layout": "slider",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "slider_speed": 7,
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 140,
+        "letter_spacing": 0,
+        "message_spacing": 25,
+        "bg_color": "#171719",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_FJqyG9": {
+          "type": "image",
+          "settings": {
+            "position": "4",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ0004_2.webp",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "REDTAG",
+            "heading_size": 130,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/redtag"
+          }
+        },
+        "image_GzRzqT": {
+          "type": "image",
+          "settings": {
+            "position": "4",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ9571-_2.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "LACE",
+            "heading_size": 130,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/lace"
+          }
+        },
+        "image_NdRLBM": {
+          "type": "image",
+          "settings": {
+            "position": "5",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/1_5_1_7e4890a4-1bf9-468c-9488-e7952654560d.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Dress Slip Maxi",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/wide-scoop-neck-slip-long-dress"
+          }
+        },
+        "image_VMaeT4": {
+          "type": "image",
+          "settings": {
+            "position": "6",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ0080_1.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Bodysuit Sheer Mesh Slip Thong",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/sheer-mesh-shapewear-slip-thong-bodysuit"
+          }
+        },
+        "image_GAa6en": {
+          "type": "image",
+          "settings": {
+            "position": "6",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/MT220081-BN6_19_5de55cdf-31a8-4cab-8631-6f0f4f2b36b2_1_1.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Bodysuit Deep-V Neck Lace Thong",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/deep-v-neck-lace-thong-bodysuit"
+          }
+        },
+        "image_D6rM6M": {
+          "type": "image",
+          "settings": {
+            "position": "6",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ1012_d03cd549-2ec3-4fd6-b601-2137b03c9b71.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Bodysuit Seamless Modal Square Neck",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/seamless-modal-shapewear-square-neck-bodysuit"
+          }
+        },
+        "image_PCiTHX": {
+          "type": "image",
+          "settings": {
+            "position": "7",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ9567.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Jumpsuit Halter",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/built-in-shapewear-halter-jumpsuit"
+          }
+        },
+        "image_mNUMX7": {
+          "type": "image",
+          "settings": {
+            "position": "7",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ8660-2.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Romper Seamless Ribbed V-Neck",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/seamless-ribbed-v-neck-shapewear-romper"
+          }
+        },
+        "image_YbVyxM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "position": "5",
+            "image_second_menu": false,
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "",
+            "heading_size": 100,
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_R8zdUh": {
+          "type": "image",
+          "settings": {
+            "position": "9",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/VAZ6563_8_11zon.webp",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Fall Season New Arrivals",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/special-offer"
+          }
+        },
+        "image_LcB8EH": {
+          "type": "image",
+          "settings": {
+            "position": "9",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/EI3A6294.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "Up to 50% Off",
+            "heading_size": 110,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/sale"
+          }
+        },
+        "image_Kdph9j": {
+          "type": "image",
+          "settings": {
+            "position": "9",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/popilush_jumpsuit_sale.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "Jumpsuit Sale",
+            "heading_size": 120,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/jumpsuit-sale"
+          }
+        },
+        "image_RfqzHK": {
+          "type": "image",
+          "settings": {
+            "position": "10",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/EI3A7117_fca4fcc9-dda2-46d9-b63a-fa926b66875b.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "The Shapewear Bodysuit CloudSense Soft High-Cut Thong",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/cloudsense-soft-high-cut-thong-bodysuit"
+          }
+        },
+        "image_hGKC8i": {
+          "type": "image",
+          "settings": {
+            "position": "10",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/EI3A6113_71a8b5de-40a0-407a-b47d-14d46f2271b0.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "Seamless Square Neck One Piece Sport",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify:\/\/products\/seamless-square-neck-one-piece-sport-romper"
+          }
+        },
+        "search_9jctjp": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "New",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-dress-bluetag-cooling-ruched-sheer-mesh-maxi.jpg",
+            "hot_link": "shopify:\/\/collections\/new-old240813"
+          }
+        },
+        "search_mWYGz3": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Best Sellers",
+            "hot_img": "shopify:\/\/shop_images\/lace-deep-v-neck-bodysuits-leather-skirt.jpg",
+            "hot_link": "shopify:\/\/collections\/best-seller-old240813"
+          }
+        },
+        "search_4GPgGf": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Dresses",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-dresses-modal-soft.jpg",
+            "hot_link": "shopify:\/\/collections\/dress"
+          }
+        },
+        "search_ADpnRE": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Bodysuits",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-bodysuits-lace-smooth-firm-control-thong.jpg",
+            "hot_link": "shopify:\/\/collections\/bodysuits"
+          }
+        },
+        "search_3K8igV": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Jumpsuits",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-jumpsuit-v-neck-wide-leg-sleeveless-dress.jpg",
+            "hot_link": "shopify:\/\/collections\/jumpsuit-romper"
+          }
+        },
+        "search_JGpNgT": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Swimwear",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-swimwear-ruched-high-waist-bikini-set.webp",
+            "hot_link": "shopify:\/\/collections\/swimwear"
+          }
+        },
+        "search_zmXRqK": {
+          "type": "Search",
+          "settings": {
+            "hot_text": "Leather",
+            "hot_img": "shopify:\/\/shop_images\/shapewear-swimwear-ruched-high-waist-bikini-set.jpg",
+            "hot_link": "shopify:\/\/collections\/faux-leather"
+          }
+        }
+      },
+      "block_order": [
+        "image_FJqyG9",
+        "image_GzRzqT",
+        "image_NdRLBM",
+        "image_VMaeT4",
+        "image_GAa6en",
+        "image_D6rM6M",
+        "image_PCiTHX",
+        "image_mNUMX7",
+        "image_YbVyxM",
+        "image_R8zdUh",
+        "image_LcB8EH",
+        "image_Kdph9j",
+        "image_RfqzHK",
+        "image_hGKC8i",
+        "search_9jctjp",
+        "search_mWYGz3",
+        "search_4GPgGf",
+        "search_ADpnRE",
+        "search_3K8igV",
+        "search_JGpNgT",
+        "search_zmXRqK"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "header_border": true,
+        "link_hover_effect": "line",
+        "logo_not_home": "{{ shop.brand.logo }}",
+        "logo_max_width": 120,
+        "main-menu": "brand-company-preview",
+        "main_menu_secondary": "",
+        "show_images": false,
+        "image_aspect_ratio": 1.5,
+        "menu_alignment": "center",
+        "header_icons_as_text": false,
+        "highlight_item": "MEMORIAL DAY",
+        "highlight_item_color": "#ff0f3f",
+        "header_transparent": false,
+        "logo": "shopify:\/\/shop_images\/Popilush_FinalLogo_Wordmark_White.png",
+        "header_text_color": "white",
+        "header_gradient": true,
+        "show_country_selector": true,
+        "show_country_flag": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

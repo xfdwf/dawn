@@ -1,0 +1,640 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_kL7T4y": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_pyaXWe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_3.12_-___1_6.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_3.12_-_-06.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "top-left",
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "<h3>What Makes Popilush Shapewear Dresses the Best Choice For An Effortless Hourglass Figure?<\/h3>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#0b0b0b",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pyaXWe"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aHFYgf": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>FLATTERING FIT！ I’m a 34DDD & never in my wildest dreams thought I could go backless – my favorite bodysuit sucks me in & lifts the girls<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_E3FGPB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>IF you thought you couldn't wear a backless look because of your bust then think again.<\/p><p>A petite fashion fan shared her latest https:\/\/www.popilush.com\/ find that supported her chest without showing visible straps.<\/p><p>\"If you have a fuller bust, I am about to change your life,\" the TikToker told her followers.<\/p><p>\"Have you ever wanted to wear a dress that’s low-back but you have never found a sticky boob that’s really going to support you?\"<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_aHFYgf",
+        "text_E3FGPB"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_cY8gqC": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1_3de9787b-7003-4903-8bd7-521e2285ce2b.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1_3de9787b-7003-4903-8bd7-521e2285ce2b.jpg",
+        "subheading": "",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>TikTok user Paula showed her followers the shapewear she got to go under backless dresses  Credit: TikTok\/mo<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qhmKrV": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/2_2296bc5b-f9bb-4702-aa7a-c85c4a712d14.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2_2296bc5b-f9bb-4702-aa7a-c85c4a712d14.jpg",
+        "subheading": "",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>The TikToker gave her viewers a close-up look at the backless bodysuit under her dress  Credit: TikTok\/mommasinpajamas<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_7KX7Nn": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4jPgcb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_yAfkpP": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>The following is my recommended backless series for everyone<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Kda4LC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_X4zgcb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4jPgcb",
+        "heading_yAfkpP",
+        "text_Kda4LC",
+        "button_X4zgcb"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "low-back-bodysuit",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_MWHWEp": {
+      "type": "section-text",
+      "blocks": {
+        "text_pwgLqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In her video, Paula (@mommasinpajamas) explained that she stands at 5-foot and wears a cup size 34DDD.<br\/><br\/>\"If you have a fuller bust, I am about to change your life,\" the TikToker told her followers.<br\/><br\/>\"Have you ever wanted to wear a dress that’s low-back but you have never found a sticky boob that’s really going to support you?\"<\/p><p><br\/>Paula revealed her latest fashion find, the  following products:<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_pwgLqT"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_wUj3fV": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_QgpLEd": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ee8f3069b3f74469aa5bda4e3a7e23b7.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_qGHp4Y": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f9f48654fe95feabbc6de13a6b3d989.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_fN4J9n": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d30a25a3c27f6d66e5a525b7a18ab98d.webp",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_QgpLEd",
+        "text_block_qGHp4Y",
+        "text_block_fN4J9n"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_tDRf6y": {
+      "type": "section-text",
+      "blocks": {
+        "text_fQgHeb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Modeling the shapewear under a low-back black belted dress, she heaped on the praise for the look.<br\/><br\/>\"Never in my wildest dreams did I think I could wear a dress that looked like this from behind,\" Paula said.<br\/><br\/>\"My girls are lifted, the shapewear is sucking me in and holding me in nicely and I have my entire back out.\"<br\/><br\/>To give her viewers a better look, she pulled the dress down to her waist to show off the bodysuit.<\/p>",
+            "size": 100
+          }
+        },
+        "text_BVmjfy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"I am blown away by the shapewear, all of this compression in the middle is holding me in,\" she explained.<br\/><br\/>\"These straps on the side are completely adjustable, I don’t know what else to say, this is a must-have in your wardrobe.\"<\/p><p><br\/>she told her followers that she was 'absolutely blown away' by the backless shapewear.<\/p>",
+            "size": 100
+          }
+        },
+        "heading_jm6bE3": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Below are videos from other TikTok influencers sharing their experiences wearing Popilush backless shapewear<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "text_fQgHeb",
+        "text_BVmjfy",
+        "heading_jm6bE3"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_z8bmbb": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "five-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=qfD5PJIsV1Q",
+        "image": "shopify:\/\/shop_images\/1300x500_2_5c4f6fa4-66ed-486b-ade8-c56d04841c36.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_video_jgtLFk": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "five-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=mnSc8moQJs0",
+        "image": "shopify:\/\/shop_images\/VAZ7140_ddee294c-ab89-4da4-850f-5e6a4e86d6a8.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_overlapping_images_z3EBXW": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/meiti-layout_-1.jpg",
+        "image_link_1": "",
+        "image_2": "shopify:\/\/shop_images\/meiti-layout_8651862f-1792-47e2-8290-5de4991326e9.jpg",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "description": "<p><strong>This product, featuring a patented design, has been covered by over 360 news media outlets, with a total online readership exceeding 250 million. Below are screenshots from some of these media outlets.<\/strong><\/p><p><\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/people__1_67c49a8e-2eea-472e-b2d1-50abfd472bde.png",
+            "logo_width": 180
+          }
+        },
+        "press_wWf3JJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/Bragging-Mommy-1_logo_2_b677a7bb-cece-41f7-a584-308f914d2f07.png",
+            "logo_width": 180
+          }
+        },
+        "press_XxzNP8": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2_5bf88910-6f86-4d94-aae7-6e482b041fec.png",
+            "logo_width": 180
+          }
+        },
+        "press_tWqrtG": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/athleisuremag_logo2_afc77100-9e91-4d02-80d1-3d437daf8ee6.png",
+            "logo_width": 180
+          }
+        },
+        "press_t8YhMC": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/11_f90b9a9a-be6f-48b7-8034-599eedb19f4e.png",
+            "logo_width": 180
+          }
+        },
+        "press_AbdGqD": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/33_b8f1547d-92ea-4eb4-9306-f073cf5a068c.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4",
+        "press_wWf3JJ",
+        "press_XxzNP8",
+        "press_tWqrtG",
+        "press_t8YhMC",
+        "press_AbdGqD"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "low-back-bodysuit",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_AVtARp": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#FFFFFF",
+            "arrows_iconColor": "#9A9A9A",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC",
+        "loox_reviews_loox_card_carousel_section_AVtARp"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_kL7T4y",
+    "section_text_jnGbbg",
+    "section_image_with_text_cY8gqC",
+    "section_image_with_text_qhmKrV",
+    "section_text_7KX7Nn",
+    "section_collection_JyxnaW",
+    "section_text_MWHWEp",
+    "section_columns_wUj3fV",
+    "section_text_tDRf6y",
+    "section_video_z8bmbb",
+    "section_video_jgtLFk",
+    "section_overlapping_images_z3EBXW",
+    "section_press_GgKwa8",
+    "section_collection_f3GqBM",
+    "171352471609d7f60d"
+  ]
+}

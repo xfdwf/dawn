@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_kkHDRG": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_1.jpg",
+        "image_M": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_1_dcee25cb-1476-4250-9a8b-725530690121.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_UtrVjM": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "modal-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 6,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_WTyAmt": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_2.jpg",
+        "image_M": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_2_a63a9bd3-18f5-4f40-bbc8-97c1168b07d1.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_cWGzip": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_3.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_3.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_XWUgyV": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_4.jpg",
+        "image_M": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_4_aa3e9393-30fd-4b18-aec3-2c5b781c13ea.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_UFz7Mb": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_5.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_5.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_eYCdML": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_6_10a672de-1172-45e9-8601-fb1595d8a670.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_6_4923a0b1-c2a7-49eb-8543-99b0f0f6af9f.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_KW96JU": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_7.jpg",
+        "image_M": "shopify:\/\/shop_images\/popilush_mummy_tummy_Fembrace_your_curves_7_1c02f3c1-63f6-4c3b-8ba0-19ef3ebf82f0.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_DHmkJF": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PL-_-_-Pc_1_8.jpg",
+        "image_M": "shopify:\/\/shop_images\/PL-_-_-App_1_8.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "17159287205d767809": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_yTmB7h": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "built-in-shapewear-slip-maxi-dress-or-gift-box-set"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_yTmB7h"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_image_kkHDRG",
+    "section_collection_UtrVjM",
+    "section_image_WTyAmt",
+    "section_image_cWGzip",
+    "section_image_XWUgyV",
+    "section_image_UFz7Mb",
+    "section_image_eYCdML",
+    "section_image_KW96JU",
+    "section_image_DHmkJF",
+    "17159287205d767809"
+  ]
+}

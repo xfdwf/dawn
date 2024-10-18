@@ -1,0 +1,461 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_kL7T4y": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_pyaXWe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_3.12_-___1_6.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_3.12_-_-06.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "top-left",
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "<h3>What Makes Popilush Shapewear Dresses the Best Choice For An Effortless Hourglass Figure?<\/h3>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#0b0b0b",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pyaXWe"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "heading_6NdzHi": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>What Makes The Popilush Shapewear Bodysuit The Best Option For Showing Off Your Hourglass Figure?<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_zkDJcK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In just one year, the <a href=\"https:\/\/www.popilush.com\/collections\/lace\" title=\"https:\/\/www.popilush.com\/collections\/lace\"><strong>Popilush Shapewear Bodysuit<\/strong><\/a><strong> <\/strong>has risen to international fame. It is perfect for so many occasians such as casual every day wear, parties and travel. After accumulating a massive following of loyal Popilush customers, the <a href=\"https:\/\/www.popilush.com\/collections\/lace\" title=\"https:\/\/www.popilush.com\/collections\/lace\"><strong>Popilush Shapewear Bodysuit<\/strong><\/a><strong> <\/strong>is quickly becoming \"The Best Bodysuit For Showing Off Your Hourglass Figure.<\/p><p>Sold out monthly with over 100,000 Pieces, customers swear that it does what it's supposed to do.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_6NdzHi",
+        "text_zkDJcK"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "popilush-bodysuits",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<p>Why exactly do women go crazy over it?<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_cY8gqC": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_4.jpg",
+        "subheading": "",
+        "title": "<p>1. Comfortable shaping, breathable mesh fabric.<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>With high-elasticity double layer mesh fabric for <strong>powerful tummy control<\/strong>, experience gentle yet effective compression that enhances your natural curves at the waist and hips. Crafted from double layer <strong>mesh fabric<\/strong>, it sculpts your figure while ensuring breathable comfort for all-day wear and shows off your hourglass curves all day long. When you wear it, our <strong>butt lifting<\/strong> shapewear will control your abdomen tummy fat, reduce the waistline, improve back posture and tighten the fat on both sides of the body instantly revealing your curves. So many women love this design. <\/p><p>It is a bodysuit, but it also helps to shape your confidence. <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qhmKrV": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Deep-V_lace_shapewear_bodysuit_is_an_essential_addition_to_your_wardrobe_7.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Deep-V_lace_shapewear_bodysuit_is_an_essential_addition_to_your_wardrobe_7.jpg",
+        "subheading": "",
+        "title": "<p>2. All-in-One = bra + shapewear + panties<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p><strong>No bra needed<\/strong> with built-in chest support: You can go braless, thanks to impressively supportive wireless built-in bras.<br\/><strong>Hourglass shaping<\/strong> enhances your figure:  Inner compression shapes your waist and booty without squishing and offers impressive tummy control.<br\/><strong>No panties needed<\/strong>: Crotch area is made from breathable cotton, so you can skip the panties. Bathroom breaks just got easier.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_TLkBHJ": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/popilush-built-in-shapewear-deep-v-neck-lace-thong-bodysuit-tops-body-shaper-33639898611888.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/popilush-built-in-shapewear-deep-v-neck-lace-thong-bodysuit-tops-body-shaper-33639898611888.jpg",
+        "subheading": "",
+        "title": "<p>3. Go Braless, Feel Sexy<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>You can go <strong>braless<\/strong>, thanks to impressively supportive built-in bras. The bodysuit has a beautiful design featuring lace detailing with a plunging <strong>deep-V neckline and underwire support <\/strong>at the bust for added shaping.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_8bxypR": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_8.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_8.jpg",
+        "subheading": "",
+        "title": "<p>4. Bathroom Breaks Made Easy With No Need For Panties<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Adjustable straps and hooks while being underwear free. The <strong>cotton-lined crotch<\/strong> eliminates the need for additional underwear and the adjustable <strong>hook & eye closures<\/strong> make <strong>bathroom breaks hassle-free<\/strong>. <\/p><p>You can go to the bathroom without taking it off! <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_XPeTpc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_6.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Popilush-Shapewear-Bodysuit_The_Best_Choice_for_Show_Hourglass_Curve_6.jpg",
+        "subheading": "",
+        "title": "<p>5. Mix and Match All for a Fashionable Look<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Perfectly suited for a variety of styles and occasions.<br\/>A Versatile Wardrobe Essential from <strong>casual chic to formal sophistication<\/strong>, our bodysuits seamlessly transition from day to night. Pair them with jeans for a relaxed look or layer them under a blazer for a polished ensemble. Easily paired with a variety of outerwear, and match any skirts or trousers. They are the<strong> perfect choice for any occasion<\/strong>.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_E64t9e": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Deep-V_lace_shapewear_bodysuit_is_an_essential_addition_to_your_wardrobe_4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Deep-V_lace_shapewear_bodysuit_is_an_essential_addition_to_your_wardrobe_4.jpg",
+        "subheading": "",
+        "title": "<p>6. Many sizes and colors to choose from: Size XS-6XL and 7 Colors<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Available in <strong>7 colors<\/strong> including black, brown and white among others. You can find your favorite color and perfect fit to show your confidence. We offer sizes for all body types ranging from <strong>XS to 6XL<\/strong>. Embrace your uniqueness by selecting a lace bodysuit that caters to your specific body type and color palette.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/people__1_67c49a8e-2eea-472e-b2d1-50abfd472bde.png",
+            "logo_width": 180
+          }
+        },
+        "press_wWf3JJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/Bragging-Mommy-1_logo_2_b677a7bb-cece-41f7-a584-308f914d2f07.png",
+            "logo_width": 180
+          }
+        },
+        "press_XxzNP8": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2_5bf88910-6f86-4d94-aae7-6e482b041fec.png",
+            "logo_width": 180
+          }
+        },
+        "press_tWqrtG": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/athleisuremag_logo2_afc77100-9e91-4d02-80d1-3d437daf8ee6.png",
+            "logo_width": 180
+          }
+        },
+        "press_t8YhMC": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/11_f90b9a9a-be6f-48b7-8034-599eedb19f4e.png",
+            "logo_width": 180
+          }
+        },
+        "press_AbdGqD": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/33_b8f1547d-92ea-4eb4-9306-f073cf5a068c.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4",
+        "press_wWf3JJ",
+        "press_XxzNP8",
+        "press_tWqrtG",
+        "press_t8YhMC",
+        "press_AbdGqD"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "lace",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1520,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": true,
+            "use_widget_font": false,
+            "product_handle": "deep-v-neck-lace-thong-bodysuit"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_kL7T4y",
+    "section_text_jnGbbg",
+    "section_collection_JyxnaW",
+    "section_image_with_text_cY8gqC",
+    "section_image_with_text_qhmKrV",
+    "section_image_with_text_TLkBHJ",
+    "section_image_with_text_8bxypR",
+    "section_image_with_text_XPeTpc",
+    "section_image_with_text_E64t9e",
+    "section_press_GgKwa8",
+    "section_collection_f3GqBM",
+    "171352471609d7f60d"
+  ]
+}

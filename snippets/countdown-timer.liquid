@@ -1,0 +1,186 @@
+<!-- /snippets/countdown-timer.liquid -->
+
+{% comment %}
+    Renders a countdown timer
+
+    Accepts:
+    - expiration_date: {Datetime} Expiration date (Required)
+    - end_message: {String} End of timer message (Optional)
+    - hide_on_complete: {Boolean} Otherwise the end of timer message appears in place of the countdown timer. (Default: false)
+    - namespace: {String} Alters the timer's block class, based on its usage (Optional)
+    - leading_zero: {Boolean} Set to true to enable leading zeros (Optional)
+    - modifier: {String} Class modifiers that can be added to the timer container (Optional)
+    - animation_order: {Number} Factor based on number of blocks in the section
+    - animation_anchor: {String} Hook for the AOS animation
+
+    Usage:
+    {% render 'countdown-timer', expiration_date: expiration_date %}
+{% endcomment %}
+
+{%- liquid
+  assign end_message = end_message | default: ''
+  assign hide_on_complete = hide_on_complete | default: false
+  assign namespace = namespace | default: ''
+  assign modifier = modifier | default: ''
+
+  assign current_date = 'now' | date: '%s'
+  assign expiration_date = expiration_date | default: 'now' | date: '%s'
+  assign time_difference = expiration_date | minus: current_date
+
+  assign days = time_difference | divided_by: 86400 | at_least: 0
+  assign remaining_seconds = time_difference | modulo: 86400
+  assign hours = remaining_seconds | divided_by: 3600 | at_least: 0
+  assign remaining_seconds = remaining_seconds | modulo: 3600
+  assign minutes = remaining_seconds | divided_by: 60 | at_least: 0
+  assign seconds = remaining_seconds | modulo: 60 | at_least: 0
+  assign leading_zero = leading_zero | default: false
+
+  if leading_zero
+    if days < 10
+      assign days = days | prepend: '0'
+    endif
+
+    if hours < 10
+      assign hours = hours | prepend: '0'
+    endif
+
+    if minutes < 10
+      assign minutes = minutes | prepend: '0'
+    endif
+
+    if seconds < 10
+      assign seconds = seconds | prepend: '0'
+    endif
+  endif
+
+  assign section_selector_id = '#' | append: section.id
+  assign animation_anchor = animation_anchor | default: section_selector_id
+  assign animation_order = animation_order | default: 1
+  assign animation_order_message = animation_order
+  assign animations_enabled = settings.animations_enabled
+
+  assign on_time_ended = 'show-message'
+  if hide_on_complete
+    assign on_time_ended = 'hide'
+  endif
+
+  capture message_on_time_ended
+    unless hide_on_complete
+      if end_message != ''
+        echo end_message
+      endif
+    endunless
+  endcapture
+
+  if namespace == ''
+    assign main_class = 'countdown-timer'
+    assign wrapper_class = 'countdown-timer__wrapper'
+    assign item_class = 'countdown-timer__item'
+    assign digit_class = 'countdown-timer__digit'
+    assign unit_class = 'countdown-timer__unit'
+    assign message_class = 'countdown-timer__message'
+  else
+    assign main_class = namespace
+    assign wrapper_class = namespace | append: '__wrapper'
+    assign item_class = namespace | append: '__item'
+    assign digit_class = namespace | append: '__digit'
+    assign unit_class = namespace | append: '__unit'
+    assign message_class = namespace | append: '__message'
+  endif
+
+  capture container_class
+    echo main_class
+    if modifier != ''
+      echo ' ' | append: classes
+    endif
+  endcapture
+
+  assign digit_class = digit_class | append: ' h1'
+  assign unit_class = unit_class | append: ' subheading-text'
+  assign message_class = message_class | append: ' rte'
+-%}
+
+<countdown-timer class="{{ container_class }}"
+  data-expiration-behavior="{{ on_time_ended }}"
+  {% if leading_zero %}
+    data-leading-zero
+  {% endif %}>
+  <time class="{{ wrapper_class }}" datetime="{{ expiration_date | date: '%Y-%m-%dT%H:%M:%S.%3N%z' }}" data-time>
+    <div class="{{ item_class }}"
+      {% if animations_enabled %}
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}"
+        {%- assign animation_order = animation_order | plus: 1 -%}
+      {% endif %}>
+      <strong class="{{ digit_class }}" data-days>
+        {{ days }}
+      </strong>
+
+      <span class="{{ unit_class }}">
+        {{- 'countdown.days' | t -}}
+      </span>
+    </div>
+
+    <div class="{{ item_class }}"
+      {% if animations_enabled %}
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}"
+        {%- assign animation_order = animation_order | plus: 1 -%}
+      {% endif %}>
+      <strong class="{{ digit_class }}" data-hours>
+        {{ hours }}
+      </strong>
+
+      <span class="{{ unit_class }}">
+        {{- 'countdown.hours' | t -}}
+      </span>
+    </div>
+
+    <div class="{{ item_class }}"
+      {% if animations_enabled %}
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}"
+        {%- assign animation_order = animation_order | plus: 1 -%}
+      {% endif %}>
+      <strong class="{{ digit_class }}" data-minutes>
+        {{ minutes }}
+      </strong>
+
+      <span class="{{ unit_class }}">
+        {{- 'countdown.minutes' | t -}}
+      </span>
+    </div>
+
+    <div class="{{ item_class }}"
+      {% if animations_enabled %}
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}"
+        {%- assign animation_order = animation_order | plus: 1 -%}
+      {% endif %}>
+      <strong class="{{ digit_class }}" data-seconds>
+        {{ seconds }}
+      </strong>
+
+      <span class="{{ unit_class }}">
+        {{- 'countdown.seconds' | t -}}
+      </span>
+    </div>
+  </time>
+
+  {%- if message_on_time_ended != blank -%}
+    <div class="{{ message_class }}"
+      data-mesage
+      {% if animations_enabled %}
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order_message }}"
+      {% endif %}>
+      {{ message_on_time_ended }}
+    </div>
+  {%- endif -%}
+
+</countdown-timer>

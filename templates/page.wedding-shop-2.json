@@ -1,0 +1,629 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_kL7T4y": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_pyaXWe": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_3.12_-___1_6.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_3.12_-_-06.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "top-left",
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "<h3>What Makes Popilush Shapewear Dresses the Best Choice For An Effortless Hourglass Figure?<\/h3>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#0b0b0b",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pyaXWe"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_banner_image_Lt6AFW": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_a9dAcN": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to<\/p>",
+            "size": 100
+          }
+        },
+        "heading_XrWYqi": {
+          "type": "heading",
+          "settings": {
+            "text": "<h3>The Wedding Shop<\/h3>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "button_zQxYiM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_a9dAcN",
+        "heading_XrWYqi",
+        "button_zQxYiM"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/Wedding_Banner_db332111-663c-40da-8cce-83a9da8984b9.png",
+        "image_mobile": "shopify:\/\/shop_images\/smaller_PVAZ0994_246b04a1-6263-41ab-95ea-810a2030e528.png",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_izDXag": {
+      "type": "section-text",
+      "blocks": {
+        "heading_jjMPfB": {
+          "type": "heading",
+          "settings": {
+            "text": "<h3>Introducing our Wedding Shop -offering the perfect blend of elegance and support, with luxurious lace, figure-flattering shapewear, dresses, nipple covers, and other essentials that brides and their bridal party will adore.<\/h3>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "button_zaFFhM": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "https:\/\/www.popilush.com\/collections\/wedding",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jjMPfB",
+        "button_zaFFhM"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "text_E3FGPB": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>For the Bride<\/h1>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_E3FGPB"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "wedding",
+        "products_layout": "carousel",
+        "number_of_products": 6,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_cY8gqC": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/Popilush_Shapewear_Dresses_the_Best_Choice_For_An_Effortless_Hourglass_Figure_1_b992466e-e9a7-4f17-a57e-b7ecd6ef86b8.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Popilush_Shapewear_Dresses_the_Best_Choice_For_An_Effortless_Hourglass_Figure_1_b992466e-e9a7-4f17-a57e-b7ecd6ef86b8.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>1. Invisible shaping flatters your curves and lifts the butt<\/p>",
+        "heading_size": 130,
+        "content": "<p>With built-in shapewear targeting the abdomen, waist, hips and thighs, our dress sculpts your silhouette naturally, without any discomfort or visible lines.The inner shapewear is made of high-quality fabric, which offers excellent elasticity and strong sweat absorption. It allows your skin to breathe, ensuring comfort throughout the day. The women’s casual loose dress<strong> features a slim-fit design that accentuates your perfect body curves<\/strong>, making you feel confident. Powerful built-in shaping panels do the work of shapewear and also can also lift the butt.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_486Jb6": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "lace",
+        "products_layout": "carousel",
+        "number_of_products": 6,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h1>Honeymoon<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_zU3DX7": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "bras-1",
+        "products_layout": "carousel",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<h1>For The Guest & Wedding Party<\/h1>",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_qhmKrV": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/2023_7_14_MT230183-WH-S_julialouise31_PLDTC_4_c5b43b5d-df23-4b97-b698-05795f02c26c.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2023_7_14_MT230183-WH-S_julialouise31_PLDTC_4_c5b43b5d-df23-4b97-b698-05795f02c26c.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Confidence Starts Here<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush shapewear offers the ultimate solution for brides and their bridal parties, ensuring flawless silhouettes on the big day. With a range of shapewear bodysuits and shaping dresses, Popilush provides the perfect foundation for any wedding gown or bridesmaid dress, enhancing curves and smoothing lines to create a stunning look. Our collection offers options to suit every bride's needs, ensuring confidence and comfort from the walk down the aisle to the last dance of the night.<\/p><p><\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_8bxypR": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1-5_0cd931a2-56f3-4b7e-bb38-a904590c67c5.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1-5_0cd931a2-56f3-4b7e-bb38-a904590c67c5.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>4. No underwear necessary!<\/p>",
+        "heading_size": 130,
+        "content": "<p>Say goodbye to multiple layers! Our dress eliminates the need for underwear, bras, and separate shapewear. It offers a hassle-free solution for your wardrobe essentials with<strong> an open gusset for easy bathroom breaks without having to take the entire dress off!<\/strong><\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_XPeTpc": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1-7_045d4c09-322a-4a4f-81c7-73602c8cd2cb.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1-7_045d4c09-322a-4a4f-81c7-73602c8cd2cb.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>5. Fashionable and Comfortable<\/p>",
+        "heading_size": 130,
+        "content": "<p>Perfectly suited for a variety of styles and occasions.<br\/>A versatile wardrobe essential that goes from casual chic to formal sophistication. Our <strong>shapewear dress seamlessly transitions from day to night.<\/strong> The Popilush shapewear dress is ideal for a variety of occasions including daily wear, holidays, beach trips, wedding guest attire, parties, date nights and more. It is made with a very comfortable modal fabric. Experience a seamless, non-constricting fit that enhances your curves without compromising comfort. It allows your skin to breathe freely, ensuring comfort throughout the day.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_E64t9e": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1-6_81635d11-c12b-4f4c-b827-6824b342aa1a.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1-6_81635d11-c12b-4f4c-b827-6824b342aa1a.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>6. Various colors, styles and sizes!<\/p>",
+        "heading_size": 130,
+        "content": "<p>Our dress is available in 7 colors and <strong>various sizes for all body types ranging from XS to 4XL.<\/strong> Whether you're heading to work, shopping, traveling or attending a party, it helps you effortlessly transition between elegant, casual, edgy, or glamorous looks.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_b6pxG6": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "bachelorette-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 6,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<h1>Bachelorette<\/h1>",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "bride-to-be-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<h1>The Shapewear Dress<\/h1>",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_with_text_TLkBHJ": {
+      "type": "section-image-with-text",
+      "custom_css": [],
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/smedit_VAZ6663_d8d0eba3-a829-41c0-a839-77b758c4f103.png",
+        "image_mobile": "shopify:\/\/shop_images\/smedit_VAZ6663_5f82e14a-8fed-4b63-a9e0-ecdc06933493.png",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Our Wedding Collection<\/p>",
+        "heading_size": 130,
+        "content": "<p>Popilush shapewear emerges as the ultimate solution for brides and their bridal party, offering a versatile range of options tailored for every part of the bridal journey. From bachelorette festivities to the grand wedding day, Popilush provides shapewear bodysuits, shaping dresses, and essential accessories like nipple covers, ensuring flawless looks and confidence at every step.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/people__1_67c49a8e-2eea-472e-b2d1-50abfd472bde.png",
+            "logo_width": 180
+          }
+        },
+        "press_wWf3JJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/Bragging-Mommy-1_logo_2_b677a7bb-cece-41f7-a584-308f914d2f07.png",
+            "logo_width": 180
+          }
+        },
+        "press_XxzNP8": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2_5bf88910-6f86-4d94-aae7-6e482b041fec.png",
+            "logo_width": 180
+          }
+        },
+        "press_tWqrtG": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/athleisuremag_logo2_afc77100-9e91-4d02-80d1-3d437daf8ee6.png",
+            "logo_width": 180
+          }
+        },
+        "press_t8YhMC": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/11_f90b9a9a-be6f-48b7-8034-599eedb19f4e.png",
+            "logo_width": 180
+          }
+        },
+        "press_AbdGqD": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/33_b8f1547d-92ea-4eb4-9306-f073cf5a068c.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4",
+        "press_wWf3JJ",
+        "press_XxzNP8",
+        "press_tWqrtG",
+        "press_t8YhMC",
+        "press_AbdGqD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_kL7T4y",
+    "section_banner_image_Lt6AFW",
+    "section_text_izDXag",
+    "section_text_jnGbbg",
+    "section_collection_JyxnaW",
+    "section_image_with_text_cY8gqC",
+    "section_collection_486Jb6",
+    "section_collection_zU3DX7",
+    "section_image_with_text_qhmKrV",
+    "section_image_with_text_8bxypR",
+    "section_image_with_text_XPeTpc",
+    "section_image_with_text_E64t9e",
+    "section_collection_b6pxG6",
+    "section_collection_f3GqBM",
+    "section_image_with_text_TLkBHJ",
+    "section_press_GgKwa8",
+    "171352471609d7f60d"
+  ]
+}

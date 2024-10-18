@@ -1,0 +1,551 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_tags": true,
+        "show_share_button": true,
+        "text": "Share",
+        "bg_color_secondary": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "recommended-posts": {
+      "type": "section-recommended-posts",
+      "disabled": true,
+      "settings": {
+        "posts_type": "paging",
+        "title": "",
+        "default_color": "accent",
+        "blog_style": "photo",
+        "image_aspect_ratio": 1.3,
+        "show_rss_icon": false,
+        "show_date": true,
+        "show_author": true,
+        "show_tags": true,
+        "show_comments_count": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_dDeD6j": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UYnLRY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_dQi9Jw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Nx3PWy": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_MBMVAb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UYnLRY",
+        "heading_dQi9Jw",
+        "text_Nx3PWy",
+        "button_MBMVAb"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/1300x500_2_5c4f6fa4-66ed-486b-ade8-c56d04841c36.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/banner_2_a51fb878-7f23-4f42-bb25-cd4f7040b297.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_YcG3Uk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_gXKhqn": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>FLATTERING FIT: I’m a 34DDD & never in my wildest dreams thought I could go backless – my Amazon bodysuit sucks me in & lifts the girls<\/h2>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_UchtEa": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yMMYbp": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers.<\/p><p>Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_NfEqGQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gXKhqn",
+        "heading_UchtEa",
+        "text_yMMYbp",
+        "button_NfEqGQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 26,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_QMPNWY": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4CLX3t": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_x3aBgM": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Popilush Introduces Bluetag COOLING Collection with Body-Cooling Technology<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_fJnzk3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>New fashionable and functional apparel reduces body temperature<\/em><\/p>",
+            "size": 100
+          }
+        },
+        "button_X7c9wa": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4CLX3t",
+        "heading_x3aBgM",
+        "text_fJnzk3",
+        "button_X7c9wa"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    },
+    "section_text_R9qRyr": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_LzcqX9": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_Kt3PWb": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_mQMfPX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WILLIAMSBURG, Va., April 23, 2024\/PRNewswire\/ --<a href=\"https:\/\/www.popilush.com\/\" target=\"_blank\"><strong>Popilush<\/strong><\/a>, the pioneer in shapewear apparel, is excited to introduce its latest innovation - the<strong> <\/strong><a href=\"https:\/\/www.popilush.com\/collections\/bluetag-series\" target=\"_blank\"><strong>Bluetag COOLING Collection<\/strong><\/a>. Crafted with proprietary yarn fiber made from oyster shell extraction, these garments are designed to reduce body temperature by 15 percent, offering unparalleled comfort and style.<\/p>",
+            "size": 100
+          }
+        },
+        "button_pqKXp3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LzcqX9",
+        "heading_Kt3PWb",
+        "text_mQMfPX",
+        "button_pqKXp3"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_video_UhnXcy": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "five-fifty-height",
+        "mobile_height": "four-hundred-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/youtu.be\/86kS-vjivhI",
+        "video_link": "",
+        "image": "shopify:\/\/shop_images\/c8673ad12c925aade37ed748fd89991c_46900497-5567-4b0c-980d-f2253941cb7f.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_text_b6xPgx": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_3DQWfb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_7A9Hpx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_NTDCxn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush's new Bluetag COOLING Collection smartly blends function and fashion with material fabricated using yarn made with oyster collagen, enabling the apparel to cool body temperature and provide antibacterial properties. The oyster collagen fiber is extracted from the interior smooth part of discarded shells and, through nanotechnology, is combined with a nylon 6 yarn that creates an innovative, cooling proprietary fabric. In addition to cooling capabilities, the unique fabric also blocks more than 99% of harmful UVA and UVB rays that are known to cause cancer, premature wrinkling, and sunspots.<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3DQWfb",
+        "heading_7A9Hpx",
+        "text_NTDCxn"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_AwQ6FV": {
+      "type": "section-text",
+      "blocks": {
+        "text_CfhywG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"As we've grown over the last two years, innovation has remained at the forefront of our designs. Old-fashioned shapewear can retain body heat and can be very uncomfortable to wear and our customers continue to carry this concern and perception with them,\" said Eve DeMartine, co-founder of Popilush. \"When creating the Bluetag Collection, we strived to create apparel for women of all ages and sizes with shapewear built in that is actually comfortable, chic, and keeps you cooler.\"<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_CfhywG"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_yCgUkM": {
+      "type": "section-text",
+      "blocks": {
+        "text_HthWAU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Bluetag COOLING collection boasts an antibacterial effect, providing superior hygiene for the modern, health-conscious woman who demands style and substance. Particularly in hot climates or during hot summer months, women are more prone to breakouts and infection when they wear form-fitting clothing.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_HthWAU"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_QxLAfy": {
+      "type": "section-text",
+      "blocks": {
+        "text_refUiG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The collection's fabric is rich in collagen protein delivering a moisturizing, smoother texture, guaranteeing not only a stunning appearance but also an irresistibly soft feel against your skin.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_refUiG"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_M4XeXE": {
+      "type": "section-text",
+      "blocks": {
+        "text_LLQXaA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Popilush dresses feature built-in shapewear mesh that supports and sculpts the wearer's waistline and legs. The overlapping gusset design makes restroom visits easier and is cotton-lined for added comfort, eliminating the need for underwear. The bust area is designed to provide better coverage and support, with removable padding for added convenience. The design also minimizes visible shapewear lines, ensuring a seamless look. Customers have hailed Popilush apparel as their versatile, go-to garment that never misses and allows for self-expression.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_LLQXaA"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_CxV8D4": {
+      "type": "section-text",
+      "blocks": {
+        "heading_T8ky9p": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>About Popilush<\/h2>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T8ky9p"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_zqPUcc": {
+      "type": "section-text",
+      "blocks": {
+        "text_BJKEFd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush is the pioneer of apparel with built-in shapewear that empowers women of all shapes and sizes to look as good as they feel, every day. They design shapewear apparel that includes garments innovated with built-in lifting, smoothing, and shaping, for everyday support. Their mission is to uplift all women so they can feel their best, and have the freedom and confidence to be themselves. Their high-quality apparel is available in a diverse range of sizes at an affordable price.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_BJKEFd"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_mbanfK": {
+      "type": "section-text",
+      "blocks": {
+        "text_BnWUN8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With Popilush, you can confidently express your unique style while enjoying the benefits of premium apparel. To learn more about Popilush and discover their products, please visit <a href=\"http:\/\/www.popilush.com\/\" target=\"_blank\"><strong>www.popilush.com<\/strong><\/a>, or engage with the Popilush community on Instagram <a href=\"https:\/\/www.instagram.com\/popilush\/\" target=\"_blank\"><strong>@popilush<\/strong><\/a><strong>.<\/strong><\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_BnWUN8"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_dm7hKb": {
+      "type": "section-text",
+      "blocks": {
+        "text_FhFMUE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SOURCE POPILUSH LLC<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_FhFMUE"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommended-posts",
+    "section_banner_image_dDeD6j",
+    "section_text_YcG3Uk",
+    "section_text_QMPNWY",
+    "section_text_R9qRyr",
+    "section_video_UhnXcy",
+    "section_text_b6xPgx",
+    "section_text_AwQ6FV",
+    "section_text_yCgUkM",
+    "section_text_QxLAfy",
+    "section_text_M4XeXE",
+    "section_text_CxV8D4",
+    "section_text_zqPUcc",
+    "section_text_mbanfK",
+    "section_text_dm7hKb"
+  ]
+}

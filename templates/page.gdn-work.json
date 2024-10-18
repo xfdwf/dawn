@@ -1,0 +1,822 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_BeW3jj": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_text_nTU6eK": {
+      "type": "section-text",
+      "blocks": {
+        "heading_fyMqBD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>After studying office lady workwear for several years, I understand how crucial it is to have proper workwear attire. Workwear dresses need to be comfortable, beautiful, and stylish. After years of research, I have finally chosen Popilush dresses as my go-to workwear.<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "heading_JrcipX": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>5 Must-Know Facts about Popilush Dress Best for Workwear<\/strong><\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fyMqBD",
+        "heading_JrcipX"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 46,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_gJ6MP7": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_df0fe7d6-b1de-4d4d-be6b-04da65219f61.jpg",
+        "image_M": "shopify:\/\/shop_images\/1_df0fe7d6-b1de-4d4d-be6b-04da65219f61.jpg",
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 26,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_3gQrr4": {
+      "type": "section-text",
+      "blocks": {
+        "heading_4p49hb": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_3hLL3V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After studying office lady workwear for several years, I understand how crucial it is to have proper workwear attire. Workwear dresses need to be comfortable, beautiful, and stylish. After years of research, I have finally chosen Popilush dresses as my go-to workwear.<\/p>",
+            "size": 130
+          }
+        }
+      },
+      "block_order": [
+        "heading_4p49hb",
+        "text_3hLL3V"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "workwear",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_press_eMaGeK": {
+      "type": "section-press",
+      "blocks": {
+        "press_FdbWbV": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/6509bb375eff79650d8d573c_yAHOO_ee867afc-0063-4ebc-9f38-da667decf813.jpg",
+            "logo_width": 70
+          }
+        },
+        "press_xgFreM": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/9126c10944ac354f47d585ee668aef26.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_c76eGV": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/PR_Newswire_Navy_Logo_883e33bf-acb7-4e9d-ae5d-06d61ed1c9ab.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_prmCTM": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/8a88e9e6e22b855efb823ad492e8e195_a26322bc-9b74-430b-943c-963f4e332aaa.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_d4za9E": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/markets-insider-logo-for-website_1013x1013_crop_center_4457d568-2a09-4fc4-adb8-4457fe449c3c.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_zQDD7C": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/buzzfeed-logo-black-transparent.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_79JdyF": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/d88cdb2232232b438f1cc8e73038dcf9.jpg",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_FdbWbV",
+        "press_xgFreM",
+        "press_c76eGV",
+        "press_prmCTM",
+        "press_d4za9E",
+        "press_zQDD7C",
+        "press_79JdyF"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_Eaizkw": {
+      "type": "section-text",
+      "blocks": {
+        "heading_XL8WQx": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>Here are the five reasons why I think the Popilush Dress is the best workwear dress:<\/strong><\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XL8WQx"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_icons_row_FQEKYy": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_kmt8ae": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping Worldwide",
+            "text": "<p>Free Shipping On Orders Over $80<\/p>"
+          }
+        },
+        "text_99bx6T": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "Feature",
+            "text": ""
+          }
+        },
+        "text_9T3qnQ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kmt8ae",
+        "text_99bx6T",
+        "text_9T3qnQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_GCFnwy": {
+      "type": "section-text",
+      "blocks": {
+        "heading_EznyV9": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>1. Trim the Waist: A Person's Image Is Worth Millions<\/p>",
+            "size": 125,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_PeL7nA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the workplace, we all know that a person's image is invaluable. Appropriate attire reflects one's professional competence. Excess belly fat can significantly impact our image.<\/p><p>The Popilush Shapewear Dress is equipped with built-in shapewear targeting the abdomen, waist, hips, and thighs, sculpting the silhouette naturally without discomfort or visible lines. Its slim-fit design accentuates perfect body curves, boosting confidence. Additionally, powerful built-in shaping panels not only function as shapewear but also lift the buttocks.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_EznyV9",
+        "text_PeL7nA"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_bXnMx9": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify:\/\/shop_images\/live_lush_shapewear_featured_1.gif",
+        "image_mobile": "shopify:\/\/shop_images\/live_lush_shapewear_featured_1.gif",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>1. Trim the Waist: A Person's Image Is Worth Millions<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p>In the workplace, we all know that a person's image is invaluable. Excess belly fat can significantly impact our image.<\/p><p>The Popilush Shapewear Dress is equipped with built-in shapewear targeting the abdomen, waist, hips, and thighs, sculpting the silhouette naturally without discomfort or visible lines. <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/workwear",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_Q7NQaG": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/7-1.gif",
+        "image_mobile": "shopify:\/\/shop_images\/7-1.gif",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>2. Dress Up or Dress Down: Feel Like a Winner<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p>Whether you dress it up or dress it down, you're guaranteed to feel like a winner. Proper attire and a good-looking figure can enhance one's popularity.<\/p><p>Define your silhouette and accentuate your hourglass shape with the Popilush Dress. Its butt-lifting technology supports your curves, conforming to your shape to accentuate your figure and create a seamless finish for stunning outfits.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/workwear",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_zNPU7R": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/222.gif",
+        "image_mobile": "shopify:\/\/shop_images\/222.gif",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>3. No Rolling Edges: Comfortable for Extended Sitting<br\/><\/p>",
+        "heading_size": 130,
+        "content": "<p>At work, you may spend long hours sorting through information while seated or stand up for meetings. However, you don't want your clothing to roll up and exert pressure on your stomach, causing discomfort.<\/p><p>Experience innovative comfort with the Popilush Shapewear Dress, intricately crafted to be gentle on the stomach. Offering full coverage and strategically placed support, its form-fitting style provides the perfect balance of flexibility and support, flattering you from every angle. <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/workwear",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_fWJic9": {
+      "type": "section-text",
+      "blocks": {
+        "heading_K9QcJt": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>A one-stop solution that combines fashion with hourglass shaping to enhance your figure<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9QcJt"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_HqrKXT": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0410-1_5_432c7b71-4761-4d0b-ad6f-b8fbf7dedcff.jpg",
+        "image_M": "shopify:\/\/shop_images\/0410-1_3_6de4a2e0-9135-460d-9239-8c154e7d9aa9.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_7mJkrL": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/51X_oBYP17L._AC.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/51X_oBYP17L._AC.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>4. 24-Hour Suitable Wear: Comfort at Work<strong><br\/><\/strong><\/p>",
+        "heading_size": 130,
+        "content": "<p>In the workplace, we're often burdened with mental pressure and are busy with tasks, so comfortable clothing is essential for maintaining a positive mood. If your work clothes aren’t comfortable, it can greatly affect your day.<\/p><p>The Popilush Shapewear Dress is not only built with soft shapewear fabric for tummy control but also features a comfortable and breathable mesh lining design, providing a refreshing daily wear experience. Skin-friendly and with a comfortable fit, it seamlessly transitions from desk to dinner. Perfect for 24-hour wear, its lightweight and comfortable structural support ensures a fabulous experience all day long.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/workwear",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_eCjmVg": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/5_442eef1a-67fe-46e1-ae75-c2be071770c2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/5_442eef1a-67fe-46e1-ae75-c2be071770c2.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p><strong>5. Easy Bathroom Breaks at Work<\/strong><\/p>",
+        "heading_size": 130,
+        "content": "<p>In the workplace, we often have numerous meetings, but we don't want to deal with removing layers of clothing.<\/p><p>The Popilush Dress says goodbye to multiple layers! This dress eliminates the need for underwear, bras, and separate shapewear, offering a hassle-free solution for your wardrobe essentials. With an open gusset design, it allows for easy bathroom breaks without having to remove the entire dress. Designed with a 2.4-inch open gusset bottom, simply pull to adjust the opening of the gusset as you sit down. No need to take off the dress, so you can go to the bathroom without getting undressed.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/workwear",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ebe7e0",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_7KX7Nn": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4jPgcb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_yAfkpP": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Choose Your Favorite Dress<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Kda4LC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_X4zgcb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4jPgcb",
+        "heading_yAfkpP",
+        "text_Kda4LC",
+        "button_X4zgcb"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_XgjP8f": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "workwear",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aHFYgf": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Love From 1,000,000+ of Global Customers<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aHFYgf"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2-1.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 8,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_L4DYkm": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": true,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        },
+        "loox_reviews_loox_agg_section_64jAeg": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 8,
+            "maxwidth": 800,
+            "is_sample": true
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_AjCn69": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "loox_reviews_loox_carousel_section_iXTBkL": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_L4DYkm",
+        "loox_reviews_loox_agg_section_64jAeg",
+        "loox_reviews_loox_card_carousel_section_AjCn69",
+        "loox_reviews_loox_carousel_section_iXTBkL"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "low-back-bodysuit",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_html_NKbGkL": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_image_BeW3jj",
+    "section_text_nTU6eK",
+    "section_image_gJ6MP7",
+    "section_text_3gQrr4",
+    "section_collection_JyxnaW",
+    "section_press_eMaGeK",
+    "section_text_Eaizkw",
+    "section_icons_row_FQEKYy",
+    "section_text_GCFnwy",
+    "section_image_with_text_bXnMx9",
+    "section_image_with_text_Q7NQaG",
+    "section_image_with_text_zNPU7R",
+    "section_text_fWJic9",
+    "section_image_HqrKXT",
+    "section_image_with_text_7mJkrL",
+    "section_image_with_text_eCjmVg",
+    "section_text_7KX7Nn",
+    "section_collection_XgjP8f",
+    "section_text_jnGbbg",
+    "section_press_GgKwa8",
+    "171352471609d7f60d",
+    "section_collection_f3GqBM",
+    "section_custom_html_NKbGkL"
+  ]
+}

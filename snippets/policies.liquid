@@ -1,0 +1,107 @@
+{%- liquid
+  assign animations_enabled = settings.animations_enabled
+  assign enable_our_policies = settings.enable_our_policies
+  assign enable_policies_one = settings.enable_policies_one
+  assign policies_one_content = settings.policies_one_content
+  assign policies_one_name = settings.policies_one_name
+
+  assign enable_policies_two = settings.enable_policies_two
+  assign policies_two_content = settings.policies_two_content
+  assign policies_two_name = settings.policies_two_name
+
+  assign enable_policies_three = settings.enable_policies_three
+  assign policies_three_content = settings.policies_three_content
+  assign policies_three_name = settings.policies_three_name
+-%}
+{%- if enable_our_policies -%}
+  <div class="cart__widget__wrapper" data-collapsible-single>
+  <h2 class="h2" style="font-size: 18px;color:#7F7F7F;font-weight: 700;">OUR POLICIES</h2>
+    {%- if enable_policies_one -%}
+      <div
+        class="cart__widget"
+        data-cart-widget
+        {% if animations_enabled %}
+          data-aos="fade-up"
+          data-aos-delay="{{ animation_delay }}"
+          {%- assign animation_delay = animation_delay | plus: 50 -%}
+        {% endif %}
+      >
+        <button
+          class="cart__widget__title"
+          type="button"
+          data-collapsible-trigger
+          aria-expanded="false"
+          aria-controls="policies_one_content"
+        >
+          {{ policies_one_name }}
+          {%- render 'icon-toggle-plus' -%}
+          {%- render 'icon-toggle-minus' -%}
+        </button>
+
+        <div id="policies_one_content" aria-expanded="false" data-collapsible-container>
+          <div class="cart__widget__content" data-collapsible-content>
+            {{ policies_one_content }}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+    {%- if enable_policies_two -%}
+      <div
+        class="cart__widget"
+        data-cart-widget
+        {% if animations_enabled %}
+          data-aos="fade-up"
+          data-aos-delay="{{ animation_delay }}"
+          {%- assign animation_delay = animation_delay | plus: 50 -%}
+        {% endif %}
+      >
+        <button
+          class="cart__widget__title"
+          type="button"
+          data-collapsible-trigger
+          aria-expanded="false"
+          aria-controls="policies_two_content"
+        >
+          {{ policies_two_name }}
+          {%- render 'icon-toggle-plus' -%}
+          {%- render 'icon-toggle-minus' -%}
+        </button>
+
+        <div id="policies_two_content" aria-expanded="false" data-collapsible-container>
+          <div class="cart__widget__content" data-collapsible-content>
+            {{ policies_two_content }}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+    {%- if enable_policies_three -%}
+      <div
+        class="cart__widget"
+        data-cart-widget
+        {% if animations_enabled %}
+          data-aos="fade-up"
+          data-aos-delay="{{ animation_delay }}"
+          {%- assign animation_delay = animation_delay | plus: 50 -%}
+        {% endif %}
+      >
+        <button
+          class="cart__widget__title"
+          type="button"
+          data-collapsible-trigger
+          aria-expanded="false"
+          aria-controls="policies_three_content"
+        >
+          {{ policies_three_name }}
+          {%- render 'icon-toggle-plus' -%}
+          {%- render 'icon-toggle-minus' -%}
+        </button>
+
+        <div id="policies_three_content" aria-expanded="false" data-collapsible-container>
+          <div class="cart__widget__content" data-collapsible-content>
+            {{ policies_three_content }}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}

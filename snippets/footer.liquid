@@ -1,0 +1,392 @@
+{%- comment -%}
+    Renders footer content on Footer & Footer minimal sections
+
+    Accepts:
+    - section_id: {String} ID to specify where is the section rendered from
+
+    Usage:
+    {% render 'footer', section_id: 'SiteFooter' %}
+{%- endcomment -%}
+
+{%- liquid
+  assign section_id = section_id | default: 'SiteFooter'
+  assign section_width = section.settings.width
+  assign color_text = section.settings.color_text
+  assign color_bg = section.settings.color_bg
+  assign color_border = section.settings.color_border
+  assign footer_wave = section.settings.show_footer_wave
+  assign bottom_bar_alignment = section.settings.bottom_bar_alignment
+  assign show_social_links = section.settings.show_social_links
+  assign show_payment_icons = section.settings.show_payment_icons
+  assign animations_enabled = settings.animations_enabled
+  assign animation_anchor = section_id | prepend: '#'
+  assign animation_delay = 150
+
+  assign show_follow_on_shop = false
+  if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop
+    assign show_follow_on_shop = true
+  endif
+
+  assign has_social_icons = false
+  if show_social_links and settings.social_facebook_link != blank or settings.social_twitter_link != blank or settings.social_pinterest_link != blank or settings.social_instagram_link != blank or settings.social_youtube_link != blank or settings.social_tiktok_link != blank or settings.social_snapchat_link != blank or settings.social_tumblr_link != blank or settings.social_rss_link != blank
+    assign has_social_icons = true
+  endif
+
+  assign render_socials = false
+  if has_social_icons or show_follow_on_shop
+    assign render_socials = true
+  endif
+
+  assign has_payment_icons = false
+  if show_payment_icons and shop.enabled_payment_types != empty
+    assign has_payment_icons = true
+  endif
+
+  if render_socials and has_payment_icons
+    assign columns = 3
+  elsif render_socials or has_payment_icons
+    assign columns = 2
+  else
+    assign columns = 1
+  endif
+
+  assign color_bg_brightness = color_bg | color_brightness | round
+  if color_bg_brightness > 153
+    assign color_bg_lighten_darken_shimmer_bg = color_bg | color_darken: 2
+    assign color_bg_lighten_darken_shimmer_effect = color_bg | color_darken: 4
+  else
+    assign color_bg_lighten_darken_shimmer_bg = color_bg | color_lighten: 5
+    assign color_bg_lighten_darken_shimmer_effect = color_bg | color_lighten: 7
+  endif
+
+  comment
+    Images sizes
+  endcomment
+  assign desktop_space = 120
+  assign mobile_space = 40
+  case section_width
+    when 'wrapper--full-padded'
+      assign wrapper_width = '100vw'
+    when 'wrapper'
+      assign wrapper_width = '1440px'
+  endcase
+-%}
+
+{%- style -%}
+  #{{ section_id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    {%- if color_bg != 'rgba(0,0,0,0)' and color_bg != '' -%}
+      --bg: {{ color_bg }};
+      --bg-lighten-darken-shimmer-bg: {{ color_bg_lighten_darken_shimmer_bg }};
+      --bg-lighten-darken-shimmer-effect: {{ color_bg_lighten_darken_shimmer_effect }};
+    {%- endif -%}
+
+    {%- if color_text != 'rgba(0,0,0,0)' and color_text != '' -%}
+      --text: {{ color_text }};
+      --text-alpha-15: {{ color_text | color_modify: 'alpha', 0.15 }};
+      --text-alpha-50: {{ color_text | color_modify: 'alpha', 0.60 }};
+      --text-alpha-85: {{ color_text | color_modify: 'alpha', 0.85 }};
+    {%- endif -%}
+
+    {%- if color_border != 'rgba(0,0,0,0)' and color_border != '' -%}
+      --border: {{ color_border }};
+    {%- endif -%}
+  }
+
+  #{{ section_id }} .footer-bottom { --grid-columns: {{ columns }}; }
+
+  {%- if footer_wave and section.location == 'footer' and section.index == 1 -%}
+    .shopify-section:last-child .section-padding { padding-bottom: max(50px, var(--padding-bottom)); }
+
+    @media screen and (min-width: 768px) {
+      .slideshow:last-child .slider--has-arrow .flickity-page-dots { margin-bottom: 45px; }
+      .slideshow:last-child .slider__scroll-down { bottom: 10px; }
+    }
+  {%- endif -%}
+{%- endstyle -%}
+
+<footer id="{{ section_id }}"
+  class="section-padding site-footer{% if footer_wave %} site-footer--wavy{% endif %}"
+  role="contentinfo"
+  data-section-id="{{ section.id }}"
+  data-section-type="footer">
+  {%- if footer_wave -%}
+    {%- render 'footer-svg' -%}
+  {%- endif -%}
+  <div class="footer-content {{ section_width }}">
+    <div class="footer-blocks">
+      <div class="footer-block footer-block--menu text-left" style="--desktop-width: 20%">
+            <p class="footer-title footer-title--links">
+              <button class="footer-title__button h5" aria-controls="FooterMenu--help-1" data-collapsible-trigger="" data-collapsible-trigger-mobile="" aria-expanded="false">
+Contact
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-toggle-plus" viewBox="0 0 192 192"><path d="M30 96h132M96 30v132" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-toggle-minus" viewBox="0 0 192 192"><path d="M30 96h132" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              </button>
+            </p>
+            <div class="footer-links__wrapper" id="FooterMenu--help-1" data-collapsible-container-mobile="">
+              <ul class="footer-links" data-collapsible-content="">
+                <li>Available Mon-Fri, <br> 9 am - 5 pm EST </li>
+                <li style="display:flex;align-items:center;"><img class="contactInformationIcon" width='32px' height='auto' src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/1_envelope-one_1.png?v=1713862234" alt=""><a style="margin-left:5px;" href="/pages/contact">Via email</a></li>
+                <li style="display:flex;align-items:center;"><img class="contactInformationIcon" width='32px' height='auto' src="https://cdn.shopify.com/s/files/1/0607/2398/6608/files/phone_2.png?v=1713862234" alt=""><a style="margin-left:5px;" href="/pages/contact">By phone</a></li>
+              </ul>
+            </div>
+          </div>
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign title = block.settings.title
+          assign alignment = block.settings.alignment
+
+          capture block_style
+            echo '--desktop-width: ' | append: block.settings.column_width | append: '%'
+          endcapture
+        -%}
+
+        {%- case block.type -%}
+
+          {%- when 'logo' -%}
+            {%- assign logo_width = block.settings.logo_width -%}
+            {%- style -%}
+              #{{ section_id }} .footer-block--logo { min-width: calc({{ logo_width }}px + calc(var(--gutter) / 2)); }
+              #{{ section_id }} .footer-block__logo-image { width: {{ logo_width }}px; }
+            {%- endstyle -%}
+            <div class="footer-block footer-block--logo {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+              {%- if block.settings.image != blank -%}
+                <a href="{{ routes.root_url }}" class="footer-block__logo-image">
+                  {%- liquid
+                    assign retina_size = logo_width | times: 2
+                    assign image_widths = logo_width | append: ', ' | append: retina_size
+                    assign sizes = logo_width | append: 'px'
+                    assign image_alt = block.settings.image.alt | strip_html | escape | default: shop.name
+
+                    render 'image-fill', img_object: block.settings.image, width: retina_size, widths: image_widths, sizes: sizes, classes: 'logo--footer', alt: image_alt
+                  -%}
+                </a>
+              {%- endif -%}
+
+              {%- if block.settings.show_shop_name -%}
+                <a class="footer-block__shop-name h4" href="{{ routes.root_url }}">{{ shop.name }}</a>
+              {%- endif -%}
+
+              {%- if block.settings.text != blank -%}
+                <div class="rte">{{- block.settings.text -}}</div>
+              {%- endif -%}
+            </div>
+
+          {%- when 'logo_full' -%}
+            {%- liquid
+              assign image = block.settings.image
+              assign logo_width = block.settings.logo_width | divided_by: 100.0
+              assign onboarding_aspect_ratio = 1 | divided_by: 0.3
+              assign logo_aspect_ratio = image.aspect_ratio | default: onboarding_aspect_ratio
+
+              assign image_widths = '180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100'
+              assign img_width_desktop = 'calc((' | append: wrapper_width | append: ' - ' | append: desktop_space | append: 'px)' | append: ' * ' | append: logo_width | append: ')'
+              assign img_width_mobile = 'calc((100vw - ' | append: mobile_space | append: 'px)' | append: ' * ' | append: logo_width | append: ')'
+              assign sizes = '(min-width: 1024px) ' | append: img_width_desktop | append: ', ' | append: img_width_mobile
+              assign image_alt = image.alt | strip_html | escape | default: shop.name
+            -%}
+
+            {%- style -%}
+              #{{ section_id }} .footer-block__logo-full-image { width: {{ block.settings.logo_width }}%; }
+            {%- endstyle -%}
+
+            <div class="footer-block footer-block--logo-full {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              {{ block.shopify_attributes }}>
+              <a href="{{ routes.root_url }}" class="footer-block__logo-full-image">
+                {%- render 'image-fill', img_object: image, width: retina_size, widths: image_widths, sizes: sizes, aspect_ratio: logo_aspect_ratio, alt: image_alt, placeholder_svg: 'lifestyle-1', loading: loading -%}
+              </a>
+            </div>
+
+          {%- when 'link' -%}
+            {%- assign menu_links = linklists[block.settings.menu].links -%}
+            <div class="footer-block footer-block--menu {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+              {%- if title != blank -%}
+                <p class="footer-title footer-title--links">
+                  <button class="footer-title__button h5" aria-controls="FooterMenu--{{ title | handle }}-{{ forloop.index0 }}" data-collapsible-trigger data-collapsible-trigger-mobile aria-expanded="false">
+                    {{- title -}}
+                    {%- render 'icon-toggle-plus' -%}
+                    {%- render 'icon-toggle-minus' -%}
+                  </button>
+                </p>
+              {%- endif -%}
+
+              {%- if menu_links != empty -%}
+                <div class="footer-links__wrapper"{% if title != blank %} id="FooterMenu--{{ title | handle }}-{{ forloop.index0 }}" data-collapsible-container-mobile{% endif %}>
+                  <ul class="footer-links"{% if title != blank %} data-collapsible-content{% endif %}>
+                    {%- for link in menu_links -%}
+                      <li><a class="footer-link" href="{{ link.url }}">{{ link.title }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              {%- endif -%}
+            </div>
+
+          {%- when 'blog' -%}
+            {%- assign blog = blogs[block.settings.blog] | default: false -%}
+            {%- assign layout = block.settings.layout -%}
+
+            <div class="footer-block footer-block--blog {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+              {%- if title != blank -%}
+                <p class="footer-title h5">{{ title }}</p>
+              {%- endif -%}
+
+              {%- if blog -%}
+                {%- if layout == 'articles' -%}
+                  <ul class="footer-articles-list">
+                    {%- for article in blog.articles limit: 3 -%}
+                      <li><a href="{{ article.url }}" class="footer-article-title footer-link" title="{{ article.title }}"> {{ article.title | strip_html | truncatewords: 5 }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                {%- else -%}
+                  {%- assign tags = blog.all_tags | default: false -%}
+                  {%- if tags -%}
+                    <ul class="footer-tags-list">
+                      {%- for tag in tags -%}
+                        {%- unless tag contains 'time_' -%}
+                          <li><a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="footer-link footer-link--tags">{{ tag }}</a></li>
+                        {%- endunless -%}
+                      {%- endfor -%}
+                    </ul>
+                  {%- endif -%}
+                {%- endif -%}
+              {%- else -%}
+                {% comment %} Onboarding content if no blog selected {% endcomment %}
+                {%- if layout == 'articles' -%}
+                  <ul class="footer-articles-list">
+                    {%- for i in (1..3) -%}
+                      <li><a href="#!" class="footer-article-title footer-link">{{ 'homepage.onboarding.blog.title' | t }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                {%- else -%}
+                  <ul class="footer-tags-list">
+                    {%- for i in (1..3) -%}
+                      <li><a href="#!" class="footer-link">{{ 'homepage.onboarding.blog.tag' | t }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              {%- endif -%}
+            </div>
+
+          {%- when 'newsletter' -%}
+            <div class="footer-block footer-block--newsletter {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+              {%- if title != blank -%}
+                <div class="footer-title h5">{{ title }}</div>
+              {%- endif -%}
+
+              {%- if block.settings.text != blank -%}
+                <div class="rte">{{- block.settings.text -}}</div>
+              {%- endif -%}
+
+              {%- render 'newsletter-form', unique: block.id -%}
+            </div>
+
+          {%- when 'text' -%}
+            {%- assign footer_text = block.settings.footer_text -%}
+
+            <div class="footer-block footer-block--text {{ alignment }}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+              {%- if title != blank -%}
+                <p class="footer-title h5">{{ title }}</p>
+              {%- endif -%}
+
+              <div class="rte">
+                {{- footer_text -}}
+              </div>
+            </div>
+
+          {%- when 'divider' -%}
+            <div class="footer-block footer-block--divider{% if block.settings.column_width == '100' %} footer-block--divider-full{% endif %}"
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+              style="{{ block_style }}"
+              {{ block.shopify_attributes }}>
+
+              {%- if block.settings.show_border_line -%}
+                <hr class="hr--full">
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+      <div
+          class="footer-block footer-block--newsletter text-left logo-column"
+          style="--desktop-width: 20%"
+        >
+          <div class="footer-title h5">Stay in Touch</div>
+          <div class="klaviyo-form-WLEjXc footer-kla-custom klaviyo-form form-version-cid-1"></div>
+          {%- if render_socials -%}
+            {%- render 'footer-social', show_social_links: show_social_links, show_follow_on_shop: show_follow_on_shop, color_bg: color_bg, color_text: color_text -%}
+          {%- endif -%}
+        </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom {{ section_width }} {{ bottom_bar_alignment }}"
+    {% if animations_enabled %}
+      data-aos="fade-up"
+      data-aos-anchor="{{ animation_anchor }}"
+      data-aos-delay="{{ animation_delay }}"
+      {%- assign animation_delay = animation_delay | plus: 150 -%}
+    {% endif %}>
+    <div class="footer-bottom__content">
+      <!-- {%- render 'cross-border' -%} -->
+      {%- render 'footer-copyright' -%}
+    </div>
+   
+
+
+    {%- if show_payment_icons -%}
+      {%- render 'footer-payment' -%}
+    {%- endif -%}
+  </div>
+</footer>

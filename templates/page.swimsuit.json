@@ -1,0 +1,1044 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_nTU6eK": {
+      "type": "section-text",
+      "blocks": {
+        "heading_fyMqBD": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>5 Reasons to Love Popilush Shapewear Swimsuits<\/p>",
+            "size": 120,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_YHi3zH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>As summer approaches, thoughts turn to sun-kissed skin, refreshing dips in the pool, and the perfect swimsuit to flaunt your best beach bod. But finding a swimsuit that not only looks great but also provides the support and shape you desire can be a challenge. That's where Popilush Shapewear Swimsuits come in.<\/p>",
+            "size": 130
+          }
+        }
+      },
+      "block_order": [
+        "heading_fyMqBD",
+        "text_YHi3zH"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 20
+      }
+    },
+    "section_products_with_image_WqUdpt": {
+      "type": "section-products-with-image",
+      "settings": {
+        "collection": "swimwear",
+        "product_list": [],
+        "products_layout": "split-left",
+        "number_of_products": 6,
+        "products_per_row_on_desktop": "2",
+        "columns_mobile": "2",
+        "image": "shopify:\/\/shop_images\/101_3_5d923783-8e84-45d6-99d0-af4f891a76b7.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/IMG_3020_d280e29a-0a9b-44e1-b7ec-c6bc03d8a038.jpg",
+        "overlay_opacity": 10,
+        "text_position": "middle-center",
+        "text_color": "text-dark",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_RTY74C": {
+      "type": "section-text",
+      "blocks": {
+        "heading_7wTwVr": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Over the past three years, Popilush has collaborated with a professional design team to create the most comfortable dress. We believe that embracing ourselves should not mean sacrificing freedom, and that fashion should not come at the cost of comfort.<\/strong><\/p>",
+            "size": 120,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_hHPatz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As summer approaches, thoughts turn to sun-kissed skin, refreshing dips in the pool, and the perfect swimsuit to flaunt your best beach bod. But finding a swimsuit that not only looks great but also provides the support and shape you desire can be a challenge. That's where Popilush Shapewear Swimsuits come in.<\/p>",
+            "size": 130
+          }
+        }
+      },
+      "block_order": [
+        "heading_7wTwVr",
+        "text_hHPatz"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "modal-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_icons_row_yKijqy": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_aJDHLU": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify:\/\/shop_images\/1-1.png",
+            "title": "",
+            "text": "<p>Opening Gusset for easy bathroom breaks<\/p>"
+          }
+        },
+        "text_hCmaTm": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify:\/\/shop_images\/1-2_3613fdb6-e1b5-4949-8745-1d88dd004e2c.png",
+            "title": "",
+            "text": "<p>Removable Bra Padded with Built-in support<\/p>"
+          }
+        },
+        "text_p3kKRV": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify:\/\/shop_images\/1-3.png",
+            "title": "",
+            "text": "<p>Built in Shapewear Sculpt your figure<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_aJDHLU",
+        "text_hCmaTm",
+        "text_p3kKRV"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 100,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_press_eMaGeK": {
+      "type": "section-press",
+      "blocks": {
+        "press_FdbWbV": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/6509bb375eff79650d8d573c_yAHOO_ee867afc-0063-4ebc-9f38-da667decf813.jpg",
+            "logo_width": 70
+          }
+        },
+        "press_xgFreM": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/9126c10944ac354f47d585ee668aef26.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_c76eGV": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/PR_Newswire_Navy_Logo_883e33bf-acb7-4e9d-ae5d-06d61ed1c9ab.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_prmCTM": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/8a88e9e6e22b855efb823ad492e8e195_a26322bc-9b74-430b-943c-963f4e332aaa.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_d4za9E": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/markets-insider-logo-for-website_1013x1013_crop_center_4457d568-2a09-4fc4-adb8-4457fe449c3c.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_zQDD7C": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/buzzfeed-logo-black-transparent.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_79JdyF": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/d88cdb2232232b438f1cc8e73038dcf9.jpg",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_FdbWbV",
+        "press_xgFreM",
+        "press_c76eGV",
+        "press_prmCTM",
+        "press_d4za9E",
+        "press_zQDD7C",
+        "press_79JdyF"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_FQEKYy": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_kmt8ae": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping Worldwide",
+            "text": "<p>Free Shipping On Orders Over $80<\/p>"
+          }
+        },
+        "text_99bx6T": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "Feature",
+            "text": ""
+          }
+        },
+        "text_9T3qnQ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kmt8ae",
+        "text_99bx6T",
+        "text_9T3qnQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_grid_j6bDNw": {
+      "type": "section-grid",
+      "blocks": {
+        "image_RfAQaa": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "100",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Trending",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_GJ9UKb": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/1_726932d9-482c-4448-9a63-f661af7e38bc.gif",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_weBMre": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/3_1b911a39-5ff3-40eb-b613-18764c40d04c.gif",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_QJEmjy": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/2_8851f8d9-2809-44e5-a591-a209c4d0b808.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_RfAQaa",
+        "image_GJ9UKb",
+        "image_weBMre",
+        "image_QJEmjy"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "450",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_fWJic9": {
+      "type": "section-text",
+      "blocks": {
+        "heading_K9QcJt": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>A one-stop solution that combines fashion with hourglass shaping to enhance your figure<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9QcJt"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_3TqGBn": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/1200_1600_6d3460fe-0ddc-4e27-9b04-499e02814778.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1200_1600_6d3460fe-0ddc-4e27-9b04-499e02814778.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p><em><strong>1. Triple-Layer Internal Structure Swimsuit<\/strong><\/em><\/p>",
+        "heading_size": 120,
+        "content": "<p><strong>Outer layer<\/strong>: Made of quick-drying material that repels moisture and dries quickly. It is also chlorine-resistant to protect the swimsuit from damage.<\/p><p><br\/><strong>Middle layer<\/strong>: Made of shaping mesh fabric that provides enhanced abdominal compression for tummy sculpting.<\/p><p><br\/><strong>Inner layer<\/strong>: Made of soft and comfortable material that ensures skin-friendly wear without friction or discomfort.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_eCjmVg": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/IMG_3077_917d019c-69bc-44b8-876f-c9c50656488a.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/IMG_3077_917d019c-69bc-44b8-876f-c9c50656488a.jpg",
+        "use_full_size": true,
+        "subheading": "",
+        "title": "<p><em><strong>2. Stylish and Versatile Designs<\/strong><\/em><\/p>",
+        "heading_size": 120,
+        "content": "<p>Popilush offers a wide range of stylish and versatile designs to suit every taste and body type. From classic one-pieces to trendy bikinis, there's a Popilush Shapewear Swimsuit that will make you feel confident and beautiful.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_RLrjCF": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/101_1_393cc0d4-cdee-489e-bbe6-a5ab99e12b91.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/101_1_393cc0d4-cdee-489e-bbe6-a5ab99e12b91.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p><em><strong>3. Embrace Your Summer Style<\/strong><\/em><\/p>",
+        "heading_size": 120,
+        "content": "<p>With Popilush Shapewear Swimsuits, you can ditch the swimsuit worries and embrace your summer style with confidence. Whether you're a seasoned beachgoer or a newbie to the water, there's a Popilush Shapewear Swimsuit that's perfect for you.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_cNezRC": {
+      "type": "section-text",
+      "blocks": {
+        "heading_VXdjND": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>4. Shapewear to flatter from every angle<\/strong><\/p>",
+            "size": 125,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "heading_nX4cpz": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>So, what are you waiting for? <\/strong><\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_pKew67": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dive into the world of Popilush Shapewear Swimsuits and discover the perfect suit to make this summer your most confident and stylish one yet.<\/strong><\/p>",
+            "size": 130
+          }
+        }
+      },
+      "block_order": [
+        "heading_VXdjND",
+        "heading_nX4cpz",
+        "text_pKew67"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_brhbGE": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_WYL38G": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_27298aa5-223b-4d40-b8b0-f5a6374c3e68.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_QadUUz": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.gif",
+            "title": "",
+            "text": "<h3>Others<\/h3>",
+            "button_text": "Rolling Edges",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_VWqr7U": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_84e6bccb-93de-41b9-9440-955b7f6ee388.jpg",
+            "title": "",
+            "text": "<h3>Ours<\/h3>",
+            "button_text": "No Rolling Edges",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_NHUjf9": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_WYL38G",
+        "text_block_QadUUz",
+        "text_block_VWqr7U",
+        "text_block_NHUjf9"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 2,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "stacked",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_7KX7Nn": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4jPgcb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_yAfkpP": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Choose Your Favorite Dress<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Kda4LC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_X4zgcb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4jPgcb",
+        "heading_yAfkpP",
+        "text_Kda4LC",
+        "button_X4zgcb"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_a9GEVW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "modal-dresses",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aHFYgf": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Love From 1,000,000+ of Global Customers<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aHFYgf"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2-1.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": false,
+        "duration": 8,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_AVtARp": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "loox_reviews_loox_carousel_section_L4DYkm": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": true,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        },
+        "loox_reviews_loox_agg_section_bCJUed": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "ruched-v-neck-one-piece-shapewear-bodysuit-swimsuit",
+            "aggregated": false,
+            "data-limit": 4,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC",
+        "loox_reviews_loox_card_carousel_section_AVtARp",
+        "loox_reviews_loox_carousel_section_L4DYkm",
+        "loox_reviews_loox_agg_section_bCJUed"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_f3GqBM": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "low-back-bodysuit",
+        "products_layout": "carousel",
+        "number_of_products": 5,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_html_NKbGkL": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_VQ9JmW": {
+      "type": "section-press",
+      "blocks": {
+        "press_mtyzYW": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
+        "press_7AFrmF": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Over the past three years, Popilush has collaborated with a professional design team to create the most comfortable dress. We believe that embracing ourselves should not mean sacrificing freedom, and that fashion should not come at the cost of comfort.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
+        "press_kYdfte": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        }
+      },
+      "block_order": [
+        "press_mtyzYW",
+        "press_7AFrmF",
+        "press_kYdfte"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Press",
+        "show_quotations": true,
+        "show_rounded_corners": false,
+        "autoplay": true,
+        "duration": 3,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_Yt8pEC": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Media with text",
+        "title_size_pc": 21,
+        "title_size_m": 17,
+        "text": "<p>Use this text to share information about your store with your customers. Describe product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size_pc": 16,
+        "text_size_m": 16,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "text_width": 40,
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "alternate_bg_color": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_nTU6eK",
+    "section_products_with_image_WqUdpt",
+    "section_text_RTY74C",
+    "section_collection_JyxnaW",
+    "section_icons_row_yKijqy",
+    "section_press_eMaGeK",
+    "section_icons_row_FQEKYy",
+    "section_grid_j6bDNw",
+    "section_text_fWJic9",
+    "section_image_with_text_3TqGBn",
+    "section_image_with_text_eCjmVg",
+    "section_image_with_text_RLrjCF",
+    "section_text_cNezRC",
+    "section_columns_brhbGE",
+    "section_text_7KX7Nn",
+    "section_collection_a9GEVW",
+    "section_text_jnGbbg",
+    "section_press_GgKwa8",
+    "171352471609d7f60d",
+    "section_collection_f3GqBM",
+    "section_custom_html_NKbGkL",
+    "section_press_VQ9JmW",
+    "image_with_text_Yt8pEC"
+  ]
+}

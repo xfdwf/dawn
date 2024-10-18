@@ -1,0 +1,670 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "slider_text_cULBhC": {
+          "type": "sliderText",
+          "settings": {
+            "sliderText": "60-day free exchange & no-hassle returns",
+            "sliderText2": "Free shipping on orders over $80",
+            "sliderText3": "Estimated USA Delivery: 2 to 5 Business Days"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "custom_code_QTf6ey": {
+          "type": "custom_code",
+          "disabled": true,
+          "settings": {
+            "custom_code": "",
+            "padding_bottom": 20
+          }
+        },
+        "loox_reviews_loox_rating_RYjcFj": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "custom_code_k8zBKd": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div style=\"background-color: #EBE7E0;padding: 8px;font-size: 13px;display: inline-block;border-radius: 5px;color:#171719\">\n            <div>\n<b style=\"color:#171719\">$20 off over $120，$30 off over $200 <\/b><br>*Discount calculated automatically at checkout.<\/div>\n        <\/div>",
+            "padding_bottom": 20
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "disabled": true,
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "video_AQUnJA": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_text": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/449bbf16b1074678b7d5cf3b19ebb2ff.mp4"
+          }
+        },
+        "video_F6zJMB": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_text": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac10635dff7149b192421e08c47a47be.mp4"
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product_list": "{{ product.metafields.theme.upsell_list.value }}",
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_UzNtwk": {
+          "type": "icon_row",
+          "disabled": true,
+          "settings": {
+            "alignment_section": "row",
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "none",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "",
+            "section_headinig": "",
+            "section_headinig_size": 16,
+            "section_headinig_alignment": "left",
+            "alignment": "center",
+            "bg_color": "#d3d3d3",
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_QDTWPA": {
+          "type": "icon_row",
+          "settings": {
+            "alignment_section": "column",
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "section_headinig": "why we love it",
+            "section_headinig_size": 20,
+            "section_headinig_alignment": "left",
+            "alignment": "left",
+            "bg_color": "#ebe7e0",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Highlight or Feature",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Material",
+            "heading_style": "font-body",
+            "accordion_text": "<p>{{ product.metafields.my_fields.details | metafield_tag }}<\/p><p>• Hand wash<\/p><p>• Do not dry clean<\/p><p>• Do not iron<\/p><p>• Do not bleach<\/p><p>• Do not tumble dry<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_chVHh9": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Fit Recommendation",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Measure your waist, bust, and hips to find your Popilush size. If your waist and hip measurements fall within different sizes, choose the <strong>larger <\/strong>size.<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Shipping & Returns",
+            "heading_style": "font-body",
+            "accordion_text": "<p><\/p><p><strong>SHIPPING POLICY<\/strong><\/p><p><\/p><ul><li>We offer free standard shipping for U.S. orders over $80+.<\/li><li>Please allow up to 3 business days for processing before your order ships<br\/><\/li><\/ul><p><strong>RETURN POLICY<\/strong><br\/><\/p><ul><li>60-Day Returns (excluding clearance items)<\/li><li>Products must be returned unworn, unwashed, in their original condition and with all tags and liners attached.<\/li><li>We ask that you wear underwear when first trying-on your purchase, as we reserve the right to refuse returns that show any signs of wear.<\/li><li>International returns are accepted. Return shipping and any reverse duties are the responsibility of the customer. <\/li><li>We cannot accept returns (even within 60 days of purchase) for items listed as final sale at the time of purchase. The acceptance of a return is at the sole discretion of the Popilush team.<\/li><\/ul>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "Need help with sizing?",
+            "text": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        },
+        "video_bXqKRt": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_text": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0500428792d642248579e97cd6dcf734.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "slider_text_cULBhC",
+        "title",
+        "custom_code_QTf6ey",
+        "loox_reviews_loox_rating_RYjcFj",
+        "custom_code_k8zBKd",
+        "inventory_countdown",
+        "form",
+        "video_AQUnJA",
+        "video_F6zJMB",
+        "upsell",
+        "icon_row_UzNtwk",
+        "icon_row_QDTWPA",
+        "description",
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "product_accordion",
+        "product_accordion_chVHh9",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
+        "video_bXqKRt"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_custom_FkK4JY": {
+      "type": "section-columns-custom",
+      "settings": {
+        "title": "It Looks Good On You",
+        "align_text": "text-center",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1.2,
+        "mobile_aspect_ratio": 1.1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "overlapping-images-0": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>Our Story, Our Promise<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "relevance_mNztjj": {
+      "type": "relevance",
+      "settings": {
+        "collection": "",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-center",
+        "title": "<h2>Complete The Look<\/h2>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_hPKgyE": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "dresses-matches",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Buy It With<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "38ff978b-66eb-4318-9ce0-94db8ff86311": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_overlapping_images_custom_KXnNx8": {
+      "type": "section-overlapping-images-custom",
+      "settings": {
+        "background_color": "#ffffff",
+        "title1": "{{ product.metafields.custom.title1.value }}",
+        "content1": "<p>{{ product.metafields.custom.text1 | metafield_tag }}<\/p>",
+        "title2": "{{ product.metafields.custom.title2.value }}",
+        "content2": "<p>{{ product.metafields.custom.text2 | metafield_tag }}<\/p>",
+        "title3": "{{ product.metafields.custom.title3.value }}",
+        "content3": "<p>{{ product.metafields.custom.text3 | metafield_tag }}<\/p>",
+        "title4": "{{ product.metafields.custom.title4.value }}",
+        "content4": "<p>{{ product.metafields.custom.text4 | metafield_tag }}<\/p>",
+        "title5": "{{ product.metafields.custom.title5.value }}",
+        "content5": "<p>{{ product.metafields.custom.text5 | metafield_tag }}<\/p>",
+        "title6": "{{ product.metafields.custom.title6.value }}",
+        "content6": "<p>{{ product.metafields.custom.text6 | metafield_tag }}<\/p>",
+        "title7": "{{ product.metafields.custom.title7.value }}",
+        "content7": "<p>{{ product.metafields.custom.text7 | metafield_tag }}<\/p>",
+        "title8": "{{ product.metafields.custom.title8.value }}",
+        "content8": "<p>{{ product.metafields.custom.text8 | metafield_tag }}<\/p>",
+        "title9": "{{ product.metafields.custom.title9.value }}",
+        "content9": "<p>{{ product.metafields.custom.text9 | metafield_tag }}<\/p>",
+        "title10": "{{ product.metafields.custom.title10.value }}",
+        "content10": "<p>{{ product.metafields.custom.text10 | metafield_tag }}<\/p>",
+        "title11": "",
+        "content11": "",
+        "title12": "",
+        "content12": "",
+        "image1": "{{ product.metafields.custom.picture1.value }}",
+        "imageM1": "{{ product.metafields.custom.m_picture1.value }}",
+        "image2": "{{ product.metafields.custom.picture2.value }}",
+        "imageM2": "{{ product.metafields.custom.m_picture2.value }}",
+        "image3": "{{ product.metafields.custom.picture3.value }}",
+        "imageM3": "{{ product.metafields.custom.m_picture3.value }}",
+        "image4": "{{ product.metafields.custom.picture4.value }}",
+        "imageM4": "{{ product.metafields.custom.m_picture4.value }}",
+        "image5": "{{ product.metafields.custom.picture5.value }}",
+        "imageM5": "{{ product.metafields.custom.m_picture5.value }}",
+        "image6": "{{ product.metafields.custom.picture6.value }}",
+        "imageM6": "{{ product.metafields.custom.m_picture6.value }}",
+        "image7": "{{ product.metafields.custom.picture7.value }}",
+        "imageM7": "{{ product.metafields.custom.m_picture7.value }}",
+        "image8": "{{ product.metafields.custom.picture8.value }}",
+        "imageM8": "{{ product.metafields.custom.m_picture8.value }}",
+        "image9": "{{ product.metafields.custom.picture9.value }}",
+        "imageM9": "{{ product.metafields.custom.m_picture9.value }}",
+        "image10": "{{ product.metafields.custom.picture10.value }}",
+        "imageM10": "{{ product.metafields.custom.m_picture10.value }}"
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "You May Also Like",
+            "product_recommendations_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 767px) {.carousel--mobile .carousel__item {width: 45%; }}"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1711673267d4f338b3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_WYHXwR": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 8,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_WYHXwR"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "tabs": {
+      "type": "section-accordions",
+      "blocks": {
+        "acordion-0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Most orders placed on business days will be processed and shipped with in 1-3 days.<br\/><br\/>We are unable to deliver on weekends or public holidays, any orders placed during this period will be dispatched the following business day<br\/><br\/>SHIPPING TIMES<br\/><br\/>For US shipping: Express delivery takes 1-4 business days, standard and free delivery takes 2-5 business days.<br\/>For international shipping: Express delivery takes 3-7 business days, standard delivery takes 10-15 business days, and free delivery takes 10-15 business days.<br\/><br\/>Please note, that shipping times do not include the standard 1-3 business day processing time it takes for the order to ship out.<\/p>"
+          }
+        },
+        "acordion-1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I apply my Discount Coupon Code?",
+            "text": "<p>You can enter this discount codes on your checkout page, click ‘apply’. Your total amount will be updated to reflect the discount.<\/p>"
+          }
+        },
+        "acordion-2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>We offer free standard shipping on all orders $80+ in the Contiguous United States. <\/p>"
+          }
+        },
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f": {
+          "type": "text",
+          "settings": {
+            "title": "How can I choose the correct size?",
+            "text": "<p>We have a Size Guide on every product page to help you select the right size. Just click the Size Chart below the product information. Please note that just so you know, some items might fit differently depending on the style. If in between sizes, please choose a larger size if you prefer a comfortable fit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "acordion-0",
+        "acordion-1",
+        "acordion-2",
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f"
+      ],
+      "custom_css": [
+        ".accordion__item__text-wrapper {padding-right: 0;}",
+        ".accordion__item--padded .accordion__item__text {padding-left: 10px; padding-right: 10px;}"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "icons": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "package",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "Enhanced Support",
+            "text": "<p>Email\/Call Friendly Connect<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>Free shipping on U.S. orders over $80<\/p>"
+          }
+        },
+        "text_KiGFjb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "Student Discount",
+            "text": "<p>Enjoy 15% Off Your Order<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2",
+        "text_KiGFjb"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_columns_custom_FkK4JY",
+    "overlapping-images-0",
+    "relevance_mNztjj",
+    "section_collection_hPKgyE",
+    "38ff978b-66eb-4318-9ce0-94db8ff86311",
+    "section_overlapping_images_custom_KXnNx8",
+    "related",
+    "1711673267d4f338b3",
+    "tabs",
+    "icons"
+  ]
+}

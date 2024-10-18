@@ -1,0 +1,1043 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_QCGGaw": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=Ag3ly60amKE",
+        "image": "shopify:\/\/shop_images\/1_5_fe436c7b-ea10-4cfc-8d71-cf59ef092f8f.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--medium"
+      }
+    },
+    "section_slideshow_kL7T4y": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_pyaXWe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_3.12_-___1_6.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_3.12_-_-06.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "top-left",
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "<h3>What Makes Popilush Shapewear Dresses the Best Choice For An Effortless Hourglass Figure?<\/h3>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#0b0b0b",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pyaXWe"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_jnGbbg": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aHFYgf": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Essential Spring Fashion: The Popilush Built-in Shapewear Dress<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_E3FGPB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Comfort and Flattery:<\/strong> The dress provides remarkable comfort while flattering the body from every angle.  This combination of comfort and flattery is essential for warmer months when individuals seek breathable fabrics and flattering silhouettes.<br\/><br\/><strong>Accentuating Natural Curves: <\/strong>In line with the spirit of Spring and Summer, the dress accentuates natural curves.  This is ideal for embracing one's body and feeling confident whether in casual or chic settings.<br\/><br\/><strong>Versatile Styling Options:<\/strong> The dress offers versatility in styling, making it suitable for various occasions.  Whether lounging at home or going out for a romantic date night, the dress provides the flexibility to adapt to different settings.<br\/><br\/><strong>Functional Features: <\/strong>The Popilush Shapewear Dress incorporates functional features such as tummy control, butt lifting, and an \"invisible\" shaper with an open gusset.  These features enhance comfort and confidence by providing support where needed while maintaining a natural silhouette.<br\/><br\/><strong>Outerwear for All Occasions: <\/strong>Designed to be worn as outerwear, the dress caters to diverse scenarios encountered during the warmer months.  It seamlessly transitions from relaxed settings to more formal occasions, ensuring that wearers feel confident and stylish regardless of the situation.<\/p><p><strong>Customer Satisfaction Guarantee: <\/strong>The offer of 60 Days Free Exchange underscores the brand's commitment to customer satisfaction.  This guarantee provides peace of mind to customers, encouraging them to try the product without hesitation.<\/p>",
+            "size": 100
+          }
+        },
+        "heading_dTnMkh": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>A Popilush Shapewear Dress is a must-have item for any spring wardrobe<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aHFYgf",
+        "text_E3FGPB",
+        "heading_dTnMkh"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_video_nypNQz": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/www.youtube.com\/watch?v=6BUY-3i4YPQ",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=6BUY-3i4YPQ",
+        "image": "shopify:\/\/shop_images\/IMG_3110.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_video_DQyfgF": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/www.youtube.com\/watch?v=Xj9XXKEJf9I",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=Xj9XXKEJf9I",
+        "image": "shopify:\/\/shop_images\/1_2_3ada87dc-d2a2-4a60-ac8b-ae90f5e6abca.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_icons_row_Ke6fiC": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_PqjwEk": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping Worldwide",
+            "text": "<p>on all order over $80<\/p>"
+          }
+        },
+        "text_mBEWU9": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Hassle-Free Exchange",
+            "text": "<p>Exchanges are on us for fit<\/p>"
+          }
+        },
+        "text_B9eWPk": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Enhanced Customer Support",
+            "text": "<p>Email\/Call Friendly Connect<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PqjwEk",
+        "text_mBEWU9",
+        "text_B9eWPk"
+      ],
+      "settings": {
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 20,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_8zXN6R": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_yp48jT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gdn-389_cf871127-9b3f-4024-8f1b-6e00b9173e10.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/gdn-389_cf871127-9b3f-4024-8f1b-6e00b9173e10.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/built-in-shapewear-leather-mock-neck-midi-dress",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_WWP9Db": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Welcome to Palo Alto<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yp48jT",
+        "image_WWP9Db"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_collection_JyxnaW": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "items-in-this-spring",
+        "products_layout": "carousel",
+        "number_of_products": 10,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_G46iB7": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gdn-389_cf871127-9b3f-4024-8f1b-6e00b9173e10.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_text_jaFLEj": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_PjgfcR": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_fiWb9g": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>1. Fashionable and Comfortable<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_ktXRzW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perfectly suited for a variety of styles and occasions.<br\/>A versatile wardrobe essential that goes from casual chic to formal sophistication. Our shapewear dress seamlessly transitions from day to night. The Popilush shapewear dress is ideal for a variety of occasions including daily wear, holidays, beach trips, wedding guest attire, parties, date nights and more. It is made with a very comfortable modal fabric. Experience a seamless, non-constricting fit that enhances your curves without compromising comfort. <strong>It allows your skin to breathe freely, ensuring comfort throughout the day.<\/strong><\/p>",
+            "size": 100
+          }
+        },
+        "button_N3J4HT": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PjgfcR",
+        "heading_fiWb9g",
+        "text_ktXRzW",
+        "button_N3J4HT"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_KkpECq": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_i8iNnN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3008.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_KPa8iQ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_3ad11334-a5d0-42af-8fb6-70f1940f4cb4.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_XCinQe": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024_1_22_-MT230318-BK1p-S-acquired_by_andrea_PLDTC_0_1.jpg",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_m3AaBV": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_i8iNnN",
+        "text_block_KPa8iQ",
+        "text_block_XCinQe",
+        "text_block_m3AaBV"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_3DECXN": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_zK4ijE": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_TQqrFQ": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>2. Invisible shaping flatters your curves and lifts the butt.<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_adcqJB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With built-in shapewear targeting the abdomen, waist, hips, and thighs, our dress sculpts your silhouette naturally, without any discomfort or visible lines. The inner shapewear is made of high-quality fabric, offering excellent elasticity and strong sweat absorption, allowing your skin to breathe and ensuring comfort throughout the day. The women’s casual loose dress features a slim-fit design that accentuates your perfect body curves, making you feel confident. Powerful built-in shaping panels not only do the work of shapewear but also lift the butt.<\/p><p><\/p>",
+            "size": 100
+          }
+        },
+        "button_mNEiFd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zK4ijE",
+        "heading_TQqrFQ",
+        "text_adcqJB",
+        "button_mNEiFd"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_zUn8QL": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/built_in_shapewear.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_63xPCm": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_M4rnJC": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_zzpynL": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>3. All in one = dress + shapewear + panties<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_hrwDiD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the freedom of expression and confidence in every step with Popilush's built-in shapewear dress. Our dress combines the functionality of a bra, shapewear, panties, and dress into one seamless garment. Discover the perfect blend of style, comfort, and functionality, tailored to complement every aspect of your unique personality.<\/p>",
+            "size": 100
+          }
+        },
+        "button_Famt9k": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_M4rnJC",
+        "heading_zzpynL",
+        "text_hrwDiD",
+        "button_Famt9k"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_kx7zjM": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_3e0a9ee0-59e4-4cfa-8c12-02dae0c5b4c7.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "section_text_gdHpP4": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_QWNChc": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_8DfFHL": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>4. Double-layer fabric construction<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_CbpfcR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The outside fabric is faux leather, a feature that enhances its style, giving the wearer a stylish look. The inner mesh fabric is composed of 75% nylon and 25% spandex, closely fitting the body curve and providing an effective body-shaping effect. Additionally, our dress is available in two colors: black and red, and various sizes for all body types ranging from XS to 3XL.<\/p>",
+            "size": 100
+          }
+        },
+        "button_9GY8NY": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QWNChc",
+        "heading_8DfFHL",
+        "text_CbpfcR",
+        "button_9GY8NY"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_YgrVAN": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gdn-389.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_AhA8C7": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_mq4iqN": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_XqtQck": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>4. Don't fret about wearing a bra!<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Ue7D79": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed with removable padded bras, the underwire provides safe chest support and full cup coverage. The breast pads are adjustable to fit various breast sizes and can be easily removed for washing. Additionally, the double-lined bust area offers ultimate support and lift. Say goodbye to worries about breast sagging or ill-fitting bras. Just relax and enjoy the comfort.<\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "size": 100
+          }
+        },
+        "button_4Gtq6X": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mq4iqN",
+        "heading_XqtQck",
+        "text_Ue7D79",
+        "button_4Gtq6X"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_9aK8Np": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gdn-389_bra.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_KJNagJ": {
+      "type": "section-text",
+      "blocks": {
+        "heading_EmCt6m": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>5. No underwear necessary!<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_A7Uh7x": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Say goodbye to multiple layers! Our dress<strong> eliminates the need for underwear, bras, and separate shapewear.<\/strong> It offers a hassle-free solution for your wardrobe essentials with an open gusset for easy bathroom breaks without having to take the entire dress off!<\/p>",
+            "size": 100
+          }
+        },
+        "button_hRRRbC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EmCt6m",
+        "text_A7Uh7x",
+        "button_hRRRbC"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_iJUcjF": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gdn-bathroom.png",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_overlapping_images_rEhX8J": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/2024.3.22-MT230414-GN6p-XS-sylem99-PLDTC_0.jpg",
+        "image_link_1": "",
+        "image_2": "shopify:\/\/shop_images\/Bluetag_3_Shop___1_3_396fd78d-e5be-4f3b-a224-5aeacbdd8607.jpg",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "description": "<p><a href=\"\/collections\/items-in-this-spring\" title=\"Items In This Spring\"><strong>Popilush Shapewear Dress<\/strong><\/a> is a must-have item this spring because of its unbeatable combination of comfort, style, versatility, and confidence-boosting features, making it the perfect addition to your wardrobe for the upcoming season.<\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "171352471609d7f60d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_carousel_section_LkKydC": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "crew-neck-sleeveless-built-in-shapewear-maxi-dress"
+          }
+        },
+        "loox_reviews_loox_referrals_section_6PykF9": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-referrals-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1100,
+            "layout": "with-photo",
+            "primary_color": "",
+            "text_color": "#000000",
+            "text_field_border_color": "#c9cdd4",
+            "background": ""
+          }
+        },
+        "loox_reviews_loox_agg_section_CVjRiV": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "built-in-shapewear-leather-mock-neck-midi-dress",
+            "aggregated": false,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_carousel_section_LkKydC",
+        "loox_reviews_loox_referrals_section_6PykF9",
+        "loox_reviews_loox_agg_section_CVjRiV"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_GgKwa8": {
+      "type": "section-press",
+      "blocks": {
+        "press_wRebQ4": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/people__1_67c49a8e-2eea-472e-b2d1-50abfd472bde.png",
+            "logo_width": 180
+          }
+        },
+        "press_wWf3JJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/Bragging-Mommy-1_logo_2_b677a7bb-cece-41f7-a584-308f914d2f07.png",
+            "logo_width": 180
+          }
+        },
+        "press_XxzNP8": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/2_5bf88910-6f86-4d94-aae7-6e482b041fec.png",
+            "logo_width": 180
+          }
+        },
+        "press_tWqrtG": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/athleisuremag_logo2_afc77100-9e91-4d02-80d1-3d437daf8ee6.png",
+            "logo_width": 180
+          }
+        },
+        "press_t8YhMC": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/11_f90b9a9a-be6f-48b7-8034-599eedb19f4e.png",
+            "logo_width": 180
+          }
+        },
+        "press_AbdGqD": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/33_b8f1547d-92ea-4eb4-9306-f073cf5a068c.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wRebQ4",
+        "press_wWf3JJ",
+        "press_XxzNP8",
+        "press_tWqrtG",
+        "press_t8YhMC",
+        "press_AbdGqD"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_video_QCGGaw",
+    "section_slideshow_kL7T4y",
+    "section_text_jnGbbg",
+    "section_video_nypNQz",
+    "section_video_DQyfgF",
+    "section_icons_row_Ke6fiC",
+    "section_slideshow_8zXN6R",
+    "section_collection_JyxnaW",
+    "section_image_G46iB7",
+    "section_text_jaFLEj",
+    "section_columns_KkpECq",
+    "section_text_3DECXN",
+    "section_image_zUn8QL",
+    "section_text_63xPCm",
+    "section_image_kx7zjM",
+    "section_text_gdHpP4",
+    "section_image_YgrVAN",
+    "section_text_AhA8C7",
+    "section_image_9aK8Np",
+    "section_text_KJNagJ",
+    "section_image_iJUcjF",
+    "section_overlapping_images_rEhX8J",
+    "171352471609d7f60d",
+    "section_press_GgKwa8"
+  ]
+}

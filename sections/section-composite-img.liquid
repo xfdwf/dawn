@@ -1,0 +1,122 @@
+{% style %}
+  .compositeImagesCustom {
+      display: flex;
+			width: var(--site-width);
+			max-width: 100%;
+			margin: 0 auto;
+			padding: 0 var(--gutter);
+  }
+
+  .section-overlapping-images-custom {
+      display: flex;
+      margin: 10px 0;
+      justify-content:center;
+  }
+
+
+  .content-box-right {
+      width: 50%;
+  }
+
+  .content-box-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+  #section-id-{{ section.id }} .section-overlapping-images-custom {
+      background-color: {{section.settings.background_color}};
+  }
+
+  @media screen and (min-width: 768px) {
+    .compositeImagesCustom .section-overlapping-images-custom:nth-child(2n) .content-box-left{
+      order:2;
+    }
+    .compositeImagesCustom .section-overlapping-images-custom:nth-child(2n) .content-box-right{
+      order:1;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+     .compositeImagesCustom{
+       padding-top:15px;
+			 padding: 0 var(--gutter-mobile);
+     }
+		 
+      .section-overlapping-images-custom {
+          flex-direction: column;
+      }
+
+      .content-box-left,
+      .content-box-right {
+          width: 100%!important;
+      }
+
+      .text-container {
+          width: 100%;
+          padding: 20px;
+      }
+
+      .section-overlapping-images-custom {
+          display: flex;
+          padding: 0;
+      }
+  }
+  .only-m {
+    display: none;
+  }
+  .only-pc {
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    .only-pc {
+    display: none;
+    }
+    .only-m {
+      display: block;
+    }
+  }
+{% endstyle %}
+{% if product.metafields.custom.composite_img.value %}
+	<div class="compositeImagesCustom container" id="section-id-{{ section.id }}">
+			{% assign compositeLength = 0 %}
+			{%- for item in product.metafields.custom.composite_img.value -%}
+				{% assign compositeLength = compositeLength | plus: 1 %}
+  		{%- endfor -%}
+
+      <section class="section-overlapping-images-custom" data-11="{{compositeLength}}">
+			{%- for item in product.metafields.custom.composite_img.value -%}
+						{% if compositeLength == 1 %}
+							{% assign img_width = '100%'  %}
+						{% elsif compositeLength == 2 %}
+							{% assign img_width = '50%'  %}
+						{% elsif compositeLength == 3 %}
+							{% assign img_width = '33.333%'  %}
+						{% elsif compositeLength == 4 %}
+							{% assign img_width = '25%'  %}
+						{% endif %}
+						<div class="content-box-left" style="width: {{ img_width }}">
+							<img class="only-pc" src="{{item | image_url: width: 3000 }}" alt="">
+						</div>
+			{%- endfor -%}
+      </section>
+	</div>
+{% endif %}
+
+
+{% schema %}
+{
+  "name": "composite img",
+  "class": "section-composite-img-main",
+  "settings": [
+   
+  ],
+  "presets": [
+    {
+      "name": "composite img",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

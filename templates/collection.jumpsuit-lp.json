@@ -1,0 +1,730 @@
+{
+  "sections": {
+    "section_list_butttons_XA3CFf": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_P97gaJ": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_H4mVxB": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_XfnTdJ": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_NAQBVj": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_gFLVpP": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        },
+        "button_8GHcQz": {
+          "type": "button",
+          "settings": {
+            "heading": "Button",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#ffffff",
+            "bg_color": "#171719",
+            "border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "button_P97gaJ",
+        "button_H4mVxB",
+        "button_XfnTdJ",
+        "button_NAQBVj",
+        "button_gFLVpP",
+        "button_8GHcQz"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 6,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "rounded",
+        "text_size": 115,
+        "letter_spacing": 75,
+        "section_bg_color": "",
+        "section_text_color": "",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_XPkz6m": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_zf7Txn": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Jumpsuit Shop<\/h1>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zf7Txn"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/5-1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/popilush-tts-popilush-sports-jumpsuits-seamless-square-neck-long-sleeve-jumpsuit-33317268193456.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_c7UmGG": {
+      "type": "section-text",
+      "blocks": {
+        "text_UECeeT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're running errands or hitting the gym, the shapewear jumpsuit and shapewear romper will keep you feeling comfy all day long.<\/p>",
+            "size": 90
+          }
+        }
+      },
+      "block_order": [
+        "text_UECeeT"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_columns_xq8r87": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_CM6mzL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d093346f-2f3b-4834-8710-89a5e8205f97.gif",
+            "title": "",
+            "text": "<p>Double layer fabric<br\/><\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_PrgQ4k": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_5598233d-c6e4-4266-b87e-b20a29041a44.gif",
+            "title": "",
+            "text": "<p>The Shapewear Jumpsuit<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_9mY8MM": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_ea253288-9b56-40d4-abac-ec2c3dc1ef0e.gif",
+            "title": "",
+            "text": "<p>Bra Padded<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_MPzLyP": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_bf3eb8cc-8eac-40fb-976f-5ed581e4ce16.gif",
+            "title": "",
+            "text": "<p>Peach Butt<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_CM6mzL",
+        "text_block_PrgQ4k",
+        "text_block_9mY8MM",
+        "text_block_MPzLyP"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 4,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 1,
+        "mobile_aspect_ratio": 1,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 2
+      }
+    },
+    "section_collection_mBGCyj": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "best-seller-jumpsuits-and-rompers",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h1>Best Sellers<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_qepnxG": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "active-jumpsuits-and-rompers",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h1>The Seamless Jumpsuits<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_MyBELD": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "shapewear-jumpsuits-and-rompers",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h1>The Shapewear Jumpsuits<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_EceFYF": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/Ultimate_Confidence_Booster_Popilush_s_Seamless_Shapewear_Jumpsuits_5.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Ultimate_Confidence_Booster_Popilush_s_Seamless_Shapewear_Jumpsuits_5.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Sculpted Silhouette<\/p>",
+        "heading_size": 130,
+        "content": "<p>Say goodbye to unwanted lumps and bumps! Our<a href=\"https:\/\/www.popilush.com\/collections\/best-seller-jumpsuits-and-rompers\" title=\"https:\/\/www.popilush.com\/collections\/best-seller-jumpsuits-and-rompers\"> jumpsuits <\/a>feature integrated shapewear that <strong>targets key areas such as the abdomen, waist, hips, and thighs<\/strong>. Experience a smooth and sculpted silhouette that <strong>enhances your curves and boosts your confidence<\/strong>.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_products_with_image_dJEnjy": {
+      "type": "section-products-with-image",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "product_list": [],
+        "products_layout": "split-left",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": "2",
+        "columns_mobile": "2",
+        "overlay_opacity": 10,
+        "text_position": "middle-center",
+        "text_color": "text-dark",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qgNj3p": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Everything's on sale<\/p>",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
+      "blocks": {
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<h1>{{ collection.title }}<\/h1>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1",
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "position": 5,
+            "width": "half",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#fbcaff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f5f4f1",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "first-open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_fCfkmP": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UKBjUV": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to<\/p>",
+            "size": 100
+          }
+        },
+        "heading_xCbcz4": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Palo Alto<\/p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_FyXFgf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_Jh3ppa": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UKBjUV",
+        "heading_xCbcz4",
+        "text_FyXFgf",
+        "button_Jh3ppa"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "collection_describe_PprAdM": {
+      "type": "collection-describe",
+      "settings": {}
+    },
+    "section_newsletter_gALjaM": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Stay in the know",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_text_QHq6Ht": {
+      "type": "section-video-text",
+      "disabled": true,
+      "settings": {
+        "video_height": "four-fifty-height",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0500428792d642248579e97cd6dcf734.mp4",
+        "title": "<p><strong>Welcome to Palo Alto<\/strong><\/p>",
+        "text": "This text helps you provide some more detail to the title above."
+      }
+    },
+    "section_image_with_text_n6HXnr": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/Ultimate_Confidence_Booster_Popilush_s_Seamless_Shapewear_Jumpsuits_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Ultimate_Confidence_Booster_Popilush_s_Seamless_Shapewear_Jumpsuits_1.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Versatile Design<\/p>",
+        "heading_size": 130,
+        "content": "<p>Our jumpsuits aren't just for the gym – they're<strong> perfect for any occasion<\/strong>! With a timeless square neckline and classic one-piece design, t<strong>hey effortlessly transition from day to night<\/strong>. Dress them up with heels and accessories for a night out, or keep it casual with sneakers for a chic athleisure look.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_kpLt3G": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "shapewear-sportwear",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-center",
+        "title": "<h1>The Shapewear Sportwear<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qkUJFw": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "full-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/lQDPKGp_OvtHAu3NBjbNBLCw2RuUKCz9NFYGRg4iCKJrAQ_1200_1590.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/lQDPKGp_OvtHAu3NBjbNBLCw2RuUKCz9NFYGRg4iCKJrAQ_1200_1590.jpg",
+        "use_full_size": false,
+        "subheading": "",
+        "title": "<p>Our Jumpsuit Shop<\/p>",
+        "heading_size": 130,
+        "content": "<p>Make sports a part of fashion, show your grace and strength in Popilush women's sports jumpsuit, and enjoy unparalleled comfort sense.<br\/> Not only will they provide you with the best feel, but they'll also help you look your best as they're designed to flatter your curves, and make your daily wear full of fashion!<br\/><\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_list_butttons_XA3CFf",
+    "section_banner_image_XPkz6m",
+    "section_text_c7UmGG",
+    "section_columns_xq8r87",
+    "section_collection_mBGCyj",
+    "section_collection_qepnxG",
+    "section_collection_MyBELD",
+    "section_image_with_text_EceFYF",
+    "section_products_with_image_dJEnjy",
+    "section_image_with_text_qgNj3p",
+    "hero",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "subcollections",
+    "main",
+    "section_banner_image_fCfkmP",
+    "collection_describe_PprAdM",
+    "section_newsletter_gALjaM",
+    "section_video_text_QHq6Ht",
+    "section_image_with_text_n6HXnr",
+    "section_collection_kpLt3G",
+    "section_image_with_text_qkUJFw"
+  ]
+}

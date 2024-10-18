@@ -1,0 +1,428 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_tags": true,
+        "show_share_button": true,
+        "text": "Share",
+        "bg_color_secondary": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "recommended-posts": {
+      "type": "section-recommended-posts",
+      "disabled": true,
+      "settings": {
+        "posts_type": "paging",
+        "title": "",
+        "default_color": "accent",
+        "blog_style": "photo",
+        "image_aspect_ratio": 1.3,
+        "show_rss_icon": false,
+        "show_date": true,
+        "show_author": true,
+        "show_tags": true,
+        "show_comments_count": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_dDeD6j": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_UYnLRY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_dQi9Jw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_Nx3PWy": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_MBMVAb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UYnLRY",
+        "heading_dQi9Jw",
+        "text_Nx3PWy",
+        "button_MBMVAb"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/1300x500_1_043fe5ec-093c-4af9-8ac9-b8ba84461db1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/banner_3_639780dd-626a-421d-b426-967086ae891c.jpg",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "section_text_YcG3Uk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_gXKhqn": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h2>Blossom in Style: Popilush Unveils Exquisite Spring Dress Collection<\/h2>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_UchtEa": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_yMMYbp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WILLIAMSBURG, Va., March 19, 2024 \/PRNewswire\/ -- Just in time for the first day of spring, Popilush, pioneers of built-in shapewear apparel, unveiled a fresh spring dress collection showcasing a range of colors. Among them, dark green echoes the season's subtle charm, while black and lilac pink embrace the imaginative essence of spring.<\/p><p><\/p><p>This new collection is designed with comfort and figure-flattering shapes in mind. Utilizing high-stretch, soft-touch fabrics that are both dirt-resistant and colorfast, each piece incorporates waist-slimming and thigh-trimming features for an enhanced silhouette. The A-line dresses bring a lightness perfect for spring attire through their natural waist cinching and flowing hemlines. Additionally, the built-in shapewear is precisely laser-cut to ensure a seamless appearance, eliminating any visible lines, and the inclusion of cotton-lined gussets offers the comfort of wearing the dresses without the need for additional undergarments.<\/p><p><\/p><p>Each dress in this collection is a fusion of practicality and style, featuring distinctive design elements that cater to a variety of tastes and occasions.<\/p><p><\/p><p>The Popilush <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-halter-a-line-sleeveless-midi-dress?_pos=1&_psq=+Built-In+Shapewear+Halter+A-Line+Sleeveless+Midi+Dress&_ss=e&_v=1.0\" title=\"Built-In Shapewear Halter A-Line Sleeveless Midi Dress\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear Halter A-Line Sleeveless Midi Dress<\/strong><\/span><\/a><span style=\"text-decoration:underline\"><strong> <\/strong><\/span>elegantly marries form and function with its front ruching details that enhance the silhouette and adjustable halter neck straps, meticulously designed to sculpt and flatter curves.<\/p>",
+            "size": 100
+          }
+        },
+        "button_NfEqGQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gXKhqn",
+        "heading_UchtEa",
+        "text_yMMYbp",
+        "button_NfEqGQ"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 26,
+        "padding_bottom": 18
+      }
+    },
+    "section_image_whrL6P": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_slideshow_XELaPr": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_GfhfLP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/78b7b001010eca23686b76a4264b13f8_f549021d-4263-4497-b798-9b6a7fdaae14.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/2_52ec7f8f-b6a5-4fff-86fc-dbf8751fa2e1.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/www.popilush.com\/products\/built-in-shapewear-halter-a-line-sleeveless-midi-dress?_pos=1&_psq=+Built-In+Shapewear+Halter+A-Line+Sleeveless+Midi+Dress&_ss=e&_v=1.0",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GfhfLP"
+      ],
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_JMEeUR": {
+      "type": "section-text",
+      "blocks": {
+        "text_mj9Fh7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Popilush <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-a-line-slip-midi-dress?_pos=1&_psq=++Built-In+Shapewear+A-Line+Slip+Midi+Dress&_ss=e&_v=1.0\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear A-Line Slip Midi Dress<\/strong><\/span><\/a> is the epitome of springtime grace, with its delicate adjustable spaghetti straps that celebrate curves while showcasing the shoulders with an air of elegance.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_mj9Fh7"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 18
+      }
+    },
+    "section_slideshow_6nGWwg": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_tcJbK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_c0ff821d-3313-4192-acbc-9f4eb9837e0c.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/built-in-shapewear-a-line-slip-midi-dress",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tcJbK4"
+      ],
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_text_GnUJgh": {
+      "type": "section-text",
+      "blocks": {
+        "text_LtU6jy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Popilush <a href=\"https:\/\/www.popilush.com\/products\/built-in-shapewear-a-line-square-neck-midi-dress?_pos=1&_psq=+Built-In+Shapewear+A-Line+Square+Neck+Midi+Dress&_ss=e&_v=1.0\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Built-In Shapewear A-Line Square Neck Midi Dress <\/strong><\/span><\/a>captivates with its timeless square neckline, a design that naturally draws attention to the neck and collarbones. Its flutter sleeve design adds a touch of understated elegance, making it effortlessly chic.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_LtU6jy"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 26,
+        "padding_bottom": 20
+      }
+    },
+    "section_slideshow_UrVbim": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_BXNb7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_7c0a17f2-6ee8-4c8f-8de1-0ede0ea790cb.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/built-in-shapewear-a-line-square-neck-midi-dress",
+            "button_1_mail": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_mail": "mailto:",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BXNb7h"
+      ],
+      "settings": {
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
+    },
+    "section_image_EcRVAh": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_7c0a17f2-6ee8-4c8f-8de1-0ede0ea790cb.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_text_VTFe9L": {
+      "type": "section-text",
+      "blocks": {
+        "text_Vaj4Ve": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Popilush has achieved remarkable success, with one dress sold every two minutes, a testament to their popularity and customer satisfaction. The brand is dedicated to enriching consumer choices, enabling effortless expression of individuality. Popilush is broadening its horizons by unveiling new products and embracing fresh creative minds. Recently, Michael Lomotan, a seasoned fashion design expert, has become part of the Popilush family. His extensive 20-year background spans runway shows, specialty retail, luxury accessories, and designer showroom sales. Together with Michael and a team of skilled designers, Popilush promises to deliver even more innovative apparel options in future collections aimed at empowering wearers through fashion-forward pieces that prioritize convenience, elegance, and versatility.<\/p><h2><\/h2><h2>About Popilush<\/h2><p>Popilush, the pioneer of built-in shapewear, is an empowering, inviting, and fashion-forward shapewear line for women. Their mission is to highlight what women of all shapes and sizes love about their bodies and to promote comfortable confidence. Popilush gives all women the freedom and confidence to be themselves every single day with high-quality shapewear that comes in a diverse range of sizes and is exceptionally affordable for the high level of quality so you can feel snatched and supported every day. While caring for its customers, the brand is also committed to caring for the environment. The brand uses rapidly biodegradable textiles for its clothing and uses less plastic when packaging them.<\/p><p>To learn more about Popilush and discover its modern shapewear products for women of every size and color including the shapewear dress, the shapewear jumpsuit and the shapewear bodysuit, please visit <a href=\"http:\/\/www.popilush.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>www.popilush.com<\/strong><\/span><\/a>, or engage with the Popilush community on Instagram <a href=\"https:\/\/www.instagram.com\/popilush\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>@popilush<\/strong><\/span><\/a>.<\/p><p><\/p><p>SOURCE Popilush LLC<\/p><p><\/p><p>Posted by PR Newswire<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_Vaj4Ve"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 18
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommended-posts",
+    "section_banner_image_dDeD6j",
+    "section_text_YcG3Uk",
+    "section_image_whrL6P",
+    "section_slideshow_XELaPr",
+    "section_text_JMEeUR",
+    "section_slideshow_6nGWwg",
+    "section_text_GnUJgh",
+    "section_slideshow_UrVbim",
+    "section_image_EcRVAh",
+    "section_text_VTFe9L"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_KkbC7C": {
+      "type": "section-text",
+      "blocks": {
+        "heading_E3Hb9x": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Privacy Policy<\/h1>",
+            "size": 300,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E3Hb9x"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_fwMqHU": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_XEDLyk": {
+          "type": "text",
+          "settings": {
+            "title": "1. Introduction",
+            "text": "<p>At Popilush (“us”, “we”, “our” or the “Company”) we value your privacy and the importance of safeguarding your data. This Privacy Policy (\"Privacy Policy\") describes our privacy practices for the activities set out below. As per your rights, we inform you how we collect, store, access, and otherwise process information relating to individuals.  In this Policy, \"Personal Data\" refers to any information that on its own, or in combination with other available information, can distinguish an individual.<\/p><p>We are committed to protecting your privacy in accordance with the highest level of privacy regulation. As such, we follow the obligations under<\/p><p>Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and the applicable provincial legislations<\/p><p>the EU's General Protection Data Regulation (GDPR)<\/p><p>Brazil’s Data Protection Legislation (LGPD)<\/p><p>California's Consumer Protection Act (CCPA) and California Online Privacy Protection Act (CalOPPA)<\/p><p>Scope<\/p><p>This policy applies to the Popilush websites and domains.<\/p><p>This Policy does not apply to third-party applications, websites, products, services or platforms that may be accessed through (non Popilush ) links that we may provide to you. These sites are owned and operated independently from us, and they have their own separate privacy and data collection practices. Any personal data that you provide to these websites will be governed by the third-party’s own privacy policy. We cannot accept liability for the actions or policies of these independent sites, and we are not responsible for the content or privacy practices of such sites.<\/p><p>Processing Activities<\/p><p>This Privacy Policy applies when you interact with us by doing any of the following:<\/p><p>Make use of our application and services as an authorized user<\/p><p>Visit any of our websites that link to this Privacy Statement<\/p><p>Receive any communication from us including newsletters, emails, calls, or texts<\/p><p>*Please note that all activities, including promotions, contests, giveaways, and any other events hosted on this site, are not sponsored, endorsed, or administered by, or associated with Apple Inc. Any questions, comments, or complaints regarding these activities should be directed to Popilush LLC, not Apple Inc.<\/p>"
+          }
+        },
+        "text_Hh3LB7": {
+          "type": "text",
+          "settings": {
+            "title": "2. Personal Data We Collect",
+            "text": "<p> Data You Provide<br\/>              <\/p><p>When you make a purchase, or attempt to make a purchase, we collect personal data as part of your order information.<\/p><p>This data includes:<\/p><p>Account information such as your name, email address, and password<\/p><p>Payment information such as your billing address, phone number, credit card, debit card or other payment method<\/p><p>If you provide us, or our service providers, with any Personal Data relating to other individuals, you represent that you have the authority to do so and acknowledge that it will be used in accordance with this Privacy Statement. If you believe that your Personal Data has been provided to us improperly, or to otherwise exercise your rights relating to your Personal Data, please contact us by using the information set out in the <a href=\"#contactUs\">Contact Us<\/a> section below.<\/p><p><br\/>                Device and Usage Data<br\/>              <\/p><p>When you visit a Popilush website, we automatically collect and store information about your visit using browser cookies (files which are sent by us to your computer), or similar technology. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. The Help Feature on most browsers will provide information on how to accept cookies, disable cookies or to notify you when receiving a new cookie. If you do not accept cookies, you may not be able to use some features of our Service and we recommend that you leave them turned on.<\/p><p>We also process information when you use our services and products. This information may include:<\/p><p>IP Address<\/p><p>Individual Products you view<\/p><p>Web terms or searches that led you to the site<\/p><p>Time zone<\/p><p><br\/>                Data we collect from third parties<br\/>              <\/p><p>We may receive your personal data from third parties such as companies subscribing to Popilush services, partners and other sources. This information is not collected by us but by a third party and is subject to the relevant third party’s own separate privacy and data collection policies. We do not have any control or input on how your personal data is handled by third parties. As always, you have the right to review and rectify this information. If you have any questions you should first contact the relevant third party for further information about your personal data. Where that third party is unresponsive to your rights, you may contact the Data Protection Officer at Popilush (contact details below) and we can assist you.<\/p><p>Our websites and services may contain links to other websites, applications and services maintained by third parties. The information practices of such other services, or of social media networks that host our branded social media pages, are governed by third parties’ privacy statements, which you should review to better understand those third parties’ privacy practices.<\/p><p><br\/>                Purpose and Legal Basis for the Processing of Personal Data<br\/>              <\/p><p>We collect and use personal data about you with your consent to provide, maintain, and develop our products and services and understand how to improve them.<\/p><p>These purposes include:<\/p><p>To deliver your product or service<\/p><p>To fulfill orders including electronic and non-electronic shipment<\/p><p>Providing, Developing, and Improving our Products and Services<\/p><p>Deliver, maintain, debug and improve our products and services.<\/p><p>Enable you to access Popilush services and set up accounts.<\/p><p>Provide you with technical and customer support.<\/p><p>Organize and Deliver Advertising and Marketing<\/p><p>Send you newsletters and other marketing communications about current and future products, programs and services, events, competitions, surveys and promotions held by us or hosted on our behalf; and<\/p><p>Organize events or register attendees and schedule meetings for events.<\/p><p>Where we process your personal data to provide a product or service, we do so because it is necessary to perform contractual obligations. All of the above processing is necessary in our legitimate interests to provide products and services and to maintain our relationship with you and to protect our business for example against fraud. Consent will be required to initiate services with you. New consent will be required If any changes are made to the type of data collected. Within our contract, if you fail to provide consent, some services may not be available to you.<\/p><p><br\/>                Sharing and Disclosure<br\/>              <\/p><p>We will share your personal data with third parties only in the ways set out in this Policy or set out at the point when the personal data is collected. The above excludes text messaging originator opt-in data and consent; this information will not be shared with any third parties.<\/p><p>Our online store is powered by Shopify. You can read more about how Shopify uses your Personal Information here:<\/p><p><a href=\"https:\/\/www.shopify.com\/legal\/privacy\">https:\/\/www.shopify.com\/legal\/privacy<\/a><\/p><p>If you want to delete your Shop account, please click here:<\/p><p><a href=\"https:\/\/shop.app\/delete-account\" target=\"_blank\" title=\"https:\/\/shop.app\/delete-account\">https:\/\/shop.app\/delete-account<\/a><\/p><p>We also use Google Analytics to help us understand how our customers use the site. You can read more about how Google uses your Personal Information here:<\/p><p><a href=\"https:\/\/www.google.com\/intl\/en\/policies\/privacy\/\">https:\/\/www.google.com\/intl\/en\/policies\/privacy\/<\/a><\/p><p>You can also opt-out of Google Analytics here:<\/p><p><a href=\"https:\/\/tools.google.com\/dlpage\/gaoptout\">https:\/\/tools.google.com\/dlpage\/gaoptout<\/a><\/p><p>We may also use your Personal Information to provide you with targeted marketing via advertisements or communications (such as newsletters).<\/p><p>For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at:<\/p><p><a href=\"http:\/\/www.networkadvertising.org\/understanding-online-advertising\/how-does-it-work\">http:\/\/www.networkadvertising.org\/understanding-online-advertising\/how-does-it-work<\/a><\/p><p>Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at:<\/p><p><a href=\"http:\/\/optout.aboutads.info\/\">http:\/\/optout.aboutads.info\/<\/a><\/p><p><br\/>                Legal Requirement<br\/>              <\/p><p>We may use or disclose your personal data in order to comply with a legal obligation, in connection with a request from a public or government authority, or in connection with court or tribunal proceedings, to prevent loss of life or injury, or to protect our rights or property. Where possible and practical to do so, we will tell you in advance of such disclosure.<\/p><p><br\/>                Service Providers and Other Third Parties<br\/>              <\/p><p>We may use a third party service provider, independent contractors, agencies, or consultants to deliver and help us improve our products and services. Service providers may be within or located outside the EEA. We may share your personal data with marketing agencies, database service providers, backup and disaster recovery service providers, email service providers and others but only to maintain and improve our products and services. For further information on the recipients of your Personal Data, please contact us by using the information in the <a href=\"#contactUs\">Contact Us<\/a> section below.<\/p>"
+          }
+        },
+        "text_Tf4b8c": {
+          "type": "text",
+          "settings": {
+            "title": "3. Cookie policy",
+            "text": "<p>What are cookies?<\/p><p>A cookie is a small file with information that your browser stores on your device. Information in this file is typically shared with the owner of the site in addition to potential partners and third parties to that business. The collection of this information may be used in the function of the site and\/or to improve your experience.<\/p><p>How we use cookies<\/p><p>We use cookies to help keep track of items you put into your shopping cart including when you have abandoned your cart and this information is used to determine when to send cart reminder messages via SMS<\/p>"
+          }
+        },
+        "text_MrkL9P": {
+          "type": "text",
+          "settings": {
+            "title": "4. Retention & Deletion",
+            "text": "<p>We will only retain your personal data for as long as necessary for the purpose for which that data was collected and to the extent required by applicable law. When we no longer need personal data, we will remove it from our systems and \/ or take steps to anonymize it.<\/p>"
+          }
+        },
+        "text_x97dRG": {
+          "type": "text",
+          "settings": {
+            "title": "5. Children's Privacy",
+            "text": "<p>We will not knowingly collect personal data from children under the age of 16 Years.<\/p>"
+          }
+        },
+        "text_ke8ezz": {
+          "type": "text",
+          "settings": {
+            "title": "6. Your Rights to Your Personal Data",
+            "text": "<p>Depending on your geographical location and citizenship, your rights are subject to local data privacy regulations. These rights may include:<\/p><ul><li>Right to Access (PIPEDA, GDPR Article 15, CCPA, LGPD)<\/li><\/ul><p>    You have the right to request a copy of the personal data we are processing about you.<\/p><ul><li>Right to Rectification (PIPEDA, GDPR Article 16, LGPD)<\/li><\/ul><p>    You have the right to have incomplete or inaccurate personal data that we process about you rectified.<\/p><ul><li>Right to be Forgotten (right to erasure) (GDPR Article 17, CCPA, LGPD)<\/li><\/ul><p>    You have the right to request that we delete personal data that we process about you, except we are not obliged to do so if we need to retain such data in order to comply with a legal obligation or to establish, exercise or defend legal claims.<\/p><ul><li>Right to Restriction of Processing (GDPR Article 18, LGPD)<\/li><\/ul><p>    You have the right to restrict our processing of your personal data where you believe such data to be inaccurate; our processing is unlawful; or if we no longer need to process such data for a particular purpose unless we are not able to delete the data due to a legal or other obligation or because you do not wish us to delete it.<\/p><ul><li>Right to Portability (PIPEDA, GDPR Article 20, LGPD)<\/li><\/ul><p>    You have the right to obtain personal data we hold about you, in a structured, electronic format, and to transmit such data to another data controller, where this is (a) personal data which you have provided to us, and (b) if we are processing that data on the basis of your consent or to perform a contract with you or the third party that subscribes to Popilush services.<\/p><ul><li>Right to Objection (GDPR Article 21, LGPD)<\/li><\/ul><p>    Where the legal justification for our processing of your personal data is our legitimate interest, you have the right to object to such processing on grounds relating to your particular situation. We will abide by your request unless we have compelling legitimate grounds for processing which override your interests and rights, or if we need to continue to process the data for the establishment, exercise or defense of a legal claim.<\/p><ul><li>Right Not to Be Discriminated (CCPA)<\/li><\/ul><p>    You have the right not to be denied service or have an altered experience based on having executed any of your CCPA rights.<\/p><p><\/p><p><strong>Withdrawing Consent<\/strong><\/p><p>If you have consented to our processing of your personal data, you have the right to withdraw your consent at any time, free of charge, such as where you wish to unsubscribe from marketing messages that you receive from us. If you wish to withdraw your consent, please contact us using the information found at the bottom of this page.<\/p><p><strong>How to Exercise Your Rights<\/strong><\/p><p>You can make a request to exercise any of these rights in relation to your personal data by sending the request to our privacy team by using the form below.<\/p><p>For your own privacy and security, at our discretion, we may require you to prove your identity before providing the requested information.<\/p>"
+          }
+        },
+        "text_NqCccd": {
+          "type": "text",
+          "settings": {
+            "title": "7. Changes",
+            "text": "<p>We may modify this Policy at any time. If we make changes to this Policy then we will post an updated version of this Policy on this website. When using our services, you will be asked to review and accept our Privacy Policy. In this manner, we may record your acceptance and notify you of any future changes to this Policy.<\/p>"
+          }
+        },
+        "text_HfFG8x": {
+          "type": "text",
+          "settings": {
+            "title": "8. Complaints",
+            "text": "<p>If you have a complaint about this Policy or any element of your personal information that we hold then please contact us below. If you are not satisfied, then you have the right to lodge a complaint with the local data protection authority.<\/p><p>If you are based in the EEA, please visit this website <a href=\"http:\/\/ec.europa.eu\/newsroom\/article29\/document.cfm?action=display&doc_id=50061\">(http:\/\/ec.europa.eu\/newsroom\/article29\/document.cfm?action=display&doc_id=50061)<\/a> for a list of local data protection authorities. <\/p>"
+          }
+        },
+        "text_jW4xrx": {
+          "type": "text",
+          "settings": {
+            "title": "9. Contact Us",
+            "text": "<p>To request a copy for your information, unsubscribe from our email list, request for your data to be deleted,<br\/>            or ask a question about your data privacy, we've made the process simple: Email: service@popilushsupport.com<\/p><p><strong>Popilush<\/strong><\/p><p><strong>Write to us at:<\/strong>           <br\/>                        1715 ENDEAVOR DRIVE, WILLIAMSBURG, VA, 23185, United States<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XEDLyk",
+        "text_Hh3LB7",
+        "text_Tf4b8c",
+        "text_MrkL9P",
+        "text_x97dRG",
+        "text_ke8ezz",
+        "text_NqCccd",
+        "text_HfFG8x",
+        "text_jW4xrx"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_KkbC7C",
+    "section_accordions_fwMqHU"
+  ]
+}
